@@ -14,6 +14,18 @@ const routes = [
         // 异步加载，打包时代码分割，性能优化
         component: () => import('@/pages/open.vue'),
     },
+    // metrics页面
+    {
+        path: '/metrics',
+        name: 'metrics',
+        component: () => import('@/pages/metrics.vue'),
+    },
+    // transparentPricing页面
+    {
+        path: '/transparentPricing',
+        name: 'transparentPricing',
+        component: () => import('@/pages/transparentPricing.vue'),
+    },
     // 404页面
     {
         path: '/:catchAll(.*)',

@@ -1281,7 +1281,7 @@
                                     >
                                         <a
                                             class="OpenSection_headingLink__7i9wa"
-                                            href="./metrics.html"
+                                            @click="goPage('/metrics')"
                                         >
                                             <span> Monthly metrics </span>
                                             <span
@@ -1419,7 +1419,7 @@
                                         >
                                             <a
                                                 class="OpenSection_headingLink__7i9wa"
-                                                href="shareholders.html"
+                                                @click="goPage('/shareholder')"
                                             >
                                                 <span>
                                                     Shareholder updates
@@ -1676,7 +1676,7 @@
                                         >
                                             <a
                                                 class="OpenSection_headingLink__7i9wa"
-                                                href="salaries.html"
+                                                @click="goPage('/salaries')"
                                             >
                                                 <span>
                                                     Our transparent salaries
@@ -3460,7 +3460,10 @@
                             aria-labelledby="headingTransparentPricing"
                         >
                             <div class="OpenSection_contentContainer__jTH1Z">
-                                <div>
+                                <div
+                                    style="cursor: pointer"
+                                    @click="goPage('/transparentPricing')"
+                                >
                                     <h2 class="OpenSection_heading__J1D7y">
                                         <div
                                             class="OpenSection_headingLink__7i9wa"
@@ -5070,6 +5073,9 @@
 <script setup lang="ts">
 import * as echarts from 'echarts'
 import { onMounted, ref } from 'vue'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
 
 const supportChart = ref(null)
 
@@ -5215,6 +5221,18 @@ const signupsDatas = ref({
         },
     ],
 })
+
+const goPage = (path: string) => {
+    if (path === '/shareholder') {
+        window.location.href = './shareholders.html'
+    } else if (path === '/salaries') {
+        window.location.href = './salaries.html'
+    } else if (path === '/about') {
+        window.location.href = './about.html'
+    } else {
+        router.push(path)
+    }
+}
 
 onMounted(() => {
     const myChart = echarts.init(supportChart.value)
