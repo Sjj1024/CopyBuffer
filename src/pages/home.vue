@@ -13,7 +13,7 @@
                         <div class="Nav_contentLeading__sZSG9">
                             <a
                                 class="Nav_logoLink__xSVf_"
-                                href="https://buffer.com/"
+                                href=""
                             >
                                 <span class="visually-hidden"> Buffer </span>
                                 <svg
@@ -93,7 +93,7 @@
                                         <li>
                                             <a
                                                 class="Nav_menuItemLink__vkTf0"
-                                                href="https://buffer.com/create?cta=bufferSite-globalNav-tools-create-1"
+                                                href="create?cta=bufferSite-globalNav-tools-create-1"
                                             >
                                                 <svg
                                                     class="Nav_menuItemIcon__fw__X"
@@ -147,7 +147,7 @@
                                         <li>
                                             <a
                                                 class="Nav_menuItemLink__vkTf0"
-                                                href="https://buffer.com/publish?cta=bufferSite-globalNav-tools-publish-1"
+                                                href="publish?cta=bufferSite-globalNav-tools-publish-1"
                                             >
                                                 <svg
                                                     class="Nav_menuItemIcon__fw__X"
@@ -202,7 +202,7 @@
                                         <li>
                                             <a
                                                 class="Nav_menuItemLink__vkTf0"
-                                                href="https://buffer.com/analyze?cta=bufferSite-globalNav-tools-analyze-1"
+                                                href="analyze?cta=bufferSite-globalNav-tools-analyze-1"
                                             >
                                                 <svg
                                                     class="Nav_menuItemIcon__fw__X"
@@ -257,7 +257,7 @@
                                         <li>
                                             <a
                                                 class="Nav_menuItemLink__vkTf0"
-                                                href="https://buffer.com/engage?cta=bufferSite-globalNav-tools-engage-1"
+                                                href="engage?cta=bufferSite-globalNav-tools-engage-1"
                                             >
                                                 <svg
                                                     class="Nav_menuItemIcon__fw__X"
@@ -311,7 +311,7 @@
                                         <li>
                                             <a
                                                 class="Nav_menuItemLink__vkTf0"
-                                                href="https://buffer.com/collaborate?cta=bufferSite-globalNav-tools-collaborate-1"
+                                                href="collaborate?cta=bufferSite-globalNav-tools-collaborate-1"
                                             >
                                                 <svg
                                                     class="Nav_menuItemIcon__fw__X"
@@ -366,7 +366,7 @@
                                         <li>
                                             <a
                                                 class="Nav_menuItemLink__vkTf0"
-                                                href="https://buffer.com/start-page?cta=bufferSite-globalNav-tools-startPage-1"
+                                                href="start-page?cta=bufferSite-globalNav-tools-startPage-1"
                                             >
                                                 <svg
                                                     class="Nav_menuItemIcon__fw__X"
@@ -467,7 +467,7 @@
                                         <li>
                                             <a
                                                 class="Nav_channelLink__nv757"
-                                                href="https://buffer.com/bluesky?cta=bufferSite-globalNav-channels-bluesky-1"
+                                                href="bluesky?cta=bufferSite-globalNav-channels-bluesky-1"
                                             >
                                                 <svg
                                                     class="Nav_channelLinkLogo__33P5Z"
@@ -503,7 +503,7 @@
                                         <li>
                                             <a
                                                 class="Nav_channelLink__nv757"
-                                                href="https://buffer.com/facebook?cta=bufferSite-globalNav-channels-facebook-1"
+                                                href="facebook?cta=bufferSite-globalNav-channels-facebook-1"
                                             >
                                                 <svg
                                                     class="Nav_channelLinkLogo__33P5Z"
@@ -539,7 +539,7 @@
                                         <li>
                                             <a
                                                 class="Nav_channelLink__nv757"
-                                                href="https://buffer.com/google-business-profile?cta=bufferSite-globalNav-channels-googleBusinessProfile-1"
+                                                href="google-business-profile?cta=bufferSite-globalNav-channels-googleBusinessProfile-1"
                                             >
                                                 <svg
                                                     class="Nav_channelLinkLogo__33P5Z"
@@ -577,7 +577,7 @@
                                         <li>
                                             <a
                                                 class="Nav_channelLink__nv757"
-                                                href="https://buffer.com/instagram?cta=bufferSite-globalNav-channels-instagram-1"
+                                                href="instagram?cta=bufferSite-globalNav-channels-instagram-1"
                                             >
                                                 <svg
                                                     class="Nav_channelLinkLogo__33P5Z"
@@ -614,7 +614,7 @@
                                         <li>
                                             <a
                                                 class="Nav_channelLink__nv757"
-                                                href="https://buffer.com/linkedin?cta=bufferSite-globalNav-channels-linkedin-1"
+                                                href="linkedin?cta=bufferSite-globalNav-channels-linkedin-1"
                                             >
                                                 <svg
                                                     class="Nav_channelLinkLogo__33P5Z"
@@ -651,7 +651,7 @@
                                         <li>
                                             <a
                                                 class="Nav_channelLink__nv757"
-                                                href="https://buffer.com/mastodon?cta=bufferSite-globalNav-channels-mastodon-1"
+                                                href="mastodon?cta=bufferSite-globalNav-channels-mastodon-1"
                                             >
                                                 <svg
                                                     class="Nav_channelLinkLogo__33P5Z"
@@ -688,7 +688,7 @@
                                         <li>
                                             <a
                                                 class="Nav_channelLink__nv757"
-                                                href="https://buffer.com/pinterest?cta=bufferSite-globalNav-channels-pinterest-1"
+                                                href="pinterest?cta=bufferSite-globalNav-channels-pinterest-1"
                                             >
                                                 <svg
                                                     class="Nav_channelLinkLogo__33P5Z"
@@ -725,7 +725,7 @@
                                         <li>
                                             <a
                                                 class="Nav_channelLink__nv757"
-                                                href="https://buffer.com/threads?cta=bufferSite-globalNav-channels-threads-1"
+                                                href="threads?cta=bufferSite-globalNav-channels-threads-1"
                                             >
                                                 <svg
                                                     class="Nav_channelLinkLogo__33P5Z"
@@ -761,7 +761,7 @@
                                         <li>
                                             <a
                                                 class="Nav_channelLink__nv757"
-                                                href="https://buffer.com/tiktok?cta=bufferSite-globalNav-channels-tiktok-1"
+                                                href="tiktok?cta=bufferSite-globalNav-channels-tiktok-1"
                                             >
                                                 <svg
                                                     class="Nav_channelLinkLogo__33P5Z"
@@ -797,7 +797,7 @@
                                         <li>
                                             <a
                                                 class="Nav_channelLink__nv757"
-                                                href="https://buffer.com/x?cta=bufferSite-globalNav-channels-x-1"
+                                                href="x?cta=bufferSite-globalNav-channels-x-1"
                                             >
                                                 <svg
                                                     class="Nav_channelLinkLogo__33P5Z"
@@ -833,7 +833,7 @@
                                         <li>
                                             <a
                                                 class="Nav_channelLink__nv757"
-                                                href="https://buffer.com/youtube?cta=bufferSite-globalNav-channels-youtube-1"
+                                                href="youtube?cta=bufferSite-globalNav-channels-youtube-1"
                                             >
                                                 <svg
                                                     class="Nav_channelLinkLogo__33P5Z"
@@ -915,7 +915,7 @@
                                         <li>
                                             <a
                                                 class="Nav_menuItemLink__vkTf0"
-                                                href="https://buffer.com/resources"
+                                                href="resources"
                                             >
                                                 <span
                                                     class="Nav_menuItemText__B1O7e"
@@ -954,7 +954,7 @@
                                         <li>
                                             <a
                                                 class="Nav_menuItemLink__vkTf0"
-                                                href="https://buffer.com/templates"
+                                                href="templates"
                                             >
                                                 <span
                                                     class="Nav_menuItemText__B1O7e"
@@ -993,7 +993,7 @@
                                         <li>
                                             <a
                                                 class="Nav_menuItemLink__vkTf0"
-                                                href="https://buffer.com/free-tools"
+                                                href="free-tools"
                                             >
                                                 <span
                                                     class="Nav_menuItemText__B1O7e"
@@ -1032,7 +1032,7 @@
                                         <li>
                                             <a
                                                 class="Nav_menuItemLink__vkTf0"
-                                                href="https://buffer.com/insights"
+                                                href="insights"
                                             >
                                                 <span
                                                     class="Nav_menuItemText__B1O7e"
@@ -1072,7 +1072,7 @@
                                         <li>
                                             <a
                                                 class="Nav_menuItemLink__vkTf0"
-                                                href="https://buffer.com/community"
+                                                href="community"
                                             >
                                                 <span
                                                     class="Nav_menuItemText__B1O7e"
@@ -1152,7 +1152,7 @@
                             </div>
                             <a
                                 class="Nav_navLink___7VKG"
-                                href="https://buffer.com/pricing?cta=bufferSite-globalNav-pricing-pricing-1"
+                                href="pricing?cta=bufferSite-globalNav-pricing-pricing-1"
                             >
                                 Pricing
                             </a>
@@ -1455,7 +1455,7 @@
                                                     <a
                                                         class="ShareholderUpdates_link__yqy8m"
                                                         data-theme="purple"
-                                                        href="https://buffer.com/shareholders/june-2025"
+                                                        href="shareholders/june-2025"
                                                     >
                                                         <span
                                                             class="ShareholderUpdates_linkIconContainer__c_SWo"
@@ -1497,7 +1497,7 @@
                                                     <a
                                                         class="ShareholderUpdates_link__yqy8m"
                                                         data-theme="coral"
-                                                        href="https://buffer.com/shareholders/may-2025"
+                                                        href="shareholders/may-2025"
                                                     >
                                                         <span
                                                             class="ShareholderUpdates_linkIconContainer__c_SWo"
@@ -1539,7 +1539,7 @@
                                                     <a
                                                         class="ShareholderUpdates_link__yqy8m"
                                                         data-theme="green"
-                                                        href="https://buffer.com/shareholders/april-2025"
+                                                        href="shareholders/april-2025"
                                                     >
                                                         <span
                                                             class="ShareholderUpdates_linkIconContainer__c_SWo"
@@ -1581,7 +1581,7 @@
                                                     <a
                                                         class="ShareholderUpdates_link__yqy8m"
                                                         data-theme="blue"
-                                                        href="https://buffer.com/shareholders/march-2025"
+                                                        href="shareholders/march-2025"
                                                     >
                                                         <span
                                                             class="ShareholderUpdates_linkIconContainer__c_SWo"
@@ -1623,7 +1623,7 @@
                                                     <a
                                                         class="ShareholderUpdates_link__yqy8m"
                                                         data-theme="yellow"
-                                                        href="https://buffer.com/shareholders/february-2025"
+                                                        href="shareholders/february-2025"
                                                     >
                                                         <span
                                                             class="ShareholderUpdates_linkIconContainer__c_SWo"
@@ -2240,7 +2240,7 @@
                                                                 class="LinkButtonTertiary_link__ri3L7 Timeline_monthLink__Cf63f"
                                                                 data-size="default"
                                                                 data-icon-orientation="right"
-                                                                href="https://buffer.com/resources/the-17-awesome-investors-in-our-400000-seed-round-and-how-we-met-them/"
+                                                                href="resources/the-17-awesome-investors-in-our-400000-seed-round-and-how-we-met-them/"
                                                             >
                                                                 <span
                                                                     class="LinkButtonTertiary_linkContent__Szmgw"
@@ -2334,7 +2334,7 @@
                                                                 class="LinkButtonTertiary_link__ri3L7 Timeline_monthLink__Cf63f"
                                                                 data-size="default"
                                                                 data-icon-orientation="right"
-                                                                href="https://buffer.com/resources/from-0-to-1000000-users-the-journey-and-statistics-of-buffer/#visa-troubles-leaving-san-francisco-for-hong-kong-january-2012"
+                                                                href="resources/from-0-to-1000000-users-the-journey-and-statistics-of-buffer/#visa-troubles-leaving-san-francisco-for-hong-kong-january-2012"
                                                             >
                                                                 <span
                                                                     class="LinkButtonTertiary_linkContent__Szmgw"
@@ -2425,7 +2425,7 @@
                                                                 class="LinkButtonTertiary_link__ri3L7 Timeline_monthLink__Cf63f"
                                                                 data-size="default"
                                                                 data-icon-orientation="right"
-                                                                href="https://buffer.com/resources/from-0-to-1000000-users-the-journey-and-statistics-of-buffer/#first-retreat-with-the-team-in-lake-tahoe-august-2013"
+                                                                href="resources/from-0-to-1000000-users-the-journey-and-statistics-of-buffer/#first-retreat-with-the-team-in-lake-tahoe-august-2013"
                                                             >
                                                                 <span
                                                                     class="LinkButtonTertiary_linkContent__Szmgw"
@@ -2491,7 +2491,7 @@
                                                                 class="LinkButtonTertiary_link__ri3L7 Timeline_monthLink__Cf63f"
                                                                 data-size="default"
                                                                 data-icon-orientation="right"
-                                                                href="https://buffer.com/resources/from-0-to-1000000-users-the-journey-and-statistics-of-buffer/#one-million-users-reached-september-2013"
+                                                                href="resources/from-0-to-1000000-users-the-journey-and-statistics-of-buffer/#one-million-users-reached-september-2013"
                                                             >
                                                                 <span
                                                                     class="LinkButtonTertiary_linkContent__Szmgw"
@@ -2558,7 +2558,7 @@
                                                                 class="LinkButtonTertiary_link__ri3L7 Timeline_monthLink__Cf63f"
                                                                 data-size="default"
                                                                 data-icon-orientation="right"
-                                                                href="https://buffer.com/resources/introducing-open-salaries-at-buffer-including-our-transparent-formula-and-all-individual-salaries/"
+                                                                href="resources/introducing-open-salaries-at-buffer-including-our-transparent-formula-and-all-individual-salaries/"
                                                             >
                                                                 <span
                                                                     class="LinkButtonTertiary_linkContent__Szmgw"
@@ -2647,7 +2647,7 @@
                                                                 class="LinkButtonTertiary_link__ri3L7 Timeline_monthLink__Cf63f"
                                                                 data-size="default"
                                                                 data-icon-orientation="right"
-                                                                href="https://buffer.com/resources/raising-3-5m-funding-valuation-term-sheet/"
+                                                                href="resources/raising-3-5m-funding-valuation-term-sheet/"
                                                             >
                                                                 <span
                                                                     class="LinkButtonTertiary_linkContent__Szmgw"
@@ -2735,7 +2735,7 @@
                                                                 class="LinkButtonTertiary_link__ri3L7 Timeline_monthLink__Cf63f"
                                                                 data-size="default"
                                                                 data-icon-orientation="right"
-                                                                href="https://buffer.com/resources/buffer-acquires-respondly/"
+                                                                href="resources/buffer-acquires-respondly/"
                                                             >
                                                                 <span
                                                                     class="LinkButtonTertiary_linkContent__Szmgw"
@@ -2823,7 +2823,7 @@
                                                                 class="LinkButtonTertiary_link__ri3L7 Timeline_monthLink__Cf63f"
                                                                 data-size="default"
                                                                 data-icon-orientation="right"
-                                                                href="https://buffer.com/resources/top-10-learnings-growing-to-10-million-arr/"
+                                                                href="resources/top-10-learnings-growing-to-10-million-arr/"
                                                             >
                                                                 <span
                                                                     class="LinkButtonTertiary_linkContent__Szmgw"
@@ -2897,7 +2897,7 @@
                                                                 class="LinkButtonTertiary_link__ri3L7 Timeline_monthLink__Cf63f"
                                                                 data-size="default"
                                                                 data-icon-orientation="right"
-                                                                href="https://buffer.com/resources/layoffs-and-moving-forward/"
+                                                                href="resources/layoffs-and-moving-forward/"
                                                             >
                                                                 <span
                                                                     class="LinkButtonTertiary_linkContent__Szmgw"
@@ -2987,7 +2987,7 @@
                                                                 class="LinkButtonTertiary_link__ri3L7 Timeline_monthLink__Cf63f"
                                                                 data-size="default"
                                                                 data-icon-orientation="right"
-                                                                href="https://buffer.com/resources/buying-out-investors/"
+                                                                href="resources/buying-out-investors/"
                                                             >
                                                                 <span
                                                                     class="LinkButtonTertiary_linkContent__Szmgw"
@@ -3076,7 +3076,7 @@
                                                                 class="LinkButtonTertiary_link__ri3L7 Timeline_monthLink__Cf63f"
                                                                 data-size="default"
                                                                 data-icon-orientation="right"
-                                                                href="https://buffer.com/resources/4-day-workweek/"
+                                                                href="resources/4-day-workweek/"
                                                             >
                                                                 <span
                                                                     class="LinkButtonTertiary_linkContent__Szmgw"
@@ -3143,7 +3143,7 @@
                                                                 class="LinkButtonTertiary_link__ri3L7 Timeline_monthLink__Cf63f"
                                                                 data-size="default"
                                                                 data-icon-orientation="right"
-                                                                href="https://buffer.com/resources/4-day-workweek-2021/"
+                                                                href="resources/4-day-workweek-2021/"
                                                             >
                                                                 <span
                                                                     class="LinkButtonTertiary_linkContent__Szmgw"
@@ -3232,7 +3232,7 @@
                                                                 class="LinkButtonTertiary_link__ri3L7 Timeline_monthLink__Cf63f"
                                                                 data-size="default"
                                                                 data-icon-orientation="right"
-                                                                href="https://buffer.com/resources/start-page/"
+                                                                href="resources/start-page/"
                                                             >
                                                                 <span
                                                                     class="LinkButtonTertiary_linkContent__Szmgw"
@@ -3321,7 +3321,7 @@
                                                                 class="LinkButtonTertiary_link__ri3L7 Timeline_monthLink__Cf63f"
                                                                 data-size="default"
                                                                 data-icon-orientation="right"
-                                                                href="https://buffer.com/resources/build-week-at-buffer/"
+                                                                href="resources/build-week-at-buffer/"
                                                             >
                                                                 <span
                                                                     class="LinkButtonTertiary_linkContent__Szmgw"
@@ -3410,7 +3410,7 @@
                                                                 class="LinkButtonTertiary_link__ri3L7 Timeline_monthLink__Cf63f"
                                                                 data-size="default"
                                                                 data-icon-orientation="right"
-                                                                href="https://buffer.com/resources/introducing-buffers-ai-assistant/"
+                                                                href="resources/introducing-buffers-ai-assistant/"
                                                             >
                                                                 <span
                                                                     class="LinkButtonTertiary_linkContent__Szmgw"
@@ -4193,7 +4193,7 @@
                                                         >
                                                             <a
                                                                 class="Card_headingLink__OHaKj"
-                                                                href="https://buffer.com/resources/buffer-team-of-creators"
+                                                                href="resources/buffer-team-of-creators"
                                                             >
                                                                 How We’re
                                                                 Empowering the
@@ -4280,7 +4280,7 @@
                                                         >
                                                             <a
                                                                 class="Card_headingLink__OHaKj"
-                                                                href="https://buffer.com/resources/how-we-encourage-self-improvement-at-buffer"
+                                                                href="resources/how-we-encourage-self-improvement-at-buffer"
                                                             >
                                                                 How We Encourage
                                                                 Self-Improvement
@@ -4362,7 +4362,7 @@
                                                         >
                                                             <a
                                                                 class="Card_headingLink__OHaKj"
-                                                                href="https://buffer.com/resources/rebuilding-buffers-api"
+                                                                href="resources/rebuilding-buffers-api"
                                                             >
                                                                 We’re Rebuilding
                                                                 Buffer’s API:
@@ -4444,7 +4444,7 @@
                                                         >
                                                             <a
                                                                 class="Card_headingLink__OHaKj"
-                                                                href="https://buffer.com/resources/retreat-planning-playbook"
+                                                                href="resources/retreat-planning-playbook"
                                                             >
                                                                 How We Plan
                                                                 Retreats, After
@@ -4525,7 +4525,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/create"
+                                            href="create"
                                         >
                                             Create
                                         </a>
@@ -4533,7 +4533,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/publish"
+                                            href="publish"
                                         >
                                             Publish
                                         </a>
@@ -4541,7 +4541,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/engage"
+                                            href="engage"
                                         >
                                             Engage
                                         </a>
@@ -4549,7 +4549,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/analyze"
+                                            href="analyze"
                                         >
                                             Analyze
                                         </a>
@@ -4557,7 +4557,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/collaborate"
+                                            href="collaborate"
                                         >
                                             Collaborate
                                         </a>
@@ -4574,7 +4574,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/ai-assistant"
+                                            href="ai-assistant"
                                         >
                                             AI Assistant
                                         </a>
@@ -4582,7 +4582,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/start-page"
+                                            href="start-page"
                                         >
                                             Start Page
                                         </a>
@@ -4590,7 +4590,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/extras"
+                                            href="extras"
                                         >
                                             Integrations
                                         </a>
@@ -4616,7 +4616,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/extensions"
+                                            href="extensions"
                                         >
                                             Browser Extension
                                         </a>
@@ -4633,7 +4633,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/resources"
+                                            href="resources"
                                         >
                                             Blog
                                         </a>
@@ -4641,7 +4641,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/templates"
+                                            href="templates"
                                         >
                                             Template Library
                                         </a>
@@ -4649,7 +4649,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/insights"
+                                            href="insights"
                                         >
                                             Social Media Insights
                                         </a>
@@ -4657,7 +4657,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/library"
+                                            href="library"
                                         >
                                             Resource Library
                                         </a>
@@ -4665,7 +4665,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/social-media-terms"
+                                            href="social-media-terms"
                                         >
                                             Social Media Terms Glossary
                                         </a>
@@ -4673,7 +4673,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/free-tools"
+                                            href="free-tools"
                                         >
                                             Free Marketing Tools
                                         </a>
@@ -4681,7 +4681,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/ai-assistant/social-media-post-creator"
+                                            href="ai-assistant/social-media-post-creator"
                                         >
                                             AI Social Media Post Generator
                                         </a>
@@ -4689,7 +4689,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/compare"
+                                            href="compare"
                                         >
                                             Compare Buffer
                                         </a>
@@ -4697,7 +4697,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/community"
+                                            href="community"
                                         >
                                             Community
                                         </a>
@@ -4814,7 +4814,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/journey"
+                                            href="journey"
                                         >
                                             Careers
                                         </a>
@@ -4822,7 +4822,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/press"
+                                            href="press"
                                         >
                                             Press
                                         </a>
@@ -4830,7 +4830,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/legal"
+                                            href="legal"
                                         >
                                             Legal
                                         </a>
@@ -4838,7 +4838,7 @@
                                     <li>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/sitemap"
+                                            href="sitemap"
                                         >
                                             Sitemap
                                         </a>
@@ -4850,7 +4850,7 @@
                     <div class="Footer_trailingContent__Ug_0q">
                         <a
                             class="Footer_linkLogo__Nfx3G"
-                            href="https://buffer.com/"
+                            href=""
                         >
                             <span class="visually-hidden"> Buffer </span>
                             <svg
@@ -5036,7 +5036,7 @@
                                     <p>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/legal#privacy-policy"
+                                            href="legal#privacy-policy"
                                         >
                                             Privacy
                                         </a>
@@ -5045,7 +5045,7 @@
                                     <p>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/legal#terms"
+                                            href="legal#terms"
                                         >
                                             Terms
                                         </a>
@@ -5054,7 +5054,7 @@
                                     <p>
                                         <a
                                             class="Footer_footerLink__VU733"
-                                            href="https://buffer.com/legal#security"
+                                            href="legal#security"
                                         >
                                             Security
                                         </a>
