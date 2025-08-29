@@ -3558,10 +3558,10 @@
                                         <h2
                                             class="OpenSection_heading__J1D7y"
                                             id="headingCustomerExperience"
+                                            @click="goPage('/metrics')"
                                         >
                                             <a
                                                 class="OpenSection_headingLink__7i9wa"
-                                                href="./metrics.html"
                                             >
                                                 <span>
                                                     Customer experience

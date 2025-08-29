@@ -38,6 +38,9 @@ const routes = [
 const router = createRouter({
     history: createWebHashHistory(), // 路由模式：history模式
     routes: routes,
+    scrollBehavior(to, from, savedPosition) {
+        return { top: 0, left: 0 }
+    },
 })
 
 export default router

@@ -1400,25 +1400,13 @@
                             </nav>
                         </div>
                         <section
-                            style="padding: 40px 0px 60px 0px"
+                            style="padding: 20px 0px 60px 0px"
                             class="style__Flex-sc-4ezsn2-0 iudqUE"
                         >
-                            <section class="style__Col-sc-4ezsn2-3 cnPmEz">
-                                <div
-                                    class="transparent-pricing__PieChart-sc-1py45bv-1 llrLPY"
-                                >
-                                    <canvas
-                                        role="img"
-                                        height="150"
-                                        width="300"
-                                    ></canvas>
-                                </div>
-                            </section>
-                            <section class="style__Col-sc-4ezsn2-3 cnPmEz">
-                                <ul
-                                    class="transparent-pricing__PieChartLegend-sc-1py45bv-2 eRYbAo"
-                                ></ul>
-                            </section>
+                            <div
+                                ref="supportChart"
+                                style="width: 600px; height: 500px"
+                            ></div>
                         </section>
                     </div>
                 </section>
@@ -1432,12 +1420,188 @@
                         >
                             <ul
                                 class="transparent-pricing__LineChartLegend-sc-1py45bv-3 fJqTYl"
-                            ></ul>
-                            <canvas
-                                role="img"
-                                height="150"
-                                width="300"
-                            ></canvas>
+                            >
+                                <li>
+                                    <div
+                                        style="
+                                            margin-right: 8px;
+                                            width: 12px;
+                                            height: 12px;
+                                            background-color: rgb(
+                                                155,
+                                                165,
+                                                254
+                                            );
+                                            border-radius: 50%;
+                                        "
+                                    ></div>
+                                    Hosting
+                                </li>
+                                <li>
+                                    <div
+                                        style="
+                                            margin-right: 8px;
+                                            width: 12px;
+                                            height: 12px;
+                                            background-color: rgb(
+                                                196,
+                                                227,
+                                                150
+                                            );
+                                            border-radius: 50%;
+                                        "
+                                    ></div>
+                                    Fees
+                                </li>
+                                <li>
+                                    <div
+                                        style="
+                                            margin-right: 8px;
+                                            width: 12px;
+                                            height: 12px;
+                                            background-color: rgb(
+                                                205,
+                                                148,
+                                                254
+                                            );
+                                            border-radius: 50%;
+                                        "
+                                    ></div>
+                                    Salaries
+                                </li>
+                                <li>
+                                    <div
+                                        style="
+                                            margin-right: 8px;
+                                            width: 12px;
+                                            height: 12px;
+                                            background-color: rgb(
+                                                234,
+                                                147,
+                                                214
+                                            );
+                                            border-radius: 50%;
+                                        "
+                                    ></div>
+                                    Outside Services
+                                </li>
+                                <li>
+                                    <div
+                                        style="
+                                            margin-right: 8px;
+                                            width: 12px;
+                                            height: 12px;
+                                            background-color: rgb(
+                                                252,
+                                                241,
+                                                154
+                                            );
+                                            border-radius: 50%;
+                                        "
+                                    ></div>
+                                    Retreats
+                                </li>
+                                <li>
+                                    <div
+                                        style="
+                                            margin-right: 8px;
+                                            width: 12px;
+                                            height: 12px;
+                                            background-color: rgb(
+                                                238,
+                                                157,
+                                                170
+                                            );
+                                            border-radius: 50%;
+                                        "
+                                    ></div>
+                                    Equipment
+                                </li>
+                                <li>
+                                    <div
+                                        style="
+                                            margin-right: 8px;
+                                            width: 12px;
+                                            height: 12px;
+                                            background-color: rgb(
+                                                138,
+                                                229,
+                                                232
+                                            );
+                                            border-radius: 50%;
+                                        "
+                                    ></div>
+                                    Marketing
+                                </li>
+                                <li>
+                                    <div
+                                        style="
+                                            margin-right: 8px;
+                                            width: 12px;
+                                            height: 12px;
+                                            background-color: rgb(
+                                                252,
+                                                192,
+                                                154
+                                            );
+                                            border-radius: 50%;
+                                        "
+                                    ></div>
+                                    Taxes
+                                </li>
+                                <li>
+                                    <div
+                                        style="
+                                            margin-right: 8px;
+                                            width: 12px;
+                                            height: 12px;
+                                            background-color: rgb(
+                                                125,
+                                                190,
+                                                180
+                                            );
+                                            border-radius: 50%;
+                                        "
+                                    ></div>
+                                    Profit
+                                </li>
+                                <li>
+                                    <div
+                                        style="
+                                            margin-right: 8px;
+                                            width: 12px;
+                                            height: 12px;
+                                            background-color: rgb(
+                                                254,
+                                                148,
+                                                250
+                                            );
+                                            border-radius: 50%;
+                                        "
+                                    ></div>
+                                    Contributions
+                                </li>
+                                <li>
+                                    <div
+                                        style="
+                                            margin-right: 8px;
+                                            width: 12px;
+                                            height: 12px;
+                                            background-color: rgb(
+                                                254,
+                                                148,
+                                                197
+                                            );
+                                            border-radius: 50%;
+                                        "
+                                    ></div>
+                                    Profit Share
+                                </li>
+                            </ul>
+                            <div
+                                ref="spentChart"
+                                style="width: 100%; height: 500px"
+                            ></div>
                         </div>
                     </div>
                 </section>
@@ -1479,11 +1643,14 @@
                         <div
                             class="transparent-pricing__LineChart-sc-1py45bv-4 ijllox"
                         >
-                            <canvas
-                                role="img"
-                                height="150"
-                                width="300"
-                            ></canvas>
+                            <div
+                                ref="signupsChart"
+                                style="
+                                    height: 650px;
+                                    width: 100%;
+                                    margin: 0 auto;
+                                "
+                            ></div>
                         </div>
                     </div>
                 </section>
@@ -2492,7 +2659,228 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import * as echarts from 'echarts'
+import { ref, onMounted } from 'vue'
+
+const supportChart = ref(null)
+
+const supportDatas = ref({
+    tooltip: {
+        trigger: 'item',
+        formatter: '{a} <br/>{b} : {c} ({d}%)',
+    },
+    legend: {
+        orient: 'horizontal',
+        left: 'center',
+        data: ['Direct', 'Email', 'Ad Networks', 'Video Ads', 'Search Engines'],
+    },
+    series: [
+        {
+            name: 'Traffic Sources',
+            type: 'pie',
+            radius: '85%',
+            center: ['50%', '45%'],
+            data: [
+                { value: 300, name: 'Direct', itemStyle: { color: '#89e5e8' } },
+                { value: 310, name: 'Email', itemStyle: { color: '#94ffcd' } },
+                {
+                    value: 234,
+                    name: 'Ad Networks',
+                    itemStyle: { color: '#ff9494' },
+                },
+                {
+                    value: 135,
+                    name: 'Video Ads',
+                    itemStyle: { color: '#9494ff' },
+                },
+                {
+                    value: 1548,
+                    name: 'Search Engines',
+                    itemStyle: { color: '#ff94ff' },
+                },
+            ],
+            emphasis: {
+                itemStyle: {
+                    shadowBlur: 10,
+                    shadowOffsetX: 0,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)',
+                },
+            },
+        },
+    ],
+})
+
+const spentChart = ref(null)
+const spentDatas = ref({
+    backgroundColor: '#fff',
+    color: ['#37A2DA', '#32C5E9', '#67E0E3', '#9FE6B8'],
+    tooltip: {
+        trigger: 'axis',
+    },
+    grid: {
+        left: '1%',
+        right: '3%',
+        bottom: '4%',
+        top: '3%',
+        containLabel: true, // 确保坐标轴标签显示在grid区域内
+    },
+    xAxis: [
+        {
+            type: 'category',
+            boundaryGap: false,
+            data: [
+                '2014',
+                '2015',
+                '2016',
+                '2017',
+                '2018',
+                '2019',
+                '2020',
+                '2021',
+                '2022',
+                '2023',
+                '2024',
+                '2025',
+            ],
+        },
+    ],
+    yAxis: [
+        {
+            type: 'value',
+        },
+    ],
+    series: [
+        {
+            name: '邮件',
+            type: 'line',
+            stack: '总量',
+            areaStyle: {
+                normal: {},
+            },
+            lineStyle: {
+                width: 0,
+            },
+            showSymbol: false,
+            data: [
+                120, 232, 201, 234, 390, 430, 510, 630, 710, 830, 910, 1030,
+                1110,
+            ],
+        },
+        {
+            name: '联盟',
+            type: 'line',
+            stack: '总量',
+            areaStyle: {
+                normal: {},
+            },
+            lineStyle: {
+                width: 0,
+            },
+            showSymbol: false,
+            data: [
+                220, 182, 291, 364, 440, 330, 410, 630, 710, 830, 910, 1030,
+                1110,
+            ],
+        },
+        {
+            name: '视频',
+            type: 'line',
+            stack: '总量',
+            areaStyle: {
+                normal: {},
+            },
+            lineStyle: {
+                width: 0,
+            },
+            showSymbol: false,
+            data: [
+                550, 332, 501, 554, 490, 730, 610, 830, 910, 1030, 1110, 1230,
+                1310,
+            ],
+        },
+        {
+            name: '搜索',
+            type: 'line',
+            stack: '总量',
+            areaStyle: {
+                normal: {},
+            },
+            lineStyle: {
+                width: 0,
+            },
+            showSymbol: false,
+            data: [
+                620, 732, 901, 734, 1290, 1330, 1320, 1530, 1610, 1730, 1810,
+                1930, 2010,
+            ],
+        },
+        {
+            name: '其他',
+            type: 'line',
+            stack: '总量',
+            areaStyle: {
+                normal: {},
+            },
+            lineStyle: {
+                width: 0,
+            },
+            showSymbol: false,
+            data: [
+                120, 172, 191, 334, 120, 400, 520, 630, 710, 830, 910, 1030,
+                1110,
+            ],
+        },
+    ],
+})
+
+const signupsChart = ref(null)
+const signupsDatas = ref({
+    grid: {
+        left: '1%',
+        right: '3%',
+        bottom: '4%',
+        top: '3%',
+        containLabel: true, // 确保坐标轴标签显示在grid区域内
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+    },
+    yAxis: {
+        type: 'value',
+        splitLine: {
+            lineStyle: {
+                type: 'dashed', // 设置为虚线
+                color: '#ccc', // 虚线颜色
+                width: 1, // 虚线宽度
+                dashOffset: 2, // 虚线间隔
+            },
+        },
+    },
+    series: [
+        {
+            data: [820, 932, 901, 934, 1290, 1330, 1320],
+            type: 'line',
+            lineStyle: {
+                width: 0,
+            },
+            showSymbol: false,
+            areaStyle: {
+                color: '#9ba5fe',
+            },
+        },
+    ],
+})
+
+onMounted(() => {
+    const myChart = echarts.init(supportChart.value)
+    myChart.setOption(supportDatas.value)
+    const spentBox = echarts.init(spentChart.value)
+    spentBox.setOption(spentDatas.value)
+    const signupsBox = echarts.init(signupsChart.value)
+    signupsBox.setOption(signupsDatas.value)
+})
 </script>
 
 <style>
