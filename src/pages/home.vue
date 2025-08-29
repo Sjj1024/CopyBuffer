@@ -1158,27 +1158,6 @@
                             </a>
                         </div>
                         <div class="Nav_contentTrailing__bPmdC">
-                            <a
-                                class="LinkButtonGhost_link__pzdZR Nav_loginLink__WsxT8"
-                                href="https://login.buffer.com/login?plan=free&amp;cycle=year&amp;cta=bufferSite-globalNav-login-1"
-                            >
-                                <span
-                                    class="LinkButtonGhost_linkContent__QVeoO"
-                                >
-                                    Log in
-                                </span>
-                            </a>
-                            <a
-                                class="LinkButtonBrand_link__PpJkx Nav_signupLink__h_e36"
-                                href="https://login.buffer.com/signup?product=buffer&amp;plan=free&amp;cycle=year&amp;cta=bufferSite-globalNav-signup-1"
-                                data-icon-orientation="right"
-                            >
-                                <span
-                                    class="LinkButtonBrand_linkContent__WZVou"
-                                >
-                                    Get started now
-                                </span>
-                            </a>
                             <button
                                 class="ButtonLineIcon_button__3djaa Nav_menuTrigger__l9gmL"
                                 type="button"
@@ -1760,10 +1739,8 @@
                                                                 style="
                                                                     color: transparent;
                                                                 "
-                                                                srcset="
-                                                                    ../_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fmartin.webp&amp;w=48&amp;q=75amp;q_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fmartin.webp&amp;w=96&amp;q=75mp;w=96&amp;q=75 2x
-                                                                "
-                                                                src="../_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fmartin.webp&amp;w=96&amp;q=75"
+                                                                srcset="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
+                                                                src="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
                                                             />
                                                         </span>
                                                         <span
@@ -1807,10 +1784,8 @@
                                                                 style="
                                                                     color: transparent;
                                                                 "
-                                                                srcset="
-                                                                    ../_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fross.webp&amp;w=48&amp;q=75amp;q_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fross.webp&amp;w=96&amp;q=75mp;w=96&amp;q=75 2x
-                                                                "
-                                                                src="../_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fross.webp&amp;w=96&amp;q=75"
+                                                                srcset="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
+                                                                src="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
                                                             />
                                                         </span>
                                                         <span
@@ -1854,10 +1829,8 @@
                                                                 style="
                                                                     color: transparent;
                                                                 "
-                                                                srcset="
-                                                                    ../_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fben.webp&amp;w=48&amp;q=75amp;q_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fben.webp&amp;w=96&amp;q=75mp;w=96&amp;q=75 2x
-                                                                "
-                                                                src="../_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fben.webp&amp;w=96&amp;q=75"
+                                                                srcset="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
+                                                                src="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
                                                             />
                                                         </span>
                                                         <span
@@ -1901,10 +1874,8 @@
                                                                 style="
                                                                     color: transparent;
                                                                 "
-                                                                srcset="
-                                                                    ../_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fhannah.webp&amp;w=48&amp;q=75amp;q_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fhannah.webp&amp;w=96&amp;q=75mp;w=96&amp;q=75 2x
-                                                                "
-                                                                src="../_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fhannah.webp&amp;w=96&amp;q=75"
+                                                                srcset="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
+                                                                src="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
                                                             />
                                                         </span>
                                                         <span
@@ -1949,10 +1920,8 @@
                                                                 style="
                                                                     color: transparent;
                                                                 "
-                                                                srcset="
-                                                                    ../_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fkirsti.webp&amp;w=48&amp;q=75amp;q_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fkirsti.webp&amp;w=96&amp;q=75mp;w=96&amp;q=75 2x
-                                                                "
-                                                                src="../_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fkirsti.webp&amp;w=96&amp;q=75"
+                                                                srcset="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
+                                                                src="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
                                                             />
                                                         </span>
                                                         <span
@@ -1995,10 +1964,8 @@
                                                                 style="
                                                                     color: transparent;
                                                                 "
-                                                                srcset="
-                                                                    ../_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fmaggie.webp&amp;w=48&amp;q=75amp;q_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fmaggie.webp&amp;w=96&amp;q=75mp;w=96&amp;q=75 2x
-                                                                "
-                                                                src="../_next/image%3Furl=%252Fstatic%252Fimages%252Favatars%252Fmaggie.webp&amp;w=96&amp;q=75"
+                                                                srcset="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
+                                                                src="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
                                                             />
                                                         </span>
                                                         <span
@@ -4513,340 +4480,6 @@
             >
                 <footer class="Footer_footer__4vzqH">
                     <h2 class="visually-hidden">Buffer</h2>
-                    <div class="Footer_footerLinks__xuRtG">
-                        <div class="Footer_footerLinkGroups__rQWbn">
-                            <div>
-                                <h3
-                                    class="Footer_footerLinkGroupHeading__pIYUm"
-                                >
-                                    Tools
-                                </h3>
-                                <ul class="Footer_footerLinkList__1qETO">
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="create"
-                                        >
-                                            Create
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="publish"
-                                        >
-                                            Publish
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="engage"
-                                        >
-                                            Engage
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="analyze"
-                                        >
-                                            Analyze
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="collaborate"
-                                        >
-                                            Collaborate
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3
-                                    class="Footer_footerLinkGroupHeading__pIYUm"
-                                >
-                                    Features
-                                </h3>
-                                <ul class="Footer_footerLinkList__1qETO">
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="ai-assistant"
-                                        >
-                                            AI Assistant
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="start-page"
-                                        >
-                                            Start Page
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="extras"
-                                        >
-                                            Integrations
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="https://apps.apple.com/us/app/buffer-plan-schedule-posts/id490474324?pt=936146&amp;ct=SiteFooter&amp;mt=8"
-                                            rel="noopener noreferrer"
-                                        >
-                                            iOS App
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="https://play.google.com/store/apps/details?id=org.buffer.android&amp;hl=en"
-                                            rel="noopener noreferrer"
-                                        >
-                                            Android App
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="extensions"
-                                        >
-                                            Browser Extension
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3
-                                    class="Footer_footerLinkGroupHeading__pIYUm"
-                                >
-                                    Resources
-                                </h3>
-                                <ul class="Footer_footerLinkList__1qETO">
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="resources"
-                                        >
-                                            Blog
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="templates"
-                                        >
-                                            Template Library
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="insights"
-                                        >
-                                            Social Media Insights
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="library"
-                                        >
-                                            Resource Library
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="social-media-terms"
-                                        >
-                                            Social Media Terms Glossary
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="free-tools"
-                                        >
-                                            Free Marketing Tools
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="ai-assistant/social-media-post-creator"
-                                        >
-                                            AI Social Media Post Generator
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="compare"
-                                        >
-                                            Compare Buffer
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="community"
-                                        >
-                                            Community
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="Footer_footerLinkGroups__rQWbn">
-                            <div>
-                                <h3
-                                    class="Footer_footerLinkGroupHeading__pIYUm"
-                                >
-                                    Transparency
-                                </h3>
-                                <ul class="Footer_footerLinkList__1qETO">
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="open.html"
-                                        >
-                                            Open Hub
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="metrics.html"
-                                        >
-                                            Transparent Metrics
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="transparent-pricing.html"
-                                        >
-                                            Transparent Pricing
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="salaries.html"
-                                        >
-                                            Transparent Salaries
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="https://suggestions.buffer.com/roadmap"
-                                        >
-                                            Product Roadmap
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3
-                                    class="Footer_footerLinkGroupHeading__pIYUm"
-                                >
-                                    Support
-                                </h3>
-                                <ul class="Footer_footerLinkList__1qETO">
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="https://support.buffer.com/"
-                                        >
-                                            Help Center
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="https://status.buffer.com/"
-                                        >
-                                            Status
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="https://suggestions.buffer.com/changelog"
-                                        >
-                                            Changelog
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="https://suggestions.buffer.com/"
-                                        >
-                                            Request a Feature
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3
-                                    class="Footer_footerLinkGroupHeading__pIYUm"
-                                >
-                                    Company
-                                </h3>
-                                <ul class="Footer_footerLinkList__1qETO">
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="about.html"
-                                        >
-                                            About
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="journey"
-                                        >
-                                            Careers
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="press"
-                                        >
-                                            Press
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="legal"
-                                        >
-                                            Legal
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="Footer_footerLink__VU733"
-                                            href="sitemap"
-                                        >
-                                            Sitemap
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                     <div class="Footer_trailingContent__Ug_0q">
                         <a
                             class="Footer_linkLogo__Nfx3G"
