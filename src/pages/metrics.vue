@@ -13,7 +13,7 @@
                         <div class="Nav_contentLeading__sZSG9">
                             <a
                                 class="Nav_logoLink__xSVf_"
-                                href="https://buffer.com/"
+                                href="/"
                             >
                                 <span class="visually-hidden"> Buffer </span>
                                 <svg
