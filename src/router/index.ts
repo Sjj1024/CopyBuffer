@@ -20,6 +20,12 @@ const routes = [
         name: 'metrics',
         component: () => import('@/pages/metrics.vue'),
     },
+    // timeoff页面
+    {
+        path: '/timeoff',
+        name: 'timeoff',
+        component: () => import('@/pages/timeoff.vue'),
+    },
     // transparentPricing页面
     {
         path: '/transparentPricing',

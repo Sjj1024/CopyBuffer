@@ -11,10 +11,7 @@
                     </p>
                     <div class="Nav_content__6PY3c">
                         <div class="Nav_contentLeading__sZSG9">
-                            <a
-                                class="Nav_logoLink__xSVf_"
-                                href="/"
-                            >
+                            <a class="Nav_logoLink__xSVf_" href="/">
                                 <span class="visually-hidden"> Buffer </span>
                                 <svg
                                     class="BufferLogo_logo__ZlBPi Nav_logo__zClE7"
@@ -1739,7 +1736,9 @@
                                                                 style="
                                                                     color: transparent;
                                                                 "
-                                                                srcset="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
+                                                                srcset="
+                                                                    https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75
+                                                                "
                                                                 src="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
                                                             />
                                                         </span>
@@ -1784,7 +1783,9 @@
                                                                 style="
                                                                     color: transparent;
                                                                 "
-                                                                srcset="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
+                                                                srcset="
+                                                                    https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75
+                                                                "
                                                                 src="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
                                                             />
                                                         </span>
@@ -1829,7 +1830,9 @@
                                                                 style="
                                                                     color: transparent;
                                                                 "
-                                                                srcset="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
+                                                                srcset="
+                                                                    https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75
+                                                                "
                                                                 src="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
                                                             />
                                                         </span>
@@ -1874,7 +1877,9 @@
                                                                 style="
                                                                     color: transparent;
                                                                 "
-                                                                srcset="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
+                                                                srcset="
+                                                                    https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75
+                                                                "
                                                                 src="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
                                                             />
                                                         </span>
@@ -1920,7 +1925,9 @@
                                                                 style="
                                                                     color: transparent;
                                                                 "
-                                                                srcset="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
+                                                                srcset="
+                                                                    https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75
+                                                                "
                                                                 src="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
                                                             />
                                                         </span>
@@ -1964,7 +1971,9 @@
                                                                 style="
                                                                     color: transparent;
                                                                 "
-                                                                srcset="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
+                                                                srcset="
+                                                                    https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75
+                                                                "
                                                                 src="https://buffer.com/_next/image?url=%2Fstatic%2Fimages%2Favatars%2Fjakub.webp&w=96&q=75"
                                                             />
                                                         </span>
@@ -2006,7 +2015,7 @@
                                     <h2
                                         class="OpenSection_heading__J1D7y"
                                         style="cursor: pointer"
-                                        href="about.html"
+                                        @click="goPage('/about')"
                                     >
                                         <a
                                             class="OpenSection_headingLink__7i9wa"
@@ -4481,10 +4490,7 @@
                 <footer class="Footer_footer__4vzqH">
                     <h2 class="visually-hidden">Buffer</h2>
                     <div class="Footer_trailingContent__Ug_0q">
-                        <a
-                            class="Footer_linkLogo__Nfx3G"
-                            href=""
-                        >
+                        <a class="Footer_linkLogo__Nfx3G" href="">
                             <span class="visually-hidden"> Buffer </span>
                             <svg
                                 class="Footer_logo__C9vo8"
@@ -4710,6 +4716,10 @@ import { useRouter } from 'vue-router'
 
 const router = useRouter()
 
+const menuOpen = (event: Event) => {
+    console.log('menuOpen', event)
+}
+
 const supportChart = ref(null)
 
 const supportDatas = ref({
@@ -4863,7 +4873,7 @@ const goPage = (path: string) => {
     } else if (path === '/about') {
         window.location.href = './about.html'
     } else if (path === '/timeoff') {
-        window.location.href = './timeoff.html'
+        router.push('timeoff')
     } else if (path === '/books') {
         window.location.href = './books.html'
     } else if (path === '/blogs') {
@@ -4888,6 +4898,446 @@ onMounted(() => {
 <style scoped lang="scss">
 .chart {
     height: 400px;
+}
+
+.OpenSection_headingLink__7i9wa {
+    text-size-adjust: none;
+    tab-size: 4;
+    -webkit-tap-highlight-color: transparent;
+    --rt-color-white: #fff;
+    --rt-color-dark: #222;
+    --rt-color-success: #8dc572;
+    --rt-color-error: #be6464;
+    --rt-color-warning: #f0ad4e;
+    --rt-color-info: #337ab7;
+    --rt-opacity: 0.9;
+    --rt-transition-show-delay: 0.15s;
+    --rt-transition-closing-delay: 0.15s;
+    --rt-arrow-size: 8px;
+    --el-color-white: #ffffff;
+    --el-color-black: #000000;
+    --el-color-primary-rgb: 64, 158, 255;
+    --el-color-success-rgb: 103, 194, 58;
+    --el-color-warning-rgb: 230, 162, 60;
+    --el-color-danger-rgb: 245, 108, 108;
+    --el-color-error-rgb: 245, 108, 108;
+    --el-color-info-rgb: 144, 147, 153;
+    --el-font-size-extra-large: 20px;
+    --el-font-size-large: 18px;
+    --el-font-size-medium: 16px;
+    --el-font-size-base: 14px;
+    --el-font-size-small: 13px;
+    --el-font-size-extra-small: 12px;
+    --el-font-family: 'Helvetica Neue', Helvetica, 'PingFang SC',
+        'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+    --el-font-weight-primary: 500;
+    --el-font-line-height-primary: 24px;
+    --el-index-normal: 1;
+    --el-index-top: 1000;
+    --el-index-popper: 2000;
+    --el-border-radius-base: 4px;
+    --el-border-radius-small: 2px;
+    --el-border-radius-round: 20px;
+    --el-border-radius-circle: 100%;
+    --el-transition-duration: 0.3s;
+    --el-transition-duration-fast: 0.2s;
+    --el-transition-function-ease-in-out-bezier: cubic-bezier(
+        0.645,
+        0.045,
+        0.355,
+        1
+    );
+    --el-transition-function-fast-bezier: cubic-bezier(0.23, 1, 0.32, 1);
+    --el-transition-all: all var(--el-transition-duration)
+        var(--el-transition-function-ease-in-out-bezier);
+    --el-transition-fade: opacity var(--el-transition-duration)
+        var(--el-transition-function-fast-bezier);
+    --el-transition-md-fade: transform var(--el-transition-duration)
+            var(--el-transition-function-fast-bezier),
+        opacity var(--el-transition-duration)
+            var(--el-transition-function-fast-bezier);
+    --el-transition-fade-linear: opacity var(--el-transition-duration-fast)
+        linear;
+    --el-transition-border: border-color var(--el-transition-duration-fast)
+        var(--el-transition-function-ease-in-out-bezier);
+    --el-transition-box-shadow: box-shadow var(--el-transition-duration-fast)
+        var(--el-transition-function-ease-in-out-bezier);
+    --el-transition-color: color var(--el-transition-duration-fast)
+        var(--el-transition-function-ease-in-out-bezier);
+    --el-component-size-large: 40px;
+    --el-component-size: 32px;
+    --el-component-size-small: 24px;
+    color-scheme: light;
+    --el-color-primary: #409eff;
+    --el-color-primary-light-3: rgb(121, 187, 255);
+    --el-color-primary-light-5: rgb(160, 207, 255);
+    --el-color-primary-light-7: rgb(198, 226, 255);
+    --el-color-primary-light-8: rgb(217, 236, 255);
+    --el-color-primary-light-9: rgb(236, 245, 255);
+    --el-color-primary-dark-2: rgb(51, 126, 204);
+    --el-color-success: #67c23a;
+    --el-color-success-light-3: rgb(149, 212, 117);
+    --el-color-success-light-5: rgb(179, 225, 157);
+    --el-color-success-light-7: rgb(209, 237, 196);
+    --el-color-success-light-8: rgb(225, 243, 216);
+    --el-color-success-light-9: rgb(240, 249, 235);
+    --el-color-success-dark-2: rgb(82, 155, 46);
+    --el-color-warning: #e6a23c;
+    --el-color-warning-light-3: rgb(238, 190, 119);
+    --el-color-warning-light-5: rgb(243, 209, 158);
+    --el-color-warning-light-7: rgb(248, 227, 197);
+    --el-color-warning-light-8: rgb(250, 236, 216);
+    --el-color-warning-light-9: rgb(253, 246, 236);
+    --el-color-warning-dark-2: rgb(184, 130, 48);
+    --el-color-danger: #f56c6c;
+    --el-color-danger-light-3: rgb(248, 152, 152);
+    --el-color-danger-light-5: rgb(250, 182, 182);
+    --el-color-danger-light-7: rgb(252, 211, 211);
+    --el-color-danger-light-8: rgb(253, 226, 226);
+    --el-color-danger-light-9: rgb(254, 240, 240);
+    --el-color-danger-dark-2: rgb(196, 86, 86);
+    --el-color-error: #f56c6c;
+    --el-color-error-light-3: rgb(248, 152, 152);
+    --el-color-error-light-5: rgb(250, 182, 182);
+    --el-color-error-light-7: rgb(252, 211, 211);
+    --el-color-error-light-8: rgb(253, 226, 226);
+    --el-color-error-light-9: rgb(254, 240, 240);
+    --el-color-error-dark-2: rgb(196, 86, 86);
+    --el-color-info: #909399;
+    --el-color-info-light-3: rgb(177, 179, 184);
+    --el-color-info-light-5: rgb(200, 201, 204);
+    --el-color-info-light-7: rgb(222, 223, 224);
+    --el-color-info-light-8: rgb(233, 233, 235);
+    --el-color-info-light-9: rgb(244, 244, 245);
+    --el-color-info-dark-2: rgb(115, 118, 122);
+    --el-bg-color: #ffffff;
+    --el-bg-color-page: #f2f3f5;
+    --el-bg-color-overlay: #ffffff;
+    --el-text-color-primary: #303133;
+    --el-text-color-regular: #606266;
+    --el-text-color-secondary: #909399;
+    --el-text-color-placeholder: #a8abb2;
+    --el-text-color-disabled: #c0c4cc;
+    --el-border-color: #dcdfe6;
+    --el-border-color-light: #e4e7ed;
+    --el-border-color-lighter: #ebeef5;
+    --el-border-color-extra-light: #f2f6fc;
+    --el-border-color-dark: #d4d7de;
+    --el-border-color-darker: #cdd0d6;
+    --el-fill-color: #f0f2f5;
+    --el-fill-color-light: #f5f7fa;
+    --el-fill-color-lighter: #fafafa;
+    --el-fill-color-extra-light: #fafcff;
+    --el-fill-color-dark: #ebedf0;
+    --el-fill-color-darker: #e6e8eb;
+    --el-fill-color-blank: #ffffff;
+    --el-box-shadow: 0px 12px 32px 4px rgba(0, 0, 0, 0.04),
+        0px 8px 20px rgba(0, 0, 0, 0.08);
+    --el-box-shadow-light: 0px 0px 12px rgba(0, 0, 0, 0.12);
+    --el-box-shadow-lighter: 0px 0px 6px rgba(0, 0, 0, 0.12);
+    --el-box-shadow-dark: 0px 16px 48px 16px rgba(0, 0, 0, 0.08),
+        0px 12px 32px rgba(0, 0, 0, 0.12), 0px 8px 16px -8px rgba(0, 0, 0, 0.16);
+    --el-disabled-bg-color: var(--el-fill-color-light);
+    --el-disabled-text-color: var(--el-text-color-placeholder);
+    --el-disabled-border-color: var(--el-border-color-light);
+    --el-overlay-color: rgba(0, 0, 0, 0.8);
+    --el-overlay-color-light: rgba(0, 0, 0, 0.7);
+    --el-overlay-color-lighter: rgba(0, 0, 0, 0.5);
+    --el-mask-color: rgba(255, 255, 255, 0.9);
+    --el-mask-color-extra-light: rgba(255, 255, 255, 0.3);
+    --el-border-width: 1px;
+    --el-border-style: solid;
+    --el-border-color-hover: var(--el-text-color-disabled);
+    --el-border: var(--el-border-width) var(--el-border-style)
+        var(--el-border-color);
+    --el-svg-monochrome-grey: var(--el-border-color);
+    --el-popup-modal-bg-color: var(--el-color-black);
+    --el-popup-modal-opacity: 0.5;
+    --el-loading-spinner-size: 42px;
+    --el-loading-fullscreen-spinner-size: 50px;
+    --el-menu-active-color: var(--el-color-primary);
+    --el-menu-text-color: var(--el-text-color-primary);
+    --el-menu-hover-text-color: var(--el-color-primary);
+    --el-menu-bg-color: var(--el-fill-color-blank);
+    --el-menu-hover-bg-color: var(--el-color-primary-light-9);
+    --el-menu-item-height: 56px;
+    --el-menu-sub-item-height: calc(var(--el-menu-item-height) - 6px);
+    --el-menu-horizontal-height: 60px;
+    --el-menu-horizontal-sub-item-height: 36px;
+    --el-menu-item-font-size: var(--el-font-size-base);
+    --el-menu-item-hover-fill: var(--el-color-primary-light-9);
+    --el-menu-border-color: var(--el-border-color);
+    --el-menu-base-level-padding: 20px;
+    --el-menu-level-padding: 20px;
+    --el-menu-icon-width: 24px;
+    --color-white: hsl(0 0% 100%);
+    --color-neutral-050: hsl(60 75% 99%);
+    --color-neutral-100: hsl(60 30% 96%);
+    --color-neutral-200: hsl(60 22% 93%);
+    --color-neutral-300: hsl(60 18% 90%);
+    --color-neutral-400: hsl(60 12% 84%);
+    --color-neutral-500: hsl(60 6% 70%);
+    --color-neutral-600: hsl(60 4% 61%);
+    --color-neutral-700: hsl(60 4% 50%);
+    --color-neutral-800: hsl(60 4% 40%);
+    --color-neutral-900: hsl(60 5% 28%);
+    --color-brand-primary: var(--color-green-300);
+    --color-brand-mid: hsl(172 22% 20%);
+    --color-brand-dark: hsl(176 20% 16%);
+    --color-green-050: hsl(103 64% 95%);
+    --color-green-100: hsl(105 68% 89%);
+    --color-green-200: hsl(105 67% 82%);
+    --color-green-300: hsl(105 68% 77%);
+    --color-green-400: hsl(106 67% 71%);
+    --color-green-500: hsl(106 60% 66%);
+    --color-green-600: hsl(105 51% 56%);
+    --color-green-700: hsl(105 53% 45%);
+    --color-green-800: hsl(105 54% 35%);
+    --color-green-900: hsl(109 46% 25%);
+    --color-green-950: hsl(128 28% 21%);
+    --color-aqua-050: hsl(174 68% 94%);
+    --color-aqua-100: hsl(175 63% 88%);
+    --color-aqua-200: hsl(174 64% 82%);
+    --color-aqua-300: hsl(174 64% 77%);
+    --color-aqua-400: hsl(173 65% 72%);
+    --color-aqua-500: hsl(174 64% 66%);
+    --color-aqua-600: hsl(174 60% 60%);
+    --color-aqua-700: hsl(174 44% 49%);
+    --color-aqua-800: hsl(175 51% 36%);
+    --color-aqua-900: hsl(176 59% 22%);
+    --color-aqua-950: hsl(175 38% 19%);
+    --color-blue-050: hsl(207 100% 95%);
+    --color-blue-100: hsl(207 100% 92%);
+    --color-blue-200: hsl(206 100% 89%);
+    --color-blue-300: hsl(207 100% 84%);
+    --color-blue-400: hsl(207 100% 78%);
+    --color-blue-500: hsl(207 99% 72%);
+    --color-blue-600: hsl(207 90% 65%);
+    --color-blue-700: hsl(207 60% 52%);
+    --color-blue-800: hsl(207 71% 37%);
+    --color-blue-900: hsl(206 60% 25%);
+    --color-blue-950: hsl(202 51% 20%);
+    --color-purple-050: hsl(260 100% 96%);
+    --color-purple-100: hsl(258 100% 93%);
+    --color-purple-200: hsla(259 100% 91%);
+    --color-purple-300: hsl(258 100% 88%);
+    --color-purple-400: hsl(258 100% 82%);
+    --color-purple-500: hsl(258 100% 76%);
+    --color-purple-600: hsl(258 100% 70%);
+    --color-purple-700: hsl(258 67% 57%);
+    --color-purple-800: hsl(259 64% 44%);
+    --color-purple-900: hsl(258 76% 29%);
+    --color-purple-950: hsl(246 42% 23%);
+    --color-fuscia-050: hsl(289 100% 97%);
+    --color-fuscia-100: hsl(289 100% 94%);
+    --color-fuscia-200: hsl(289 100% 90%);
+    --color-fuscia-300: hsl(289 100% 87%);
+    --color-fuscia-400: hsl(289 100% 81%);
+    --color-fuscia-500: hsl(289 100% 75%);
+    --color-fuscia-600: hsl(289 84% 65%);
+    --color-fuscia-700: hsl(289 57% 51%);
+    --color-fuscia-800: hsl(289 69% 38%);
+    --color-fuscia-900: hsl(275 38% 22%);
+    --color-pink-050: hsl(338 89% 96%);
+    --color-pink-100: hsl(336 94% 93%);
+    --color-pink-200: hsl(336 100% 90%);
+    --color-pink-300: hsl(336 100% 85%);
+    --color-pink-400: hsl(335 100% 79%);
+    --color-pink-500: hsl(335 100% 74%);
+    --color-pink-600: hsl(335 94% 67%);
+    --color-pink-700: hsl(335 63% 54%);
+    --color-pink-800: hsl(335 69% 39%);
+    --color-pink-900: hsl(334 81% 25%);
+    --color-pink-950: hsl(328 33% 20%);
+    --color-coral-050: hsl(11 91% 95%);
+    --color-coral-100: hsl(9 95% 92%);
+    --color-coral-200: hsl(8 100% 88%);
+    --color-coral-300: hsl(7 100% 83%);
+    --color-coral-400: hsl(7 100% 77%);
+    --color-coral-500: hsl(7 100% 72%);
+    --color-coral-600: hsl(7 92% 65%);
+    --color-coral-700: hsl(7 62% 52%);
+    --color-coral-800: hsl(7 70% 39%);
+    --color-coral-900: hsl(8 77% 24%);
+    --color-coral-950: hsl(12 30% 20%);
+    --color-orange-050: hsl(22 100% 95%);
+    --color-orange-100: hsl(24 100% 90%);
+    --color-orange-200: hsl(25 100% 85%);
+    --color-orange-300: hsl(25 100% 77%);
+    --color-orange-400: hsl(25 100% 72%);
+    --color-orange-500: hsl(25 100% 67%);
+    --color-orange-600: hsl(25 94% 61%);
+    --color-orange-700: hsl(25 70% 53%);
+    --color-orange-800: hsl(25 72% 38%);
+    --color-orange-900: hsl(25 77% 24%);
+    --color-orange-950: hsl(33 31% 19%);
+    --color-yellow-050: hsl(38 100% 95%);
+    --color-yellow-100: hsl(40 100% 88%);
+    --color-yellow-200: hsl(40 100% 84%);
+    --color-yellow-300: hsl(40 100% 77%);
+    --color-yellow-400: hsl(40 100% 72%);
+    --color-yellow-500: hsl(40 100% 67%);
+    --color-yellow-600: hsl(40 100% 63%);
+    --color-yellow-700: hsl(40 75% 54%);
+    --color-yellow-800: hsl(40 70% 41%);
+    --color-yellow-900: hsl(40 87% 24%);
+    --color-yellow-950: hsl(58 28% 19%);
+    --color-bluesky: var(--color-blue-600);
+    --color-facebook: var(--color-blue-700);
+    --color-google-business-profile: var(--color-blue-800);
+    --color-instagram: var(--color-pink-600);
+    --color-linkedin: var(--color-blue-800);
+    --color-mastodon: var(--color-purple-600);
+    --color-pinterest: var(--color-coral-600);
+    --color-threads: var(--color-brand-dark);
+    --color-tiktok: var(--color-brand-dark);
+    --color-x: var(--color-brand-dark);
+    --color-youtube: var(--color-coral-600);
+    --font-family-sans: 'Figtree', ui-sans-serif, system-ui, sans-serif,
+        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+        'Noto Color Emoji';
+    --font-family-heading: 'Stolzl', ui-sans-serif, system-ui, sans-serif,
+        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+        'Noto Color Emoji';
+    --font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        'Liberation Mono', 'Courier New', monospace;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-heading: var(--font-weight-regular);
+    --line-height-regular: 1.4;
+    --line-height-tight: 1.25;
+    --line-height-heading: var(--line-height-tight);
+    --letter-spacing-tight: -0.02em;
+    --letter-spacing-small: 0.03125em;
+    --letter-spacing-wide: 0.0625em;
+    --letter-spacing-heading: var(--letter-spacing-tight);
+    --font-size-step--2: clamp(
+        12.8 / 16 * 1rem,
+        0.7863rem + 0.0687vi,
+        13.5 / 16 * 0.844rem
+    );
+    --font-size-step--1: clamp(
+        14.3 / 16 * 1rem,
+        0.8703rem + 0.1172vi,
+        15.5 / 16 * 1rem
+    );
+    --font-size-step-0: clamp(
+        16 / 16 * 1rem,
+        0.9565rem + 0.2174vi,
+        18 / 16 * 1rem
+    );
+    --font-size-step-1: clamp(
+        20 / 16 * 1rem,
+        1.1632rem + 0.4341vi,
+        24 / 16 * 1rem
+    );
+    --font-size-step-2: clamp(
+        25 / 16 * 1rem,
+        1.4107rem + 0.7591vi,
+        32 / 16 * 1rem
+    );
+    --font-size-step-3: clamp(
+        31.3 / 16 * 1rem,
+        1.7056rem + 1.2375vi,
+        42.6 / 16 * 1rem
+    );
+    --font-size-step-4: clamp(
+        39.1 / 16 * 1rem,
+        2.0551rem + 1.9315vi,
+        56.8 / 16 * 1rem
+    );
+    --font-size-step-5: clamp(
+        48.8 / 16 * 1rem,
+        2.4663rem + 2.9271vi,
+        75.8 / 16 * 1rem
+    );
+    --font-size-step-6: clamp(
+        61 / 16 * 1rem,
+        2.9462rem + 4.3423vi,
+        101 / 16 * 1rem
+    );
+    --font-size-step-7: clamp(
+        76.3 / 16 * 1rem,
+        3.5006rem + 6.3389vi,
+        134.6 / 16 * 1rem
+    );
+    --space-step-0: clamp(0.25rem, 0.2305rem + 0.0977vi, 0.3125rem);
+    --space-step-1: clamp(0.5rem, 0.4805rem + 0.0977vi, 0.5625rem);
+    --space-step-2: clamp(0.75rem, 0.7109rem + 0.1953vi, 0.875rem);
+    --space-step-3: clamp(1rem, 0.9609rem + 0.1953vi, 1.125rem);
+    --space-step-4: clamp(1.5rem, 1.4414rem + 0.293vi, 1.6875rem);
+    --space-step-5: clamp(2rem, 1.9219rem + 0.3906vi, 2.25rem);
+    --space-step-6: clamp(3rem, 2.8828rem + 0.5859vi, 3.375rem);
+    --space-step-7: clamp(4rem, 3.8438rem + 0.7813vi, 4.5rem);
+    --space-step-8: clamp(6rem, 5.7656rem + 1.1719vi, 6.75rem);
+    --space-step-0-step-1: clamp(0.25rem, 0.1523rem + 0.4883vi, 0.5625rem);
+    --space-step-1-step-2: clamp(0.5rem, 0.3828rem + 0.5859vi, 0.875rem);
+    --space-step-2-step-3: clamp(0.75rem, 0.6328rem + 0.5859vi, 1.125rem);
+    --space-step-3-step-4: clamp(1rem, 0.7852rem + 1.0742vi, 1.6875rem);
+    --space-step-4-step-5: clamp(1.5rem, 1.2656rem + 1.1719vi, 2.25rem);
+    --space-step-5-step-6: clamp(2rem, 1.5703rem + 2.1484vi, 3.375rem);
+    --space-step-6-step-7: clamp(3rem, 2.5313rem + 2.3438vi, 4.5rem);
+    --space-step-7-step-8: clamp(4rem, 3.1406rem + 4.2969vi, 6.75rem);
+    --space-step-0-step-2: clamp(0.25rem, 0.0547rem + 0.9766vi, 0.875rem);
+    --space-step-1-step-3: clamp(0.5rem, 0.3047rem + 0.9766vi, 1.125rem);
+    --space-step-2-step-4: clamp(0.75rem, 0.457rem + 1.4648vi, 1.6875rem);
+    --space-step-3-step-5: clamp(1rem, 0.6094rem + 1.9531vi, 2.25rem);
+    --space-step-4-step-6: clamp(1.5rem, 0.9141rem + 2.9297vi, 3.375rem);
+    --space-step-5-step-7: clamp(2rem, 1.2188rem + 3.9063vi, 4.5rem);
+    --space-step-6-step-8: clamp(3rem, 1.8281rem + 5.8594vi, 6.75rem);
+    --border-radius-small: 0.625rem;
+    --border-radius-medium: 1.25rem;
+    --border-radius-large: 2.5rem;
+    --border-radius-full: 100vmax;
+    --outline-width: 0.125rem;
+    --outline-offset: 0.125rem;
+    --shadow-raised: 0 0 0.0625rem 0.0625rem hsl(0 0% 9% / 0.05),
+        0 0.25rem 0.75rem -0.125rem hsl(0 0% 9% / 0.1);
+    --shadow-floating: 0 0 0 0.0625rem hsl(0 0% 9% / 0.05),
+        0 0.25rem 0.5rem hsl(0 0% 9% / 0.1), 0 1rem 1.5rem hsl(0 0% 9% / 0.1);
+    --transition-duration: 150ms;
+    --transition-timing-function: ease-out;
+    --top-navigation-block-size: 5.5rem;
+    --container-max-inline-size: calc(
+        80rem + calc(var(--space-step-3-step-5) * 2)
+    );
+    --container-max-inline-size-wide: calc(
+        var(--container-max-inline-size) + calc(var(--space-step-5-step-7) * 2)
+    );
+    --gutter: var(--space-step-7);
+    --gradient-instagram: linear-gradient(
+        253deg,
+        hsl(40 100% 72%) -4.28%,
+        hsl(7 100% 75%) 23.63%,
+        hsl(338 78% 79%) 56.85%,
+        hsl(291 48% 82%) 82.8%,
+        hsl(255 100% 80%) 111.88%
+    );
+    -webkit-font-smoothing: antialiased;
+    --_content-trailing-padding-inline: var(--space-step-4);
+    overflow-wrap: break-word;
+    font-family: var(--font-family-heading);
+    font-weight: var(--font-weight-heading);
+    line-height: var(--line-height-heading);
+    letter-spacing: var(--letter-spacing-heading);
+    font-size: var(--font-size-step-2);
+    cursor: pointer;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: inherit;
+    border-radius: var(--border-radius-medium);
+    padding: var(--space-step-4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: var(--space-step-1);
+    outline-width: var(--outline-width);
+    outline-offset: calc(var(--outline-offset) * -2);
+    outline-color: transparent;
+    transition-property: outline-color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
 }
 </style>
 

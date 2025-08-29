@@ -1,6 +1,6 @@
 <template>
     <div id="__next">
-        <div class="transparent-pricing">
+        <div class="timeoff">
             <header
                 class="style__Header-sc-zhh3zs-0 kLRBsI js-header-navigation"
             >
@@ -36,9 +36,7 @@
                             <div
                                 class="style__MenuItem-sc-1mwmnys-2 hmErWv tools-nav"
                             >
-                                <a
-                                    href="transparent-pricing.html#"
-                                    aria-haspopup="true"
+                                <a href="timeoff.html#" aria-haspopup="true"
                                     >Features<svg
                                         height="18px"
                                         width="18px"
@@ -340,9 +338,7 @@
                             <div
                                 class="style__MenuItem-sc-1mwmnys-2 hmErWv tools-nav"
                             >
-                                <a
-                                    href="transparent-pricing.html#"
-                                    aria-haspopup="true"
+                                <a href="timeoff.html#" aria-haspopup="true"
                                     >Channels<svg
                                         height="18px"
                                         width="18px"
@@ -1191,1055 +1187,666 @@
                 </section>
             </section>
             <main class="jsx-306843682">
-                <section class="base__OldSection-sc-18a07ey-0 xekTB">
+                <section
+                    class="base__OldSection-sc-18a07ey-0 style__SectionStyled-sc-kgzhlz-0 lhrzUY bnRIjv"
+                >
                     <div class="base__OldContainer-sc-18a07ey-1 jjNVsi">
-                        <ul class="style__BreadCrumbs-sc-10uqxis-0 gbVVkx">
-                            <li>
-                                <a href="open.html">Open</a
-                                ><svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    stroke-width="1.5"
-                                    stroke="currentColor"
-                                    width="14px"
-                                    height="14px"
+                        <section class="style__Flex-sc-4ezsn2-0 dGvkTS">
+                            <section class="style__Col-sc-4ezsn2-3 ljMGxk">
+                                <ul
+                                    class="style__BreadCrumbs-sc-10uqxis-0 icyxht"
                                 >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                                    ></path>
-                                </svg>
-                            </li>
-                            <li>
-                                <a href="transparent-pricing.html"
-                                    >Transparent Pricing</a
-                                ><svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    stroke-width="1.5"
-                                    stroke="currentColor"
-                                    width="14px"
-                                    height="14px"
-                                >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                                    ></path>
-                                </svg>
-                            </li>
-                        </ul>
-                        <h1
-                            class="text-center"
-                            style="
-                                max-width: 1000px;
-                                margin: auto auto 20px auto;
-                            "
-                        >
-                            <!-- -->Where your money goes
-                        </h1>
-                        <p class="text-center max-width-600 auto">
-                            Here is a breakdown of exactly where your money goes
-                            when you purchase a buffer subscription
-                        </p>
-                        <div
-                            style="
-                                border-radius: 20px;
-                                padding: 40px;
-                                margin-top: 60px;
-                                margin-bottom: 80px;
-                            "
-                            class="base__OldContainer-sc-18a07ey-1 jLMFEd"
-                        >
-                            <section class="style__Flex-sc-4ezsn2-0 dGvkTS">
-                                <img
-                                    src="@/static/transparent-pricing/png/BufferSubscription.svg"
-                                    style="margin-bottom: 30px"
-                                />
+                                    <li>
+                                        <a href="open.html">Open</a
+                                        ><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="1.5"
+                                            stroke="currentColor"
+                                            width="14px"
+                                            height="14px"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                                            ></path>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <a href="timeoff.html">Time Off</a
+                                        ><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="1.5"
+                                            stroke="currentColor"
+                                            width="14px"
+                                            height="14px"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                                            ></path>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <h1 class="style__Heading-sc-kgzhlz-5 dmSTGm">
+                                    Transparent time off
+                                </h1>
+                                <p class="style__SubHeading-sc-kgzhlz-7 dNDEvm">
+                                    At Buffer, we strive to redefine the
+                                    experience of remote work by providing an
+                                    equitable, flexible, and inclusive time-off
+                                    policy. As a fully distributed global team,
+                                    we empower teammates to take time off to
+                                    rest and recharge so that they feel their
+                                    best and thrive.
+                                </p>
                             </section>
-                            <section
-                                style="margin-top: 10px"
-                                class="style__FlexWrap-sc-4ezsn2-1 jwxgfI"
-                            >
-                                <div
-                                    class="transparent-pricing__IconCategory-sc-1py45bv-6 bKLWZF"
-                                >
+                            <section class="style__Col-sc-4ezsn2-3 ljMGxk">
+                                <div class="style__Image-sc-kgzhlz-6 ttJOD">
                                     <img
-                                        src="@/static/transparent-pricing/png/Hosting.svg"
+                                        src="@/static/hero/hero-timeoff@2x.jpg"
                                     />
-                                    <h4>7.18<!-- -->%</h4>
-                                    <p>Hosting</p>
-                                </div>
-                                <div
-                                    class="transparent-pricing__IconCategory-sc-1py45bv-6 bKLWZF"
-                                >
-                                    <img
-                                        src="@/static/transparent-pricing/png/Fees.svg"
-                                    />
-                                    <h4>3.98<!-- -->%</h4>
-                                    <p>Fees</p>
-                                </div>
-                                <div
-                                    class="transparent-pricing__IconCategory-sc-1py45bv-6 bKLWZF"
-                                >
-                                    <img
-                                        src="@/static/transparent-pricing/png/Salaries.svg"
-                                    />
-                                    <h4>72.97<!-- -->%</h4>
-                                    <p>Salaries</p>
-                                </div>
-                                <div
-                                    class="transparent-pricing__IconCategory-sc-1py45bv-6 bKLWZF"
-                                >
-                                    <img
-                                        src="@/static/transparent-pricing/png/Tools.svg"
-                                    />
-                                    <h4>8.16<!-- -->%</h4>
-                                    <p>Tools</p>
-                                </div>
-                                <div
-                                    class="transparent-pricing__IconCategory-sc-1py45bv-6 bKLWZF"
-                                >
-                                    <img
-                                        src="@/static/transparent-pricing/png/Retreats.svg"
-                                    />
-                                    <h4>1.57<!-- -->%</h4>
-                                    <p>Retreats</p>
-                                </div>
-                                <div
-                                    class="transparent-pricing__IconCategory-sc-1py45bv-6 bKLWZF"
-                                >
-                                    <img
-                                        src="@/static/transparent-pricing/png/Marketing.svg"
-                                    />
-                                    <h4>3.30<!-- -->%</h4>
-                                    <p>Marketing</p>
-                                </div>
-                                <div
-                                    class="transparent-pricing__IconCategory-sc-1py45bv-6 bKLWZF"
-                                >
-                                    <img
-                                        src="@/static/transparent-pricing/png/Taxes.svg"
-                                    />
-                                    <h4>2.83<!-- -->%</h4>
-                                    <p>Taxes</p>
                                 </div>
                             </section>
-                        </div>
-                    </div>
-                </section>
-                <section class="base__OldSection-sc-18a07ey-0 eeGPBY">
-                    <div
-                        style="border-radius: 20px"
-                        class="base__OldContainer-sc-18a07ey-1 jLMFEd"
-                    >
-                        <div
-                            class="transparent-pricing__Navigation-sc-1py45bv-0 klyDoF"
-                        >
-                            <nav>
-                                <button
-                                    class="style__TabFilterButton-sc-1r59pw1-0 hnayun is-active"
-                                    value="2022"
-                                >
-                                    2022</button
-                                ><button
-                                    class="style__TabFilterButton-sc-1r59pw1-0 jYSNrS"
-                                    value="2021"
-                                >
-                                    2021</button
-                                ><button
-                                    class="style__TabFilterButton-sc-1r59pw1-0 jYSNrS"
-                                    value="2020"
-                                >
-                                    2020</button
-                                ><button
-                                    class="style__TabFilterButton-sc-1r59pw1-0 jYSNrS"
-                                    value="2019"
-                                >
-                                    2019</button
-                                ><button
-                                    class="style__TabFilterButton-sc-1r59pw1-0 jYSNrS"
-                                    value="2018"
-                                >
-                                    2018</button
-                                ><button
-                                    class="style__TabFilterButton-sc-1r59pw1-0 jYSNrS"
-                                    value="2017"
-                                >
-                                    2017</button
-                                ><button
-                                    class="style__TabFilterButton-sc-1r59pw1-0 jYSNrS"
-                                    value="2016"
-                                >
-                                    2016</button
-                                ><button
-                                    class="style__TabFilterButton-sc-1r59pw1-0 jYSNrS"
-                                    value="2015"
-                                >
-                                    2015</button
-                                ><button
-                                    class="style__TabFilterButton-sc-1r59pw1-0 jYSNrS"
-                                    value="2014"
-                                >
-                                    2014
-                                </button>
-                            </nav>
-                        </div>
-                        <section
-                            style="padding: 20px 0px 60px 0px"
-                            class="style__Flex-sc-4ezsn2-0 iudqUE"
-                        >
-                            <div
-                                ref="supportChart"
-                                style="width: 600px; height: 500px"
-                            ></div>
                         </section>
                     </div>
                 </section>
-                <section class="base__OldSection-sc-18a07ey-0 gGqkBc">
+                <section class="base__OldSection-sc-18a07ey-0 cWAuTr">
                     <div class="base__OldContainer-sc-18a07ey-1 jjNVsi">
-                        <h2 class="text-center">
-                            What we spent in each category over the years
-                        </h2>
-                        <div
-                            class="transparent-pricing__LineChart-sc-1py45bv-4 ijllox"
-                        >
-                            <ul
-                                class="transparent-pricing__LineChartLegend-sc-1py45bv-3 fJqTYl"
-                            >
-                                <li>
-                                    <div
-                                        style="
-                                            margin-right: 8px;
-                                            width: 12px;
-                                            height: 12px;
-                                            background-color: rgb(
-                                                155,
-                                                165,
-                                                254
-                                            );
-                                            border-radius: 50%;
-                                        "
-                                    ></div>
-                                    Hosting
-                                </li>
-                                <li>
-                                    <div
-                                        style="
-                                            margin-right: 8px;
-                                            width: 12px;
-                                            height: 12px;
-                                            background-color: rgb(
-                                                196,
-                                                227,
-                                                150
-                                            );
-                                            border-radius: 50%;
-                                        "
-                                    ></div>
-                                    Fees
-                                </li>
-                                <li>
-                                    <div
-                                        style="
-                                            margin-right: 8px;
-                                            width: 12px;
-                                            height: 12px;
-                                            background-color: rgb(
-                                                205,
-                                                148,
-                                                254
-                                            );
-                                            border-radius: 50%;
-                                        "
-                                    ></div>
-                                    Salaries
-                                </li>
-                                <li>
-                                    <div
-                                        style="
-                                            margin-right: 8px;
-                                            width: 12px;
-                                            height: 12px;
-                                            background-color: rgb(
-                                                234,
-                                                147,
-                                                214
-                                            );
-                                            border-radius: 50%;
-                                        "
-                                    ></div>
-                                    Outside Services
-                                </li>
-                                <li>
-                                    <div
-                                        style="
-                                            margin-right: 8px;
-                                            width: 12px;
-                                            height: 12px;
-                                            background-color: rgb(
-                                                252,
-                                                241,
-                                                154
-                                            );
-                                            border-radius: 50%;
-                                        "
-                                    ></div>
-                                    Retreats
-                                </li>
-                                <li>
-                                    <div
-                                        style="
-                                            margin-right: 8px;
-                                            width: 12px;
-                                            height: 12px;
-                                            background-color: rgb(
-                                                238,
-                                                157,
-                                                170
-                                            );
-                                            border-radius: 50%;
-                                        "
-                                    ></div>
-                                    Equipment
-                                </li>
-                                <li>
-                                    <div
-                                        style="
-                                            margin-right: 8px;
-                                            width: 12px;
-                                            height: 12px;
-                                            background-color: rgb(
-                                                138,
-                                                229,
-                                                232
-                                            );
-                                            border-radius: 50%;
-                                        "
-                                    ></div>
-                                    Marketing
-                                </li>
-                                <li>
-                                    <div
-                                        style="
-                                            margin-right: 8px;
-                                            width: 12px;
-                                            height: 12px;
-                                            background-color: rgb(
-                                                252,
-                                                192,
-                                                154
-                                            );
-                                            border-radius: 50%;
-                                        "
-                                    ></div>
-                                    Taxes
-                                </li>
-                                <li>
-                                    <div
-                                        style="
-                                            margin-right: 8px;
-                                            width: 12px;
-                                            height: 12px;
-                                            background-color: rgb(
-                                                125,
-                                                190,
-                                                180
-                                            );
-                                            border-radius: 50%;
-                                        "
-                                    ></div>
-                                    Profit
-                                </li>
-                                <li>
-                                    <div
-                                        style="
-                                            margin-right: 8px;
-                                            width: 12px;
-                                            height: 12px;
-                                            background-color: rgb(
-                                                254,
-                                                148,
-                                                250
-                                            );
-                                            border-radius: 50%;
-                                        "
-                                    ></div>
-                                    Contributions
-                                </li>
-                                <li>
-                                    <div
-                                        style="
-                                            margin-right: 8px;
-                                            width: 12px;
-                                            height: 12px;
-                                            background-color: rgb(
-                                                254,
-                                                148,
-                                                197
-                                            );
-                                            border-radius: 50%;
-                                        "
-                                    ></div>
-                                    Profit Share
-                                </li>
-                            </ul>
-                            <div
-                                ref="spentChart"
-                                style="width: 100%; height: 500px"
-                            ></div>
+                        <div class="timeoff__CenterText-sc-1l1uqn8-0 ggtwlC">
+                            <h2>Visualising time off at Buffer</h2>
+                            <p>
+                                Our new transparent dashboard pulls in live data
+                                from our leave planner to show how our current
+                                teammates have been taking time off over the
+                                last 12 months
+                            </p>
                         </div>
-                    </div>
-                </section>
-                <section class="base__OldSection-sc-18a07ey-0 cwQNtO">
-                    <div class="base__OldContainer-sc-18a07ey-1 jjNVsi">
-                        <h2 class="text-center">
-                            Buffer Price vs. Buffer&#x27;s Costs
-                        </h2>
-                        <section
-                            style="margin-top: 40px; margin-bottom: 80px"
-                            class="style__Flex-sc-4ezsn2-0 dGvkTS"
-                        >
-                            <button
-                                selected=""
-                                color="#2c4bff"
-                                class="transparent-metrics__StyledButton-sc-ozuwfe-2 bkvjp"
-                            >
-                                <li>
-                                    <h2
-                                        selected=""
-                                        class="transparent-metrics__DataHeader-sc-ozuwfe-3 jYplkh"
+                        <section class="style__Flex-sc-4ezsn2-0 iUqld">
+                            <section class="style__Col-sc-4ezsn2-3 cnPmEz">
+                                <section
+                                    class="base__OldSection-sc-18a07ey-0 timeoff__DataSection-sc-1l1uqn8-3 lhrzUY bWpIqq"
+                                >
+                                    <button
+                                        color="#2c4bff"
+                                        class="timeoff__StyledButton-sc-1l1uqn8-4 kEEnwM"
                                     >
-                                        Average Sale Price
-                                    </h2>
-                                </li></button
-                            ><button
-                                color="#2c4bff"
-                                class="transparent-metrics__StyledButton-sc-ozuwfe-2 bxA-dPi"
-                            >
-                                <li>
-                                    <h2
-                                        class="transparent-metrics__DataHeader-sc-ozuwfe-3 ljhxvo"
-                                    >
-                                        Total Expenses
-                                    </h2>
-                                </li>
-                            </button>
-                        </section>
-                        <div
-                            class="transparent-pricing__LineChart-sc-1py45bv-4 ijllox"
-                        >
-                            <div
-                                ref="signupsChart"
-                                style="
-                                    height: 650px;
-                                    width: 100%;
-                                    margin: 0 auto;
-                                "
-                            ></div>
-                        </div>
-                    </div>
-                </section>
-                <section class="base__OldSection-sc-18a07ey-0 lhrzUY">
-                    <div class="base__OldContainer-sc-18a07ey-1 bxrPvC">
-                        <h2 class="text-center">Details of expenses</h2>
-                        <div
-                            class="transparent-pricing__UnderlineFAQ-sc-1py45bv-5 huIHf"
-                        >
-                            <details
-                                type="underline"
-                                class="style__Details-sc-qzeu1d-0 hYLRm"
-                            >
-                                <summary>
-                                    <div
-                                        class="style__UnderlineContainer-sc-qzeu1d-3 htHPLy"
-                                    >
-                                        <h2>Hosting</h2>
-                                        <svg
-                                            height="24px"
-                                            width="24px"
-                                            class="details-arrow"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                            stroke-width="2"
+                                        <h2
+                                            class="timeoff__DataHeader-sc-1l1uqn8-2 kETglv"
                                         >
-                                            <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                d="M9 5l7 7-7 7"
-                                            ></path>
-                                        </svg>
-                                    </div>
-                                </summary>
-                                <section>
-                                    <p>
-                                        Buffer operates as a
-                                        software-as-a-service (SaaS) company.
-                                        This means our software is hosted on the
-                                        cloud and used over an internet
-                                        connection via a web browser or mobile
-                                        app. Our hosting costs include service
-                                        providers like AWS, Cloudflare, MongoDb,
-                                        etc.
-                                    </p>
-                                    <p>
-                                        Cloud hosting is crucial for Buffer
-                                        because it offers scalability,
-                                        reliability, disaster recovery, cost
-                                        efficiency, and flexibility. It allows
-                                        us to easily scale our infrastructure,
-                                        ensures high availability, provides
-                                        backup and recovery mechanisms, reduces
-                                        upfront costs, and enables rapid
-                                        innovation and deployment.
-                                    </p>
-                                </section>
-                            </details>
-                            <details
-                                type="underline"
-                                class="style__Details-sc-qzeu1d-0 hYLRm"
-                            >
-                                <summary>
-                                    <div
-                                        class="style__UnderlineContainer-sc-qzeu1d-3 htHPLy"
-                                    >
-                                        <h2>Merchant Fees</h2>
-                                        <svg
-                                            height="24px"
-                                            width="24px"
-                                            class="details-arrow"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                        >
-                                            <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                d="M9 5l7 7-7 7"
-                                            ></path>
-                                        </svg>
-                                    </div>
-                                </summary>
-                                <section>
-                                    <p>
-                                        At Buffer, we rely on Stripe, Google,
-                                        and Apple for our payment processing
-                                        needs. These platforms play a vital role
-                                        in simplifying our payment operations by
-                                        providing a secure infrastructure to
-                                        process credit card transactions, handle
-                                        multiple currencies, and manage
-                                        recurring payments without complex
-                                        development. Security and compliance are
-                                        crucial to us, and using payment
-                                        processing tools ensures the protection
-                                        of sensitive customer payment
-                                        information and maintains regulatory
-                                        compliance.
-                                    </p>
-                                    <p>
-                                        By leveraging these payment processing
-                                        platforms, we can concentrate on
-                                        delivering an exceptional user
-                                        experience and providing value to our
-                                        customers, without the added burden of
-                                        developing and maintaining a payment
-                                        system from scratch.
-                                    </p>
-                                </section>
-                            </details>
-                            <details
-                                type="underline"
-                                class="style__Details-sc-qzeu1d-0 hYLRm"
-                            >
-                                <summary>
-                                    <div
-                                        class="style__UnderlineContainer-sc-qzeu1d-3 htHPLy"
-                                    >
-                                        <h2>Employee Expenses</h2>
-                                        <svg
-                                            height="24px"
-                                            width="24px"
-                                            class="details-arrow"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                        >
-                                            <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                d="M9 5l7 7-7 7"
-                                            ></path>
-                                        </svg>
-                                    </div>
-                                </summary>
-                                <section>
-                                    <p>
-                                        Employee expenses is our largest budget
-                                        category making up over 80% of our total
-                                        operating expenses. This category
-                                        includes the cost for our team salaries,
-                                        payroll taxes and
-                                        <a
-                                            href="https://buffer.com/resources/benefits-remote-company/"
-                                            >benefits</a
-                                        >
-                                        such as health insurance, employer
-                                        contributions to 401k & pension plans,
-                                        and continuing education (like
-                                        conferences, free books and coaching!).
-                                    </p>
-                                    <p>
-                                        We view compensation and benefits as the
-                                        set of tools that empower our teammates
-                                        to bring their best to Buffer so that we
-                                        can share that same generosity in
-                                        service of our customers. We want every
-                                        single customer interaction to be a
-                                        delightful experience. By ensuring our
-                                        team members are fulfilled and engaged
-                                        with their work, we can build the
-                                        solutions and tools that support our
-                                        customers to achieve success and
-                                        fulfillment in their personal and work
-                                        lives.
-                                    </p>
-                                    <p>
-                                        Buffer is committed to providing a fair
-                                        and competitive compensation program
-                                        that honors the value that teammates
-                                        from all around the world bring to our
-                                        company through their work. We are also
-                                        committed to
-                                        <a href="salaries.html"
-                                            >full transparency with our salary
-                                            and benefits</a
-                                        >; we share all context and factors
-                                        openly to create trust on our team, hold
-                                        ourselves accountable, and serve as a
-                                        benchmark for others in the industry.
-                                    </p>
-                                </section>
-                            </details>
-                            <details
-                                type="underline"
-                                class="style__Details-sc-qzeu1d-0 hYLRm"
-                            >
-                                <summary>
-                                    <div
-                                        class="style__UnderlineContainer-sc-qzeu1d-3 htHPLy"
-                                    >
-                                        <h2>Additional Operating Expenses</h2>
-                                        <svg
-                                            height="24px"
-                                            width="24px"
-                                            class="details-arrow"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                        >
-                                            <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                d="M9 5l7 7-7 7"
-                                            ></path>
-                                        </svg>
-                                    </div>
-                                </summary>
-                                <section>
-                                    <p>
-                                        There are several categories of expenses
-                                        that help support Buffer’s overall
-                                        operations. These include expenses like
-                                        outside services such as accounting,
-                                        legal, and consultants. This category
-                                        also includes our costs for office
-                                        expenses like business insurance, bank
-                                        charges, and internet and co-working
-                                        costs to support our team to work
-                                        wherever they are happiest.
-                                    </p>
-                                </section>
-                            </details>
-                            <details
-                                type="underline"
-                                class="style__Details-sc-qzeu1d-0 hYLRm"
-                            >
-                                <summary>
-                                    <div
-                                        class="style__UnderlineContainer-sc-qzeu1d-3 htHPLy"
-                                    >
-                                        <h2>Travel</h2>
-                                        <svg
-                                            height="24px"
-                                            width="24px"
-                                            class="details-arrow"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                        >
-                                            <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                d="M9 5l7 7-7 7"
-                                            ></path>
-                                        </svg>
-                                    </div>
-                                </summary>
-                                <section>
-                                    <p>
-                                        Our travel budget includes all costs
-                                        involved in team gatherings like
-                                        retreats and meetups. We aim to have one
-                                        company-wide retreat every year.
-                                    </p>
-                                    <p>
-                                        Travel is embedded into Buffer’s
-                                        values—so much so that our entire remote
-                                        team meets up every year at various
-                                        spots around the world. It’s remarkable
-                                        to see the impact a week in the same
-                                        place has on our team. After a week
-                                        together, remote work is smoother,
-                                        teammates are more energized and
-                                        forgiving, projects leap-frog previous
-                                        obstacles, and everyone is more
-                                        connected to the mission. Our time
-                                        together in-person as a Buffer team is
-                                        special and rare. It’s designed to allow
-                                        our team to soak up as much focused time
-                                        and attention as possible for
-                                        collaboration and conversation.
-                                    </p>
-                                    <p>
-                                        Our retreats have taken us to Australia,
-                                        South Africa, Spain, and Thailand (among
-                                        other places) and our last retreat in
-                                        2019 was in San Diego, USA. Due to
-                                        Covid, we haven't had the chance to get
-                                        together for a full retreat yet. In
-                                        place of a retreat, we've had smaller
-                                        regional meetups in 2022. Buffer covers
-                                        airfare, accommodations, food, and some
-                                        activities during retreats and meetups.
-                                    </p>
-                                </section>
-                            </details>
-                            <details
-                                type="underline"
-                                class="style__Details-sc-qzeu1d-0 hYLRm"
-                            >
-                                <summary>
-                                    <div
-                                        class="style__UnderlineContainer-sc-qzeu1d-3 htHPLy"
-                                    >
-                                        <h2>
-                                            Software and Tools &amp; Computers
+                                            Aug 2025
                                         </h2>
-                                        <svg
-                                            height="24px"
-                                            width="24px"
-                                            class="details-arrow"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                            stroke-width="2"
+                                        <p
+                                            class="timeoff__DesktopText-sc-1l1uqn8-6 iREwRV"
                                         >
-                                            <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                d="M9 5l7 7-7 7"
-                                            ></path>
-                                        </svg>
-                                    </div>
-                                </summary>
-                                <section>
-                                    <p>
-                                        We use a variety of software tools to
-                                        support our team and customers. These
-                                        include admin tools like Slack, Dropbox,
-                                        Threads, Expensify, and Notion (to name
-                                        a few!) plus additional tools like
-                                        Chartmogul, Mixpanel, and Segment. Each
-                                        area also has various tools to support
-                                        their needs like our Advocacy team that
-                                        uses Zendesk to serve our customers and
-                                        Marketing that uses Customer.io for
-                                        customer communication and engagement.
-                                    </p>
-                                    <p>
-                                        Our admin tools are essential for our
-                                        setup as a global remote company, as
-                                        these products help us communicate and
-                                        collaborate both asynchronously and
-                                        synchronously. We are intentional about
-                                        the tools we choose and continue to use
-                                        as a team, as they significantly impact
-                                        our efficiency and output as a company.
-                                        Working with some of our bigger tools
-                                        and making sure it’s a great fit for us
-                                        as a company is an ongoing process, and
-                                        we want to make sure we’re using the
-                                        best product for its intended purpose.
-                                        We are also investing in building our
-                                        tools in certain areas, as sometimes a
-                                        more customized approach will be better
-                                        for our team and customers. Using tools
-                                        such as Retool, we can build some
-                                        internal tools much faster to benefit
-                                        our team.
-                                    </p>
-                                    <p>
-                                        This category also includes the cost of
-                                        computers for our team. Each teammate is
-                                        eligible for a new computer every 3
-                                        years.
-                                    </p>
-                                </section>
-                            </details>
-                            <details
-                                type="underline"
-                                class="style__Details-sc-qzeu1d-0 hYLRm"
-                            >
-                                <summary>
-                                    <div
-                                        class="style__UnderlineContainer-sc-qzeu1d-3 htHPLy"
+                                            Most vacation taken (last 12 months)
+                                        </p>
+                                        <p
+                                            class="timeoff__TabletText-sc-1l1uqn8-7 bHXUyS"
+                                        >
+                                            Tot. Vacations
+                                        </p></button
+                                    ><button
+                                        color="#2c4bff"
+                                        class="timeoff__StyledButton-sc-1l1uqn8-4 ibMWYf"
                                     >
-                                        <h2>Marketing</h2>
-                                        <svg
-                                            height="24px"
-                                            width="24px"
-                                            class="details-arrow"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                            stroke-width="2"
+                                        <h2
+                                            class="timeoff__DataHeader-sc-1l1uqn8-2 cBOQTR"
                                         >
-                                            <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                d="M9 5l7 7-7 7"
-                                            ></path>
-                                        </svg>
-                                    </div>
-                                </summary>
-                                <section>
-                                    <p>
-                                        Our Marketing budget includes costs for
-                                        advertising (i.e. paid marketing on
-                                        platforms like Google and Meta) as well
-                                        as costs to support work with a content
-                                        agency and other consultants like those
-                                        that provide services for app store
-                                        optimization.
-                                    </p>
-                                </section>
-                            </details>
-                            <details
-                                type="underline"
-                                class="style__Details-sc-qzeu1d-0 hYLRm"
-                            >
-                                <summary>
-                                    <div
-                                        class="style__UnderlineContainer-sc-qzeu1d-3 htHPLy"
+                                            PTO: Vacation &amp; personal time
+                                        </h2>
+                                        <p
+                                            class="timeoff__DesktopText-sc-1l1uqn8-6 iREwRV"
+                                        >
+                                            Most common type of leave
+                                        </p>
+                                        <p
+                                            class="timeoff__TabletText-sc-1l1uqn8-7 lmuaEA"
+                                        >
+                                            Tot. Vacations
+                                        </p></button
+                                    ><button
+                                        color="#2c4bff"
+                                        class="timeoff__StyledButton-sc-1l1uqn8-4 ibMWYf"
                                     >
-                                        <h2>Tax</h2>
-                                        <svg
-                                            height="24px"
-                                            width="24px"
-                                            class="details-arrow"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                            stroke-width="2"
+                                        <h2
+                                            class="timeoff__DataHeader-sc-1l1uqn8-2 cBOQTR"
                                         >
-                                            <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                d="M9 5l7 7-7 7"
-                                            ></path>
-                                        </svg>
-                                    </div>
-                                </summary>
-                                <section>
-                                    <p>
-                                        This category supports the cost of sales
-                                        taxes in US states where we have reached
-                                        Nexus (i.e. a business presence in a
-                                        particular state). We also pay VAT in
-                                        the United Kingdom.In years where we are
-                                        profitable, this category also includes
-                                        income taxes to the US IRS.
-                                    </p>
+                                            Execs
+                                        </h2>
+                                        <p
+                                            class="timeoff__DesktopText-sc-1l1uqn8-6 iREwRV"
+                                        >
+                                            Take highest average vacation
+                                        </p>
+                                        <p
+                                            class="timeoff__TabletText-sc-1l1uqn8-7 lmuaEA"
+                                        >
+                                            Avg. Days
+                                        </p>
+                                    </button>
                                 </section>
-                            </details>
-                            <details
-                                type="underline"
-                                class="style__Details-sc-qzeu1d-0 hYLRm"
+                            </section>
+                            <section class="style__Col-sc-4ezsn2-3 iuxvwk">
+                                <div
+                                    ref="timeoffChart"
+                                    style="
+                                        height: 360px;
+                                        width: 100%;
+                                        margin: 0 auto;
+                                    "
+                                ></div>
+                            </section>
+                        </section>
+                    </div>
+                </section>
+                <section
+                    id="policies"
+                    class="base__OldSection-sc-18a07ey-0 cwQNtO"
+                >
+                    <div class="base__OldContainer-sc-18a07ey-1 jjNVsi">
+                        <div class="base__OldSectionRow-sc-18a07ey-2 bxVrAK">
+                            <div
+                                class="timeoff__CenterText-sc-1l1uqn8-0 ggtwlC"
                             >
-                                <summary>
-                                    <div
-                                        class="style__UnderlineContainer-sc-qzeu1d-3 htHPLy"
-                                    >
-                                        <h2>Profit Sharing</h2>
-                                        <svg
-                                            height="24px"
-                                            width="24px"
-                                            class="details-arrow"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                        >
-                                            <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                d="M9 5l7 7-7 7"
-                                            ></path>
-                                        </svg>
-                                    </div>
-                                </summary>
-                                <section>
-                                    <p>
-                                        At Buffer, we believe in the power of
-                                        collective success and the importance of
-                                        recognizing the contributions of our
-                                        team members. That's why we have
-                                        implemented a profit-sharing program as
-                                        a way to share our success with the
-                                        people who make it possible.
-                                    </p>
-                                    <p>
-                                        Profit sharing allows us to align
-                                        everyone's interests towards a common
-                                        goal. When Buffer thrives and achieves
-                                        profitability, we believe it's essential
-                                        to celebrate and reward the collective
-                                        effort of our team members who have
-                                        played a crucial role in our
-                                        achievements.
-                                    </p>
-                                    <p>
-                                        Ultimately, profit sharing at Buffer
-                                        reflects our commitment to fostering a
-                                        collaborative and supportive work
-                                        environment. It demonstrates our
-                                        appreciation for the hard work and
-                                        dedication of our team members and
-                                        reinforces our belief that our success
-                                        is truly a shared achievement.
-                                    </p>
-                                    <p>
-                                        We’ve put together a simple, consistent
-                                        method based on our net income (revenue
-                                        minus expenses minus income taxes) to
-                                        determine how to distribute the
-                                        company’s profits. We will allocate
-                                        between 8% and 15% of our profit, based
-                                        on the year’s performance and other
-                                        strategic uses of excess cash.
-                                        Additionally, we will allocate a further
-                                        20% of the chosen profit share number
-                                        for charitable contribution.
-                                    </p>
-                                </section>
-                            </details>
-                            <details
-                                type="underline"
-                                class="style__Details-sc-qzeu1d-0 hYLRm"
-                            >
-                                <summary>
-                                    <div
-                                        class="style__UnderlineContainer-sc-qzeu1d-3 htHPLy"
-                                    >
-                                        <h2>Charitable Donations</h2>
-                                        <svg
-                                            height="24px"
-                                            width="24px"
-                                            class="details-arrow"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                        >
-                                            <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                d="M9 5l7 7-7 7"
-                                            ></path>
-                                        </svg>
-                                    </div>
-                                </summary>
-                                <section>
-                                    <p>
-                                        Seeking
-                                        <a
-                                            href="https://buffer.com/resources/giving-back/"
-                                            >opportunities to give back</a
-                                        >
-                                        has always been part of the Buffer DNA.
-                                        We started the wonderful tradition of
-                                        <a
-                                            href="https://buffer.com/resources/profit-sharing/"
-                                            >profit sharing and charitable
-                                            contributions</a
-                                        >
-                                        at
-                                        <a
-                                            href="https://buffer.com/resources/donate-charity/"
-                                            >the end of 2017</a
-                                        >. Since then, we've been in the
-                                        privileged position to make donations to
-                                        charitable organisations the years we’ve
-                                        been profitable. This has always been a
-                                        unique opportunity for us to come
-                                        together as a team to celebrate what
-                                        we've accomplished last year by giving
-                                        back to charities that have a positive
-                                        impact in our world - selected by all
-                                        Buffer teammates together.
-                                    </p>
-                                    <p>
-                                        We go through two stages when
-                                        determining which charities to support,
-                                        nominating and voting. In the first
-                                        stage, we invite the entire team to
-                                        nominate their favourite charities based
-                                        on a set of guidelines provided. In the
-                                        second stage, we move to voting. Based
-                                        on the nomination from the team, we put
-                                        together a shortlist of charities. Every
-                                        teammate would vote for one charity for
-                                        each of the two causes, and the two
-                                        charities that receive the highest votes
-                                        overall will receive the donation.
-                                    </p>
-                                    <p>
-                                        In the last few years, we’ve donated to
-                                        charities such as Cool Earth, Village
-                                        Enterprise, Charity Water
-                                    </p>
-                                </section>
-                            </details>
+                                <h2>Our Leave and Time Off Policies</h2>
+                                <p>
+                                    We&#x27;re committed to our team&#x27;s
+                                    wellbeing by providing fair and competitive
+                                    time off through these policies:
+                                </p>
+                            </div>
                         </div>
+                        <div class="base__OldSectionRow-sc-18a07ey-2 bxVrAK">
+                            <section class="style__Flex-sc-4ezsn2-0 HeYin">
+                                <section class="style__Col-sc-4ezsn2-3 ljMGxk">
+                                    <div class="style__Card-sc-8k6wct-0 jdSQUb">
+                                        <div
+                                            class="style__CardInner-sc-8k6wct-1 hdMVPX"
+                                        >
+                                            <div
+                                                class="style__Icon-sc-8k6wct-4 cYJXJq"
+                                            >
+                                                <svg
+                                                    viewBox="0 0 144 144"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path
+                                                        fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M83.0617 25.4992C84.1064 25.8581 84.6623 26.9959 84.3034 28.0405L83.6079 30.0646C87.4163 31.615 92.5674 34.6192 97.3365 39.7598C98.0878 40.5695 98.0404 41.835 97.2306 42.5862C96.4208 43.3375 95.1554 43.29 94.4042 42.4803C90.6514 38.4353 86.6874 35.9019 83.5866 34.4263C83.7479 36.0924 83.8973 37.5634 84.0394 38.9621L84.0396 38.964L84.0399 38.967L84.04 38.9685C84.6962 45.4287 85.1963 50.3518 85.9854 65.8545C86.1232 65.9799 86.2435 66.1262 86.341 66.2907L108.13 72.6347C108 66.3083 107.334 58.0919 102.204 51.2642C101.54 50.3812 101.718 49.1274 102.601 48.4638C103.484 47.8003 104.738 47.9782 105.401 48.8613C111.769 57.3351 112.073 67.4956 112.152 73.9389C112.157 74.3888 112.065 74.8106 111.898 75.1884C111.833 75.544 111.67 75.8893 111.405 76.1822L105.361 82.8693C104.756 83.5389 103.815 83.8057 102.962 83.5499L87.2655 78.8409C86.5817 78.6358 86.0471 78.1212 85.8248 77.4544L83.4556 70.3469L78.1082 75.5317C77.5096 76.1121 76.6454 76.3346 75.854 76.112L70.5185 74.6114L60.6642 108.053C70.2642 108.026 80.0551 110.355 90.2165 115.024C91.2201 115.485 91.66 116.673 91.1988 117.676C90.7376 118.68 89.5501 119.12 88.5464 118.659C69.3521 109.84 51.8874 109.871 34.3696 118.63C33.3816 119.124 32.1803 118.724 31.6863 117.736C31.1923 116.748 31.5927 115.546 32.5807 115.052C40.5091 111.088 48.447 108.812 56.5023 108.213C56.5107 108.061 56.5366 107.909 56.5813 107.757L66.6676 73.5283L59.1016 71.4004C58.3078 71.1771 57.7144 70.5419 57.555 69.7448L56.0629 62.2839L50.3942 67.5748C49.7859 68.1426 48.9202 68.349 48.1351 68.1134L32.4654 63.4125C31.584 63.1481 30.971 62.3784 30.9178 61.4694L30.3969 52.5599C30.3621 51.964 30.6003 51.4071 31.0052 51.0094C31.0362 50.9294 31.0709 50.8497 31.1095 50.7705C36.2465 40.2321 52.2444 22.6038 79.5101 28.8049C79.6011 28.8209 79.6954 28.8387 79.7929 28.8584L80.5204 26.7408C80.8793 25.6962 82.0171 25.1403 83.0617 25.4992ZM34.6126 55.3959L34.8794 59.9602L48.4238 64.0235L52.1857 60.5123L34.6126 55.3959ZM60.3178 62.88L79.6797 68.5173L76.0682 72.0191L70.0775 70.3342C69.9693 70.2792 69.8546 70.2333 69.7341 70.1978C69.5969 70.1574 69.4589 70.1323 69.3219 70.1217L61.3157 67.8699L60.3178 62.88ZM87.929 70.9191L89.3899 75.3017L103.149 79.4295L106.068 76.2004L87.929 70.9191ZM59.0023 58.3309L81.9368 65.0084C81.1839 50.4326 80.6992 45.6608 80.0604 39.3718C79.9315 38.1035 79.7964 36.7735 79.6516 35.2889C66.4879 49.2796 65.0127 50.9176 59.0023 58.3309ZM54.8702 57.1279C62.1119 48.1795 62.901 47.257 76.9266 32.3497C54.0644 27.9668 40.3335 42.0447 35.2712 51.4215L54.8702 57.1279Z"
+                                                        fill="black"
+                                                    ></path>
+                                                </svg>
+                                            </div>
+                                            <h4
+                                                class="style__Title-sc-8k6wct-2"
+                                            >
+                                                Holidays and Time Off
+                                            </h4>
+                                            <p
+                                                class="style__Text-sc-8k6wct-3 jiNCtj"
+                                            >
+                                                Taking time off and recharging
+                                                is critical to doing your best
+                                                work, and we want all teammates
+                                                to feel great about taking
+                                                restorative time away. For this
+                                                reason, the minimum time-off
+                                                policy is at least 3 weeks (15
+                                                work days) throughout the year,
+                                                in addition to any public or
+                                                religious holidays teammates
+                                                observe.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="style__Col-sc-4ezsn2-3 ljMGxk">
+                                    <div class="style__Card-sc-8k6wct-0 jdSQUb">
+                                        <div
+                                            class="style__CardInner-sc-8k6wct-1 hdMVPX"
+                                        >
+                                            <div
+                                                class="style__Icon-sc-8k6wct-4 cYJXJq"
+                                            >
+                                                <svg
+                                                    viewBox="0 0 144 144"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path
+                                                        fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M51.0316 37.5854C44.207 35.3124 37.796 36.3604 33.7375 40.2289L33.7375 40.2289C25.2291 48.3387 25.0486 62.4203 34.6588 80.7447C34.669 80.7643 34.6791 80.7841 34.6888 80.804C37.9046 87.3716 43.7385 94.0944 50.7031 100.39C57.2305 106.289 64.6291 111.705 71.4984 116.149C78.3676 111.705 85.7663 106.289 92.2937 100.39C99.2583 94.0944 105.092 87.3716 108.308 80.804C108.317 80.7862 108.326 80.7686 108.335 80.751L108.338 80.7443C117.953 62.4201 117.772 48.339 109.26 40.2293L109.259 40.2289C105.201 36.3604 98.7898 35.3124 91.9652 37.5854C85.1761 39.8465 78.2272 45.3569 73.6236 54.1309C73.2091 54.9209 72.3906 55.4158 71.4984 55.4158C70.6062 55.4158 69.7877 54.9209 69.3732 54.1309C64.7696 45.3569 57.8207 39.8465 51.0316 37.5854ZM71.4984 48.2734C66.4426 40.5153 59.5561 35.3653 52.5484 33.0313C44.5358 30.3627 36.1096 31.3366 30.4257 36.7544C19.4637 47.2029 20.5409 64.1446 30.3926 82.9449C33.9986 90.2939 40.334 97.4875 47.4845 103.95C54.6721 110.447 62.8237 116.33 70.2111 121.025C70.9967 121.525 72.0001 121.525 72.7857 121.025C80.173 116.33 88.3247 110.447 95.5123 103.95C102.663 97.4875 108.998 90.2941 112.604 82.9452C122.46 64.1448 123.538 47.2026 112.571 36.754C106.887 31.3366 98.4608 30.3628 90.4484 33.0313C83.4407 35.3653 76.5542 40.5153 71.4984 48.2734Z"
+                                                        fill="#231F20"
+                                                    ></path>
+                                                </svg>
+                                            </div>
+                                            <h4
+                                                class="style__Title-sc-8k6wct-2"
+                                            >
+                                                Wellness day
+                                            </h4>
+                                            <p
+                                                class="style__Text-sc-8k6wct-3 jiNCtj"
+                                            >
+                                                We&#x27;re a founding partner of
+                                                a program called Unsick Day that
+                                                encourages employees to take at
+                                                least one dedicated day per year
+                                                for preventive care. We invite
+                                                teammates to take at least one
+                                                day per year to schedule
+                                                preventive care appointments,
+                                                such as annual physicals, vision
+                                                exams, and dental cleanings.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="style__Col-sc-4ezsn2-3 ljMGxk">
+                                    <div class="style__Card-sc-8k6wct-0 jdSQUb">
+                                        <div
+                                            class="style__CardInner-sc-8k6wct-1 hdMVPX"
+                                        >
+                                            <div
+                                                class="style__Icon-sc-8k6wct-4 cYJXJq"
+                                            >
+                                                <svg
+                                                    viewBox="0 0 144 144"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path
+                                                        fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M89.1244 55.0357C92.4675 48.7359 93.6704 41.4066 88.452 36.5102C85.5274 33.7651 81.4745 33.5115 78.1105 34.6148C76.2923 35.2111 74.5436 36.2257 72.9995 37.6144C71.4554 36.2257 69.7066 35.2111 67.8884 34.6148C64.5244 33.5115 60.4716 33.7651 57.5469 36.5102C52.3302 41.4065 53.5326 48.7354 56.8744 55.0353C58.3066 57.8892 60.6871 60.483 63.1128 62.6419C65.6006 64.8561 68.3852 66.831 70.8775 68.3907C72.1755 69.2031 73.8234 69.2031 75.1215 68.3907C77.6137 66.831 80.3984 64.8561 82.8861 62.6419C85.3117 60.4831 87.6922 57.8894 89.1244 55.0357ZM72.9995 65C68.2861 62.0502 62.6298 57.6263 60.4301 53.2024C57.2888 47.3043 57.1431 42.3751 60.2844 39.4267C62.7023 37.1573 67.0659 37.6196 70.3812 40.6396C70.5178 40.7641 70.6527 40.8928 70.7855 41.026C71.9162 42.159 74.0827 42.159 75.2134 41.026C75.3463 40.8928 75.4811 40.7641 75.6177 40.6396C78.9331 37.6196 83.2967 37.1573 85.7146 39.4267C88.8573 42.3751 88.7115 47.3043 85.5688 53.2024C83.3691 57.6263 77.7128 62.0502 72.9995 65ZM69.4191 75.2295C68.5554 74.8783 66.7248 74.6051 63.1775 75.8821C51.3151 80.1525 44.4046 82.622 43.7276 82.8639L27.2811 89.8412C26.2643 90.2725 25.0903 89.7979 24.6589 88.7811C24.2275 87.7642 24.7021 86.5902 25.7189 86.1588L42.1921 79.1702C42.2414 79.1493 42.2937 79.1285 42.3527 79.1074C42.8199 78.9406 49.7595 76.4613 61.8226 72.1185C65.9018 70.6501 68.8212 70.6683 70.9258 71.5241C73.062 72.3927 73.9388 73.9609 74.256 74.5425C74.5206 75.0279 74.7339 75.5082 74.899 75.9822C74.9224 75.9219 74.9467 75.8617 74.9719 75.8016C75.6922 74.0902 77.1477 72.6515 79.515 72.0597C80.6585 71.7738 82.3444 71.5178 84.0391 72.3153C85.7758 73.1325 87.0491 74.8226 87.8974 77.3675C87.9029 77.3839 87.9081 77.4002 87.9131 77.4166L90.8676 86.7724C91.7009 88.642 91.6822 92.1465 88.4143 95.4145C86.9695 96.8592 85.9222 97.7772 85.16 98.4057C84.8532 98.6587 84.5923 98.8648 84.39 99.0247L84.2632 99.125C84.0221 99.3162 83.9446 99.3841 83.9143 99.4145C83.1332 100.196 81.8669 100.196 81.0858 99.4145C80.3048 98.6334 80.3048 97.3671 81.0858 96.586C81.3055 96.3663 81.5656 96.1592 81.7776 95.991L81.9197 95.8786C82.1207 95.7198 82.3437 95.5435 82.6153 95.3196C83.2781 94.773 84.2308 93.9411 85.5858 92.586C87.7734 90.3985 87.323 88.6404 87.213 88.3986C87.1739 88.3124 87.1185 88.1838 87.0691 88.0272L84.0963 78.6133C83.4462 76.6737 82.7231 76.1167 82.336 75.9346C81.9058 75.7321 81.3416 75.7261 80.4851 75.9402C79.3599 76.2215 78.8988 76.7829 78.6588 77.3532C78.3856 78.0024 78.3468 78.8269 78.4578 79.5754L80.7422 87.7994C81.076 89.0011 80.6315 90.284 79.6257 91.0215L72.6828 96.113C71.792 96.7663 70.5404 96.5737 69.8872 95.683C69.234 94.7922 69.4266 93.5406 70.3173 92.8874L76.7033 88.2044L74.7715 81.2499C74.4984 81.8888 74.151 82.452 73.7834 82.9368C72.4194 84.7362 70.6105 85.6785 70.4175 85.7772C70.4007 85.7858 70.3831 85.7946 70.364 85.8038L70.346 85.8123L70.3409 85.8147L61.9335 89.7711C59.2441 91.3561 58.5358 92.6627 58.3613 93.3482C58.1893 94.0236 58.4218 94.5495 58.6275 94.8375C58.6856 94.9189 58.9468 95.1844 59.6254 95.5848C60.261 95.9598 61.1093 96.3651 62.1477 96.7914C64.2219 97.6427 66.8791 98.5069 69.7267 99.3397C73.2715 100.377 76.8588 101.298 79.9339 102.088L79.9346 102.088C81.7097 102.544 83.3144 102.956 84.6421 103.322L102.92 90.8157L102.971 90.785C104.217 90.0375 105.871 89.1043 107.642 88.7823C109.57 88.4319 111.637 88.8085 113.414 90.5858C115.13 92.3015 115.441 94.5396 115.06 96.4315C114.688 98.2753 113.626 100.031 112.2 101.1L112.149 101.138L84.9654 118.948C83.3001 120.04 81.2491 120.37 79.3255 119.857L44.7168 110.628L27.3945 119.289C26.4065 119.783 25.2052 119.382 24.7112 118.394C24.2172 117.406 24.6176 116.205 25.6056 115.711L43.2668 106.881C43.9218 106.553 44.6739 106.476 45.3814 106.665L80.3561 115.992C81.1805 116.212 82.0596 116.07 82.7732 115.603L109.843 97.8674C110.402 97.4268 110.949 96.5828 111.138 95.6414C111.323 94.7243 111.134 93.9624 110.586 93.4142C109.863 92.6916 109.18 92.5682 108.358 92.7178C107.392 92.8934 106.313 93.4474 105.08 94.1847L86.5189 106.884C85.7902 107.383 84.8776 107.541 84.0125 107.298C82.8212 106.964 81.1324 106.529 79.1877 106.028L79.1872 106.028C75.9962 105.206 72.1145 104.206 68.6038 103.179C65.7112 102.333 62.8967 101.423 60.6288 100.492C59.4962 100.027 58.4558 99.539 57.5928 99.0299C56.7728 98.5461 55.9254 97.9364 55.3726 97.1625C54.7064 96.2299 53.9389 94.5057 54.4849 92.3613C55.0268 90.2332 56.743 88.1679 59.9923 86.2724L60.0686 86.2279L68.6121 82.2075C68.6799 82.1711 68.9511 82.021 69.3019 81.7647C69.7206 81.4589 70.2042 81.037 70.5958 80.5204C70.9832 80.0093 71.2459 79.4529 71.3188 78.848C71.3892 78.2643 71.3025 77.4814 70.7441 76.4576C70.5613 76.1223 70.2514 75.5679 69.4191 75.2295Z"
+                                                        fill="black"
+                                                    ></path>
+                                                </svg>
+                                            </div>
+                                            <h4
+                                                class="style__Title-sc-8k6wct-2"
+                                            >
+                                                Compassionate Leave
+                                            </h4>
+                                            <p
+                                                class="style__Text-sc-8k6wct-3 jiNCtj"
+                                            >
+                                                In times of loss of a loved one,
+                                                we suggest teammates take at
+                                                least 3-5 days off for
+                                                bereavement leave. Additionally,
+                                                we offer caregiver leave for
+                                                team members who are providing
+                                                eldercare or are caring for sick
+                                                family members or partners.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="style__Col-sc-4ezsn2-3 ljMGxk">
+                                    <div class="style__Card-sc-8k6wct-0 jdSQUb">
+                                        <div
+                                            class="style__CardInner-sc-8k6wct-1 hdMVPX"
+                                        >
+                                            <div
+                                                class="style__Icon-sc-8k6wct-4 cYJXJq"
+                                            >
+                                                <svg
+                                                    viewBox="0 0 144 144"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path
+                                                        d="M116.394 53.5811L94.6152 31.6292C93.5746 30.5791 92.1873 30 90.7111 30C89.5464 30 88.4147 30.3718 87.477 31.0545L86.873 31.4011L58.8497 35.2798C58.2079 35.3037 57.5861 35.4061 56.9919 35.5756L56.0085 34.6453C55.9681 34.6071 55.9268 34.5696 55.8848 34.5334C54.8848 33.6676 53.6078 33.1909 52.2884 33.1909C50.8126 33.1909 49.4253 33.77 48.383 34.8217L26.6066 56.7707C24.6596 58.7345 24.4576 61.8731 26.1354 64.0723C26.1934 64.1476 26.2538 64.2213 26.3167 64.2922L35.661 74.7897C35.9637 76.0594 36.3789 77.3678 36.8976 78.7087C34.6312 81.4558 34.774 85.5503 37.3313 88.1247C37.3356 88.1291 37.34 88.1332 37.3444 88.1376L37.3748 88.1678C38.6581 89.4545 40.3531 90.171 42.1593 90.2031C42.1258 90.4845 42.1026 90.7677 42.1026 91.0554C42.1026 92.9215 42.8233 94.6757 44.1323 95.9974L44.1602 96.0258C44.1646 96.0302 44.1686 96.0346 44.173 96.039C45.487 97.3613 47.234 98.09 49.0925 98.09C49.3079 98.09 49.5208 98.0781 49.7327 98.0585C49.7534 98.0822 49.7756 98.1058 49.7966 98.1297C49.7929 98.2246 49.7828 98.3185 49.7828 98.4136C49.7828 100.28 50.5039 102.035 51.8132 103.356L51.842 103.386C51.846 103.39 51.8498 103.394 51.8539 103.398C53.1676 104.72 54.9146 105.448 56.773 105.448C56.7777 105.448 56.7821 105.447 56.7868 105.447L57.4499 106.115C57.5269 107.866 58.2329 109.502 59.4727 110.75C59.4806 110.758 59.4887 110.766 59.4965 110.774L59.5206 110.798C60.7579 112.036 62.3784 112.741 64.1114 112.818L65.9444 114.663C67.4419 116.17 69.4375 117 71.5633 117C74.0098 117 76.2834 115.893 77.8012 113.963C78.6265 112.914 79.1459 111.71 79.3672 110.463L80.5184 111.622C82.0391 113.152 84.1395 114.03 86.281 114.03C88.0493 114.03 89.7788 113.428 91.151 112.335C92.6754 111.121 93.6976 109.391 94.0407 107.487C95.511 108.753 97.4114 109.468 99.345 109.468C101.113 109.468 102.843 108.866 104.215 107.773C105.993 106.357 107.088 104.239 107.219 101.962C107.341 99.8468 106.626 97.7743 105.246 96.2012C106.522 95.9747 107.732 95.435 108.747 94.6269C110.526 93.2107 111.621 91.0925 111.752 88.8159C111.883 86.5352 111.042 84.3042 109.443 82.6952L106.49 79.7232C106.597 79.6155 106.7 79.5027 106.795 79.3811C112.325 72.2897 115.303 67.014 116.401 62.3464C116.487 62.1939 116.564 62.0351 116.628 61.8713L117.238 60.3249C118.498 58.1775 118.181 55.3832 116.394 53.5811ZM42.2842 86.4287C41.4655 86.4287 40.6471 86.1143 40.0219 85.4857L39.9881 85.452C38.7392 84.1949 38.7392 82.1561 39.9881 80.8994L42.4908 78.3808C43.1154 77.7519 43.9338 77.4375 44.7529 77.4375C45.5719 77.4375 46.3906 77.7519 47.0158 78.3808L47.0487 78.4145C48.2985 79.6716 48.2985 81.7103 47.0487 82.9674L44.5465 85.4857C43.9216 86.1139 43.1029 86.4287 42.2842 86.4287ZM51.3551 93.3657C50.7302 93.9946 49.9115 94.309 49.0925 94.309C48.2738 94.309 47.4551 93.9946 46.8298 93.3657L46.7967 93.332C45.5471 92.0746 45.5471 90.0364 46.7967 88.779L52.7177 82.8206C53.3429 82.1917 54.1616 81.8773 54.9806 81.8773C55.7996 81.8773 56.6184 82.1917 57.2433 82.8206L57.2768 82.854C58.526 84.1114 58.526 86.1502 57.2768 87.4069L51.3551 93.3657ZM59.035 100.724C58.4108 101.353 57.592 101.667 56.773 101.667C55.954 101.667 55.1353 101.353 54.5107 100.724L54.4769 100.69C53.2274 99.4331 53.2274 97.3944 54.4769 96.137L58.3087 92.2803C58.9336 91.6518 59.752 91.3376 60.571 91.3376C61.3897 91.3376 62.2084 91.6518 62.8337 92.2803L62.8675 92.3143C64.1164 93.5714 64.1164 95.6105 62.8675 96.8676L59.035 100.724ZM64.4251 109.053C63.6063 109.053 62.7879 108.738 62.163 108.11L62.1292 108.076C60.8794 106.819 60.8794 104.78 62.1292 103.523L63.8722 101.769C64.4971 101.14 65.3158 100.826 66.1348 100.826C66.9535 100.826 67.7725 101.14 68.3974 101.769L68.4309 101.803C69.6798 103.06 69.6798 105.099 68.4309 106.356L66.6877 108.11C66.0625 108.738 65.2438 109.053 64.4251 109.053ZM74.8557 111.617C74.0154 112.685 72.7897 113.219 71.5636 113.219C70.4898 113.219 69.4159 112.809 68.6013 111.99L68.2775 111.664C68.657 111.409 69.0142 111.115 69.3439 110.783L71.0865 109.03C72.3138 107.794 72.9797 106.208 73.0962 104.589L74.4362 105.937C75.9546 107.464 76.1882 109.923 74.8557 111.617ZM106.786 85.3682C108.531 87.1237 108.408 90.0755 106.416 91.6622C105.67 92.2564 104.775 92.5409 103.878 92.5409C102.749 92.5409 101.617 92.091 100.772 91.24L85.5816 75.9538C85.1871 75.5569 84.6705 75.3584 84.1536 75.3584C83.637 75.3584 83.1198 75.5569 82.7256 75.9538C81.927 76.7573 81.927 78.06 82.7256 78.8631L102.254 98.5147C103.998 100.27 103.875 103.222 101.883 104.809C101.137 105.403 100.243 105.687 99.345 105.687C98.2166 105.687 97.0842 105.237 96.2389 104.387L76.8024 84.8272C76.403 84.4252 75.8792 84.2239 75.3551 84.2239C74.8313 84.2239 74.3075 84.4252 73.9077 84.8272C73.12 85.6199 73.12 86.9051 73.9077 87.6974L89.1895 103.076C90.934 104.831 90.8107 107.783 88.8192 109.37C88.0731 109.964 87.1786 110.248 86.281 110.248C85.1527 110.248 84.0205 109.798 83.1749 108.947L67.3831 93.0554C67.105 91.8033 66.4898 90.6127 65.524 89.6404L65.4898 89.6061C64.3997 88.5097 63.0106 87.8294 61.5096 87.6269C61.808 86.8395 61.9705 85.9983 61.9705 85.1303C61.9705 83.2607 61.247 81.5024 59.9333 80.1804C59.9295 80.1766 59.9258 80.1728 59.922 80.169L59.8926 80.1398C58.5795 78.8215 56.835 78.0959 54.9803 78.0959C53.7515 78.0959 52.5743 78.4205 51.5361 79.0188C51.239 77.7954 50.6241 76.67 49.719 75.7547L49.6964 75.7317C49.6883 75.7235 49.6801 75.715 49.672 75.7068C48.358 74.3845 46.611 73.6561 44.7525 73.6561C42.8938 73.6561 41.1468 74.3848 39.8331 75.7078L39.8221 75.7188C39.5795 74.9589 39.3735 74.2059 39.2129 73.4627C39.1562 73.2027 39.0476 72.9583 38.8863 72.7472L29.1154 61.7695C28.5781 61.0656 28.642 60.0701 29.2647 59.4418L51.0433 37.4912C51.3855 37.1459 51.836 36.9717 52.2887 36.9717C52.6961 36.9717 53.104 37.1131 53.4349 37.3995L53.6074 37.5624C52.1491 39.0063 51.2421 41.0123 51.2421 43.2285C51.2421 47.6056 54.7727 51.1677 59.1186 51.1831L72.9922 51.3602L106.786 85.3682ZM113.884 58.5786L113.136 60.4765C112.974 60.6876 112.866 60.9317 112.809 61.192C111.751 66.0789 108.021 71.6851 103.84 77.0465C98.5203 71.6936 74.5893 47.5993 74.5893 47.5993L59.1468 47.4021C56.8657 47.4021 54.9991 45.5237 54.9991 43.2282C54.9991 40.9326 56.8657 39.0545 59.1468 39.0545L88.1016 35.047C88.1047 35.0466 88.1075 35.0451 88.1097 35.0432L89.5643 34.2083C89.8952 33.9219 90.3032 33.7804 90.7105 33.7804C91.1626 33.7804 91.6137 33.955 91.9559 34.3L113.735 56.2506C114.358 56.8791 114.421 57.8747 113.884 58.5786Z"
+                                                        fill="black"
+                                                    ></path>
+                                                </svg>
+                                            </div>
+                                            <h4
+                                                class="style__Title-sc-8k6wct-2"
+                                            >
+                                                Volunteer Leave
+                                            </h4>
+                                            <p
+                                                class="style__Text-sc-8k6wct-3 jiNCtj"
+                                            >
+                                                Each team member is invited to
+                                                take one day per quarter to
+                                                volunteer or serve in any
+                                                capacity they like, such as
+                                                working with local food banks,
+                                                volunteering at animal shelters,
+                                                or any other initiative team
+                                                members feel passionate about.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="base__OldSectionRow-sc-18a07ey-2 bxVrAK">
+                            <section class="style__Flex-sc-4ezsn2-0 HeYin">
+                                <section class="style__Col-sc-4ezsn2-3 ljMGxk">
+                                    <div class="style__Card-sc-8k6wct-0 jdSQUb">
+                                        <div
+                                            class="style__CardInner-sc-8k6wct-1 hdMVPX"
+                                        >
+                                            <div
+                                                class="style__Icon-sc-8k6wct-4 cYJXJq"
+                                            >
+                                                <svg
+                                                    viewBox="0 0 144 144"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path
+                                                        fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M88.3138 53.8511H108.412C114.417 53.8511 119.3 58.7646 119.3 64.801V108.752C119.3 114.756 114.416 119.64 108.412 119.64H34.588C28.5841 119.64 23.7 114.756 23.7 108.752V64.801C23.7 58.7646 28.5824 53.8511 34.588 53.8511H54.6863V51.4574C54.6863 47.0816 58.2457 43.5223 62.6212 43.5225H81.3445C82.5348 43.5225 83.5 44.4875 83.5 45.6779C83.5 46.8684 82.5348 47.8334 81.3445 47.8334H62.6212C60.6233 47.8334 58.9973 49.4594 58.9973 51.4574V53.8511H84.0028V51.4574C84.0028 50.2669 84.968 49.3019 86.1583 49.3019C87.3485 49.3019 88.3138 50.2669 88.3138 51.4574V53.8511ZM39.8859 115.236H46.5223V58.1619H34.588C30.9642 58.1619 28.0109 61.138 28.0109 64.801V108.752C28.0109 112.378 30.9617 115.329 34.588 115.329H35.575V75.2727C35.575 74.0822 36.5402 73.1172 37.7304 73.1172C38.9207 73.1172 39.8859 74.0822 39.8859 75.2727V115.236ZM50.8332 115.236H103.114V58.1621H96.4778V98.095C96.4778 99.2855 95.5126 100.251 94.3224 100.251C93.1321 100.251 92.1669 99.2855 92.1669 98.095V58.1621H50.8332V115.236ZM108.412 115.329C112.038 115.329 114.989 112.378 114.989 108.752V64.8012C114.989 61.1381 112.036 58.1621 108.412 58.1621H107.425V115.329H108.412ZM60.3456 96.7959C60.3456 95.6054 61.3108 94.6404 62.5011 94.6404C67.2195 94.6404 71.0579 98.4784 71.0579 103.197C71.0579 104.388 70.0927 105.353 68.9024 105.353C68.7924 105.353 68.6881 105.342 68.5912 105.328C67.5491 105.177 66.747 104.282 66.747 103.197C66.747 100.856 64.8421 98.9513 62.5011 98.9513C61.4158 98.9513 60.5216 98.1492 60.3702 97.107L60.3456 96.7959ZM61.7304 111.839C62.913 111.974 63.9811 111.124 64.1157 109.941L64.1263 109.629C64.0938 108.577 63.2959 107.678 62.2176 107.556C59.8915 107.291 58.2142 105.183 58.4787 102.857C58.6014 101.779 57.9055 100.8 56.8871 100.532C56.7924 100.507 56.69 100.484 56.5807 100.472C55.3981 100.337 54.33 101.187 54.1954 102.37C53.6621 107.059 57.0422 111.306 61.7304 111.839ZM71.9669 77.4737L74.7474 69.9724L84.1721 73.4658L81.3917 80.9671L71.9669 77.4737ZM72.0394 65.7692C72.2314 65.2513 72.8068 64.9872 73.3246 65.1791L88.3753 70.7579C88.8932 70.9498 89.1574 71.5252 88.9654 72.0431L84.0996 85.1703C83.9077 85.6882 83.3323 85.9524 82.8144 85.7604L67.7637 80.1816C67.2459 79.9897 66.9817 79.4143 67.1736 78.8964L72.0394 65.7692Z"
+                                                        fill="black"
+                                                    ></path>
+                                                </svg>
+                                            </div>
+                                            <h4
+                                                class="style__Title-sc-8k6wct-2"
+                                            >
+                                                Sabbatical Leave
+                                            </h4>
+                                            <p
+                                                class="style__Text-sc-8k6wct-3 jiNCtj"
+                                            >
+                                                After every 5 years of working
+                                                at Buffer, teammates are invited
+                                                to take a fully paid sabbatical.
+                                                Sabbatical time can be spent
+                                                however a teammate likes: from
+                                                extensive travel, to working on
+                                                a side project, achieving a life
+                                                goal, time with family, or
+                                                something else altogether.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="style__Col-sc-4ezsn2-3 ljMGxk">
+                                    <div class="style__Card-sc-8k6wct-0 jdSQUb">
+                                        <div
+                                            class="style__CardInner-sc-8k6wct-1 hdMVPX"
+                                        >
+                                            <div
+                                                class="style__Icon-sc-8k6wct-4 cYJXJq"
+                                            >
+                                                <svg
+                                                    viewBox="0 0 144 144"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path
+                                                        d="M117.995 57.7576C111.961 38.2292 93.7387 24 72.2547 24C50.7705 24 32.5482 38.2292 26.5143 57.7579C20.351 59.5921 16 65.3311 16 71.8622C16 78.393 20.351 84.1319 26.5141 85.9662C32.548 105.495 50.7705 119.725 72.2547 119.725C93.7389 119.725 111.961 105.495 117.995 85.9666C124.16 84.1341 128.512 78.3954 128.512 71.8622C128.512 65.3286 124.159 59.5899 117.995 57.7576ZM25.2402 80.8401C22.189 78.97 20.1981 75.5973 20.1981 71.862C20.1981 68.1265 22.1888 64.7538 25.2404 62.8839C24.686 65.7934 24.3922 68.7939 24.3922 71.8622C24.3922 74.9306 24.6858 77.931 25.2402 80.8401ZM72.2547 115.527C48.1783 115.527 28.5905 95.9388 28.5905 71.8624C28.5905 55.2118 37.9602 40.7104 51.7022 33.3475C53.7898 37.7897 60.3566 48.9046 75.9227 55.1312C76.1783 55.2336 76.442 55.2819 76.7015 55.2819C77.5344 55.2819 78.3228 54.7827 78.6511 53.9617C79.0816 52.8854 78.5579 51.6638 77.4814 51.2331C63.3379 45.5756 55.5061 31.54 55.5061 31.54C55.5061 31.54 65.4671 28.3866 70.9074 28.2209C72.3621 31.1715 76.5391 38.0984 85.1698 42.0216C85.4517 42.1497 85.7466 42.2102 86.0371 42.2102C86.835 42.2102 87.5978 41.7529 87.9496 40.9791C88.4293 39.9237 87.9626 38.6795 86.9071 38.1997C81.0921 35.5566 77.6025 31.2341 75.7942 28.3427C98.2213 30.1508 115.918 48.978 115.918 71.8627C115.919 95.9388 96.3315 115.527 72.2547 115.527ZM119.268 80.8418C119.823 77.9321 120.117 74.931 120.117 71.8624C120.117 68.7937 119.823 65.7921 119.268 62.8822C122.321 64.7509 124.313 68.1243 124.313 71.8622C124.313 75.5997 122.322 78.9731 119.268 80.8418Z"
+                                                        fill="black"
+                                                    ></path>
+                                                    <path
+                                                        d="M54.281 69.29C49.2621 69.29 45.1792 73.373 45.1792 78.3918C45.1792 79.551 46.1188 80.4909 47.2782 80.4909C48.4376 80.4909 49.3773 79.551 49.3773 78.3918C49.3773 75.6878 51.577 73.4883 54.2808 73.4883C56.9846 73.4883 59.1845 75.688 59.1845 78.3918C59.1845 79.551 60.1241 80.4909 61.2835 80.4909C62.4429 80.4909 63.3826 79.551 63.3826 78.3918C63.383 73.373 59.2998 69.29 54.281 69.29Z"
+                                                        fill="black"
+                                                    ></path>
+                                                    <path
+                                                        d="M90.2285 69.29C85.2096 69.29 81.1265 73.373 81.1265 78.3918C81.1265 79.551 82.0661 80.4909 83.2255 80.4909C84.3851 80.4909 85.3246 79.551 85.3246 78.3918C85.3246 75.6878 87.5242 73.4883 90.2283 73.4883C92.9325 73.4883 95.132 75.688 95.132 78.3918C95.132 79.551 96.0716 80.4909 97.231 80.4909C98.3906 80.4909 99.33 79.551 99.33 78.3918C99.33 73.373 95.2473 69.29 90.2285 69.29Z"
+                                                        fill="black"
+                                                    ></path>
+                                                    <path
+                                                        d="M85.1025 92.5193C84.2824 91.6996 82.9536 91.6996 82.1335 92.5193C76.7982 97.8546 68.117 97.8546 62.7817 92.5193C61.9616 91.6996 60.6328 91.6996 59.8132 92.5193C58.9933 93.339 58.9933 94.6682 59.8132 95.4877C63.1929 98.8674 67.6837 100.729 72.458 100.729C77.2322 100.729 81.7228 98.8676 85.1028 95.4877C85.9224 94.668 85.9224 93.339 85.1025 92.5193Z"
+                                                        fill="black"
+                                                    ></path>
+                                                    <path
+                                                        d="M75.0558 81.428H69.4538C68.2942 81.428 67.3547 82.3678 67.3547 83.527C67.3547 84.6862 68.2946 85.6261 69.4538 85.6261H75.0558C76.2155 85.6261 77.1549 84.6862 77.1549 83.527C77.1549 82.3678 76.2152 81.428 75.0558 81.428Z"
+                                                        fill="black"
+                                                    ></path>
+                                                </svg>
+                                            </div>
+                                            <h4
+                                                class="style__Title-sc-8k6wct-2"
+                                            >
+                                                Family Leave
+                                            </h4>
+                                            <p
+                                                class="style__Text-sc-8k6wct-3 jiNCtj"
+                                            >
+                                                Having a new member of the
+                                                family is exciting and we want
+                                                team members to feel as present
+                                                as possible with their child. We
+                                                ask all parents to take 16 weeks
+                                                of fully paid time off, and aim
+                                                to support all the different
+                                                ways families might need time to
+                                                support a new addition -
+                                                including adoption, surrogacy or
+                                                foster care.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="style__Col-sc-4ezsn2-3 ljMGxk">
+                                    <div class="style__Card-sc-8k6wct-0 jdSQUb">
+                                        <div
+                                            class="style__CardInner-sc-8k6wct-1 hdMVPX"
+                                        >
+                                            <div
+                                                class="style__Icon-sc-8k6wct-4 cYJXJq"
+                                            >
+                                                <svg
+                                                    width="100%"
+                                                    height="100%"
+                                                    viewBox="0 0 60 60"
+                                                    version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    space="preserve"
+                                                    serif="http://www.serif.com/"
+                                                    fill-rule="evenodd"
+                                                    clip-rule="evenodd"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    stroke-miterlimit="3"
+                                                >
+                                                    <path
+                                                        id="Team report"
+                                                        fill="none"
+                                                        d="M0 0h60v60H0z"
+                                                    ></path>
+                                                    <g fill="none">
+                                                        <path
+                                                            d="M-.281.117h60v60h-60z"
+                                                        ></path>
+                                                        <path
+                                                            d="M42.263 17.851v-5.765H10.969v37.059h31.294v-4.118"
+                                                            stroke="#231f20"
+                                                            stroke-width="2px"
+                                                        ></path>
+                                                        <path
+                                                            d="M42.263 25.536c2.243-4.261 6.832-5.464 9.075-3.333 2.243 2.13 2.139 5.691-.104 9.952-1.57 3.196-5.607 6.392-8.971 8.523-3.364-2.131-7.401-5.327-8.971-8.523-2.242-4.261-2.346-7.822-.104-9.952 2.243-2.131 6.832-.928 9.075 3.333z"
+                                                            stroke="#231f20"
+                                                            stroke-width="2px"
+                                                        ></path>
+                                                        <path
+                                                            d="M16.734 21.145h9.882M16.734 27.459h8.235M16.734 33.773H27.44M16.734 40.086h16.47"
+                                                            stroke="#231f20"
+                                                            stroke-width="2px"
+                                                            stroke-linejoin="miter"
+                                                        ></path>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <h4
+                                                class="style__Title-sc-8k6wct-2"
+                                            >
+                                                Personal or Disability Leave
+                                            </h4>
+                                            <p
+                                                class="style__Text-sc-8k6wct-3 jiNCtj"
+                                            >
+                                                Whenever a teammate is feeling
+                                                unwell, we want them to rest and
+                                                recuperate. Sick days can be
+                                                taken any time as needed and if
+                                                a teammate needs to take
+                                                additional time off due to
+                                                personal circumstances related
+                                                to health or wellbeing concerns,
+                                                we’ll pay up to a month (4
+                                                weeks) of leave.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="style__Col-sc-4ezsn2-3 ljMGxk">
+                                    <div class="style__Card-sc-8k6wct-0 jdSQUb">
+                                        <div
+                                            class="style__CardInner-sc-8k6wct-1 hdMVPX"
+                                        >
+                                            <div
+                                                class="style__Icon-sc-8k6wct-4 cYJXJq"
+                                            >
+                                                <svg
+                                                    viewBox="0 0 144 144"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path
+                                                        d="M44.6442 52.7583C45.5458 53.4805 46.8565 53.3384 47.5784 52.4368C53.5679 44.9739 62.4626 40.6956 71.9958 40.6956C81.5289 40.6956 90.4237 44.9739 96.4132 52.4368C96.8264 52.9502 97.4358 53.2173 98.0451 53.2173C98.5043 53.2173 98.9633 53.067 99.3474 52.7581C100.245 52.036 100.391 50.7212 99.6688 49.8239C92.882 41.3717 82.7979 36.5217 71.9958 36.5217C61.1936 36.5217 51.1054 41.3717 44.3228 49.8239C43.6006 50.7214 43.7468 52.0362 44.6442 52.7583Z"
+                                                        fill="black"
+                                                    ></path>
+                                                    <path
+                                                        d="M80.3478 82.4348C81.4998 82.4348 82.4348 81.4998 82.4348 80.3478V65.739H86.6086C87.7606 65.739 88.6956 64.804 88.6956 63.652C88.6956 62.5 87.7606 61.5652 86.6086 61.5652H74.0869C72.9349 61.5652 71.9999 62.5002 71.9999 63.6522C71.9999 64.8042 72.9349 65.7392 74.0869 65.7392H78.2607V80.3478C78.2607 81.4998 79.1958 82.4348 80.3478 82.4348Z"
+                                                        fill="black"
+                                                    ></path>
+                                                    <path
+                                                        d="M57.3914 67.8261V76.1739C57.3914 79.6258 60.2003 82.4348 63.6522 82.4348C67.1041 82.4348 69.9131 79.6258 69.9131 76.1739V67.8261C69.9131 64.3742 67.1041 61.5652 63.6522 61.5652C60.2003 61.5652 57.3914 64.3742 57.3914 67.8261ZM65.739 67.8261V76.1739C65.739 77.3259 64.804 78.261 63.652 78.261C62.5 78.261 61.5652 77.3259 61.5652 76.1739V67.8261C61.5652 66.6741 62.5002 65.739 63.6522 65.739C64.8042 65.739 65.739 66.6741 65.739 67.8261Z"
+                                                        fill="black"
+                                                    ></path>
+                                                    <path
+                                                        d="M94.6977 93.5206C88.7123 99.8274 80.6524 103.304 72.0042 103.304C63.3558 103.304 55.2961 99.8315 49.3107 93.5206C48.5218 92.6857 47.1986 92.6525 46.3597 93.4413C45.5207 94.2343 45.4873 95.5534 46.2804 96.3924C53.0588 103.542 62.1956 107.478 72.0001 107.478C81.8046 107.478 90.9413 103.542 97.7281 96.3924C98.517 95.5534 98.4835 94.2302 97.6489 93.4413C96.8138 92.6525 95.4906 92.6857 94.6977 93.5206Z"
+                                                        fill="black"
+                                                    ></path>
+                                                    <path
+                                                        d="M71.9999 24C45.5333 24 24 45.5333 24 71.9999C24 98.4665 45.5333 120 71.9999 120C98.4665 120 120 98.4665 120 71.9999C120 45.5333 98.4667 24 71.9999 24ZM71.9999 115.826C47.833 115.826 28.1738 96.1668 28.1738 71.9999C28.1738 47.833 47.833 28.1738 71.9999 28.1738C96.1668 28.1738 115.826 47.833 115.826 71.9999C115.826 96.1668 96.1668 115.826 71.9999 115.826Z"
+                                                        fill="black"
+                                                    ></path>
+                                                    <path
+                                                        d="M101.217 78.2608H94.9565V74.0869H97.0435C98.1955 74.0869 99.1306 73.1519 99.1306 71.9999C99.1306 70.8479 98.1955 69.9129 97.0435 69.9129H94.9565V65.739H101.217C102.369 65.739 103.304 64.804 103.304 63.652C103.304 62.5 102.369 61.5652 101.217 61.5652H92.8695C91.7175 61.5652 90.7825 62.5002 90.7825 63.6522V80.3478C90.7825 81.4998 91.7175 82.4348 92.8695 82.4348H101.217C102.369 82.4348 103.304 81.4998 103.304 80.3478C103.304 79.1958 102.369 78.2608 101.217 78.2608Z"
+                                                        fill="black"
+                                                    ></path>
+                                                    <path
+                                                        d="M46.823 81.0824L53.0839 64.3868C53.4887 63.3059 52.942 62.1038 51.8651 61.6988C50.7799 61.2981 49.5821 61.8365 49.1771 62.9175L44.8696 74.404L40.5621 62.9175C40.1573 61.8406 38.9552 61.3022 37.8741 61.6988C36.7972 62.1036 36.2503 63.3057 36.6553 64.3868L42.9162 81.0824C43.2208 81.8963 44.0015 82.4347 44.8696 82.4347C45.7377 82.4347 46.5182 81.8963 46.823 81.0824Z"
+                                                        fill="black"
+                                                    ></path>
+                                                </svg>
+                                            </div>
+                                            <h4
+                                                class="style__Title-sc-8k6wct-2"
+                                            >
+                                                Local Election Day
+                                            </h4>
+                                            <p
+                                                class="style__Text-sc-8k6wct-3 jiNCtj"
+                                            >
+                                                Buffer wants team members to
+                                                vote and we understand that it
+                                                takes time to do so. We
+                                                encourage team members to
+                                                consider their local election
+                                                day a holiday and to take time
+                                                off for voting and any election
+                                                activities they&#x27;d like.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    id="transparency"
+                    class="base__OldSection-sc-18a07ey-0 eWFEKl"
+                >
+                    <div class="base__OldContainer-sc-18a07ey-1 jjNVsi">
+                        <div
+                            class="timeoff__TwoColumnWrapper-sc-1l1uqn8-1 cAollL"
+                        >
+                            <div>
+                                <h2>Our minimum 3-week vacation policy</h2>
+                                <p>
+                                    Over the years we&#x27;ve evolved our
+                                    approach to vacation and time off. We
+                                    currently have a minimum 3-week vacation
+                                    policy to encourage teammates to recharge
+                                    away from work.
+                                </p>
+                                <a
+                                    type="secondary"
+                                    href="https://buffer.com/resources/time-off-global-team/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="style__ButtonBase-sc-1i7hn34-0 jFgmun"
+                                    >Read Our Time off Philosophy</a
+                                >
+                            </div>
+                            <div>
+                                <h2>
+                                    How 4-day work weeks changed the way we work
+                                </h2>
+                                <p>
+                                    For many, 2020 was a stressful year as the
+                                    world we knew changed forever. In response,
+                                    we transitioned to a 4-day work week in an
+                                    effort to give teammates a better work-life
+                                    balance where they can spend time with their
+                                    families and take care of their mental
+                                    health and overall wellbeing.
+                                </p>
+                                <a
+                                    type="secondary"
+                                    href="https://buffer.com/resources/four-day-workweek-at-buffer/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="style__ButtonBase-sc-1i7hn34-0 jFgmun"
+                                    >Read Our 2022 Update</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="base__OldSection-sc-18a07ey-0 dDzXtP">
+                    <div class="base__OldContainer-sc-18a07ey-1 jjNVsi">
+                        <h2 class="style__Title-sc-1fa28nj-0 dQzsqR">
+                            Join growing businesses that use Buffer to build
+                            their brands
+                        </h2>
+                        <div class="style__ButtonWrapper-sc-1fa28nj-2 kTQrQY">
+                            <a
+                                type="cta"
+                                href="https://login.buffer.com/signup?product=publish&amp;plan=small&amp;cycle=month&amp;cta=bufferSite-revenue-revenueChart-sbp-1"
+                                class="style__ButtonBase-sc-1i7hn34-0 fdLwOw"
+                                >Start a free 14-day trial</a
+                            >
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            class="style__CtaBackgroundLeft-sc-1fa28nj-8 bcDpzL"
+                        ></div>
+                        <div
+                            class="style__CtaBackgroundRight-sc-1fa28nj-9 dkPaJv"
+                        ></div>
                     </div>
                 </section>
             </main>
@@ -2477,85 +2084,33 @@
 import * as echarts from 'echarts'
 import { ref, onMounted } from 'vue'
 
-const supportChart = ref(null)
+const timeoffChart = ref(null)
 
-const supportDatas = ref({
-    tooltip: {
-        trigger: 'item',
-        formatter: '{a} <br/>{b} : {c} ({d}%)',
-    },
-    legend: {
-        orient: 'horizontal',
-        left: 'center',
-        data: ['Direct', 'Email', 'Ad Networks', 'Video Ads', 'Search Engines'],
-    },
-    series: [
-        {
-            name: 'Traffic Sources',
-            type: 'pie',
-            radius: '85%',
-            center: ['50%', '45%'],
-            data: [
-                { value: 300, name: 'Direct', itemStyle: { color: '#89e5e8' } },
-                { value: 310, name: 'Email', itemStyle: { color: '#94ffcd' } },
-                {
-                    value: 234,
-                    name: 'Ad Networks',
-                    itemStyle: { color: '#ff9494' },
-                },
-                {
-                    value: 135,
-                    name: 'Video Ads',
-                    itemStyle: { color: '#9494ff' },
-                },
-                {
-                    value: 1548,
-                    name: 'Search Engines',
-                    itemStyle: { color: '#ff94ff' },
-                },
-            ],
-            emphasis: {
-                itemStyle: {
-                    shadowBlur: 10,
-                    shadowOffsetX: 0,
-                    shadowColor: 'rgba(0, 0, 0, 0.5)',
-                },
-            },
-        },
-    ],
-})
-
-const spentChart = ref(null)
-const spentDatas = ref({
-    backgroundColor: '#fff',
-    color: ['#37A2DA', '#32C5E9', '#67E0E3', '#9FE6B8'],
+const timeoffDatas = ref({
     tooltip: {
         trigger: 'axis',
+        axisPointer: {
+            type: 'shadow',
+        },
     },
     grid: {
-        left: '1%',
-        right: '3%',
-        bottom: '4%',
-        top: '3%',
-        containLabel: true, // 确保坐标轴标签显示在grid区域内
+        left: '0%',
+        right: '0%',
+        bottom: '0%',
+        containLabel: true,
     },
     xAxis: [
         {
             type: 'category',
-            boundaryGap: false,
             data: [
+                '2000',
+                '2012',
+                '2013',
                 '2014',
                 '2015',
                 '2016',
                 '2017',
                 '2018',
-                '2019',
-                '2020',
-                '2021',
-                '2022',
-                '2023',
-                '2024',
-                '2025',
             ],
         },
     ],
@@ -2566,135 +2121,22 @@ const spentDatas = ref({
     ],
     series: [
         {
-            name: '邮件',
-            type: 'line',
-            stack: '总量',
-            areaStyle: {
-                normal: {},
-            },
-            lineStyle: {
-                width: 0,
-            },
-            showSymbol: false,
-            data: [
-                120, 232, 201, 234, 390, 430, 510, 630, 710, 830, 910, 1030,
-                1110,
-            ],
-        },
-        {
-            name: '联盟',
-            type: 'line',
-            stack: '总量',
-            areaStyle: {
-                normal: {},
-            },
-            lineStyle: {
-                width: 0,
-            },
-            showSymbol: false,
-            data: [
-                220, 182, 291, 364, 440, 330, 410, 630, 710, 830, 910, 1030,
-                1110,
-            ],
-        },
-        {
-            name: '视频',
-            type: 'line',
-            stack: '总量',
-            areaStyle: {
-                normal: {},
-            },
-            lineStyle: {
-                width: 0,
-            },
-            showSymbol: false,
-            data: [
-                550, 332, 501, 554, 490, 730, 610, 830, 910, 1030, 1110, 1230,
-                1310,
-            ],
-        },
-        {
-            name: '搜索',
-            type: 'line',
-            stack: '总量',
-            areaStyle: {
-                normal: {},
-            },
-            lineStyle: {
-                width: 0,
-            },
-            showSymbol: false,
-            data: [
-                620, 732, 901, 734, 1290, 1330, 1320, 1530, 1610, 1730, 1810,
-                1930, 2010,
-            ],
-        },
-        {
-            name: '其他',
-            type: 'line',
-            stack: '总量',
-            areaStyle: {
-                normal: {},
-            },
-            lineStyle: {
-                width: 0,
-            },
-            showSymbol: false,
-            data: [
-                120, 172, 191, 334, 120, 400, 520, 630, 710, 830, 910, 1030,
-                1110,
-            ],
-        },
-    ],
-})
-
-const signupsChart = ref(null)
-const signupsDatas = ref({
-    grid: {
-        left: '1%',
-        right: '3%',
-        bottom: '4%',
-        top: '3%',
-        containLabel: true, // 确保坐标轴标签显示在grid区域内
-    },
-    xAxis: {
-        type: 'category',
-        boundaryGap: false,
-        data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-    },
-    yAxis: {
-        type: 'value',
-        splitLine: {
-            lineStyle: {
-                type: 'dashed', // 设置为虚线
-                color: '#ccc', // 虚线颜色
-                width: 1, // 虚线宽度
-                dashOffset: 2, // 虚线间隔
-            },
-        },
-    },
-    series: [
-        {
-            data: [820, 932, 901, 934, 1290, 1330, 1320],
-            type: 'line',
-            lineStyle: {
-                width: 0,
-            },
-            showSymbol: false,
-            areaStyle: {
-                color: '#9ba5fe',
+            name: 'Asia',
+            type: 'bar',
+            stack: 'Ad',
+            barWidth: 40,
+            data: [610.2, 1662.2, 1606, 1633.1, 1659.5, 1786, 1832.7, 1913.1],
+            itemStyle: {
+                color: '#9b38ff',
+                barBorderRadius: [10, 10, 0, 0],
             },
         },
     ],
 })
 
 onMounted(() => {
-    const myChart = echarts.init(supportChart.value)
-    myChart.setOption(supportDatas.value)
-    const spentBox = echarts.init(spentChart.value)
-    spentBox.setOption(spentDatas.value)
-    const signupsBox = echarts.init(signupsChart.value)
-    signupsBox.setOption(signupsDatas.value)
+    const chartBox = echarts.init(timeoffChart.value)
+    chartBox.setOption(timeoffDatas.value)
 })
 </script>
 
@@ -3112,10 +2554,8 @@ template {
 [hidden] {
     display: none;
 }
-</style>
 
-<style>
-.xekTB {
+.lhrzUY {
     padding-top: 50px;
     padding-bottom: 50px;
     position: relative;
@@ -3123,21 +2563,20 @@ template {
     -moz-scroll-margin-top: 40px;
     -ms-scroll-margin-top: 40px;
     scroll-margin-top: 40px;
-    padding-bottom: 0 !important;
 } /*!sc*/
 @media (min-width: 64em) {
-    .xekTB {
+    .lhrzUY {
         padding-top: 70px;
         padding-bottom: 70px;
     }
 } /*!sc*/
 @media (min-width: 90.063em) {
-    .xekTB {
+    .lhrzUY {
         padding-top: 90px;
         padding-bottom: 90px;
     }
 } /*!sc*/
-.eeGPBY {
+.cWAuTr {
     padding-top: 50px;
     padding-bottom: 50px;
     position: relative;
@@ -3145,62 +2584,18 @@ template {
     -moz-scroll-margin-top: 40px;
     -ms-scroll-margin-top: 40px;
     scroll-margin-top: 40px;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
+    background-color: #f5f5f5;
 } /*!sc*/
 @media (min-width: 64em) {
-    .eeGPBY {
+    .cWAuTr {
         padding-top: 70px;
         padding-bottom: 70px;
     }
 } /*!sc*/
 @media (min-width: 90.063em) {
-    .eeGPBY {
+    .cWAuTr {
         padding-top: 90px;
         padding-bottom: 90px;
-    }
-} /*!sc*/
-.gGqkBc {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    position: relative;
-    -webkit-scroll-margin-top: 40px;
-    -moz-scroll-margin-top: 40px;
-    -ms-scroll-margin-top: 40px;
-    scroll-margin-top: 40px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-} /*!sc*/
-@media (min-width: 64em) {
-    .gGqkBc {
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-} /*!sc*/
-@media (min-width: 90.063em) {
-    .gGqkBc {
-        padding-top: 90px;
-        padding-bottom: 90px;
-    }
-} /*!sc*/
-@media (min-width: 64em) {
-    .gGqkBc {
-        padding-top: 110px;
-    }
-} /*!sc*/
-@media (min-width: 90.063em) {
-    .gGqkBc {
-        padding-top: 160px;
-    }
-} /*!sc*/
-@media (min-width: 64em) {
-    .gGqkBc {
-        padding-bottom: 110px;
-    }
-} /*!sc*/
-@media (min-width: 90.063em) {
-    .gGqkBc {
-        padding-bottom: 160px;
     }
 } /*!sc*/
 .cwQNtO {
@@ -3235,7 +2630,7 @@ template {
         padding-top: 160px;
     }
 } /*!sc*/
-.lhrzUY {
+.eWFEKl {
     padding-top: 50px;
     padding-bottom: 50px;
     position: relative;
@@ -3243,21 +2638,69 @@ template {
     -moz-scroll-margin-top: 40px;
     -ms-scroll-margin-top: 40px;
     scroll-margin-top: 40px;
+    background-color: #f5f5f5;
+    padding-top: 70px;
 } /*!sc*/
 @media (min-width: 64em) {
-    .lhrzUY {
+    .eWFEKl {
         padding-top: 70px;
         padding-bottom: 70px;
     }
 } /*!sc*/
 @media (min-width: 90.063em) {
-    .lhrzUY {
+    .eWFEKl {
         padding-top: 90px;
         padding-bottom: 90px;
     }
 } /*!sc*/
+@media (min-width: 64em) {
+    .eWFEKl {
+        padding-top: 110px;
+    }
+} /*!sc*/
+@media (min-width: 90.063em) {
+    .eWFEKl {
+        padding-top: 160px;
+    }
+} /*!sc*/
+.dDzXtP {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    -webkit-scroll-margin-top: 40px;
+    -moz-scroll-margin-top: 40px;
+    -ms-scroll-margin-top: 40px;
+    scroll-margin-top: 40px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #2c4bff;
+} /*!sc*/
+@media (min-width: 64em) {
+    .dDzXtP {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+} /*!sc*/
+@media (min-width: 90.063em) {
+    .dDzXtP {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+} /*!sc*/
+@media (min-width: 64em) {
+    .dDzXtP {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+} /*!sc*/
+@media (min-width: 90.063em) {
+    .dDzXtP {
+        padding-top: 160px;
+        padding-bottom: 160px;
+    }
+} /*!sc*/
 data-styled.g1[id='base__OldSection-sc-18a07ey-0'] {
-    content: 'xekTB,eeGPBY,gGqkBc,cwQNtO,lhrzUY,';
+    content: 'lhrzUY,cWAuTr,cwQNtO,eWFEKl,dDzXtP,';
 } /*!sc*/
 .jjNVsi {
     margin: 0 auto;
@@ -3277,53 +2720,6 @@ data-styled.g1[id='base__OldSection-sc-18a07ey-0'] {
     .jjNVsi {
         width: auto;
         max-width: 1248px;
-    }
-} /*!sc*/
-.jLMFEd {
-    margin: 0 auto;
-    padding: 0 20px;
-    background-color: #eef1ff;
-} /*!sc*/
-@media (min-width: 37.5em) {
-    .jLMFEd {
-        padding: 0 35px;
-    }
-} /*!sc*/
-@media (min-width: 64em) {
-    .jLMFEd {
-        max-width: 1170px;
-    }
-} /*!sc*/
-@media (min-width: 90.063em) {
-    .jLMFEd {
-        width: auto;
-        max-width: 1170px;
-    }
-} /*!sc*/
-.bxrPvC {
-    margin: 0 auto;
-    padding: 0 20px;
-    max-width: 720px;
-} /*!sc*/
-@media (min-width: 37.5em) {
-    .bxrPvC {
-        padding: 0 35px;
-    }
-} /*!sc*/
-@media (min-width: 64em) {
-    .bxrPvC {
-        max-width: 1248px;
-    }
-} /*!sc*/
-@media (min-width: 90.063em) {
-    .bxrPvC {
-        width: auto;
-        max-width: 1248px;
-    }
-} /*!sc*/
-@media (min-width: 64em) {
-    .bxrPvC {
-        max-width: 700px;
     }
 } /*!sc*/
 .FQdnm {
@@ -3347,9 +2743,228 @@ data-styled.g1[id='base__OldSection-sc-18a07ey-0'] {
     }
 } /*!sc*/
 data-styled.g2[id='base__OldContainer-sc-18a07ey-1'] {
-    content: 'jjNVsi,jLMFEd,bxrPvC,FQdnm,';
+    content: 'jjNVsi,FQdnm,';
 } /*!sc*/
-.gbVVkx {
+.bxVrAK:first-of-type {
+    margin-bottom: 60px;
+} /*!sc*/
+@media (min-width: 90.063em) {
+    .bxVrAK:first-of-type {
+        margin-bottom: 70px;
+    }
+} /*!sc*/
+data-styled.g3[id='base__OldSectionRow-sc-18a07ey-2'] {
+    content: 'bxVrAK,';
+} /*!sc*/
+.ggtwlC {
+    width: 100%;
+} /*!sc*/
+.ggtwlC h2,
+.ggtwlC p {
+    text-align: center;
+} /*!sc*/
+data-styled.g4[id='timeoff__CenterText-sc-1l1uqn8-0'] {
+    content: 'ggtwlC,';
+} /*!sc*/
+.cAollL {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+} /*!sc*/
+@media (min-width: 64em) {
+    .cAollL {
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+} /*!sc*/
+.cAollL h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+} /*!sc*/
+.cAollL p {
+    margin-bottom: 30px;
+} /*!sc*/
+.cAollL > div {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+} /*!sc*/
+.cAollL > div:first-of-type {
+    margin-bottom: 50px;
+} /*!sc*/
+@media (min-width: 64em) {
+    .cAollL > div:first-of-type {
+        margin-right: 60px;
+    }
+} /*!sc*/
+data-styled.g5[id='timeoff__TwoColumnWrapper-sc-1l1uqn8-1'] {
+    content: 'cAollL,';
+} /*!sc*/
+.kETglv {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 0;
+} /*!sc*/
+@media (max-width: 64em) {
+    .kETglv {
+        color: black;
+        font-size: 20px;
+    }
+} /*!sc*/
+.cBOQTR {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 0;
+} /*!sc*/
+@media (max-width: 64em) {
+    .cBOQTR {
+        color: #b8b8b8;
+        font-size: 20px;
+    }
+} /*!sc*/
+data-styled.g6[id='timeoff__DataHeader-sc-1l1uqn8-2'] {
+    content: 'kETglv,cBOQTR,';
+} /*!sc*/
+.bWpIqq {
+    background-size: cover;
+    background-position: center;
+} /*!sc*/
+@media (max-width: 50.68em) {
+    .bWpIqq {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 40px;
+        padding: 0px 0px 40px;
+    }
+} /*!sc*/
+data-styled.g7[id='timeoff__DataSection-sc-1l1uqn8-3'] {
+    content: 'bWpIqq,';
+} /*!sc*/
+.kEEnwM {
+    border: none;
+    padding: 20px;
+    width: 90%;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    border-top: solid #2c4bff 4px;
+} /*!sc*/
+@media (min-width: 50.75em) {
+    .kEEnwM {
+        border-top: none;
+        border-left: solid #2c4bff 4px;
+    }
+} /*!sc*/
+.ibMWYf {
+    border: none;
+    padding: 20px;
+    width: 90%;
+    cursor: pointer;
+    background-color: hsl(0 0% 100%);
+    border-top: solid #e0e0e0 1px;
+} /*!sc*/
+@media (min-width: 50.75em) {
+    .ibMWYf {
+        border-top: none;
+        border-left: solid white 4px;
+    }
+} /*!sc*/
+data-styled.g8[id='timeoff__StyledButton-sc-1l1uqn8-4'] {
+    content: 'kEEnwM,ibMWYf,';
+} /*!sc*/
+.iREwRV {
+    font-size: 16px;
+    font-family: var(--font-family-heading);
+} /*!sc*/
+@media (max-width: 64em) {
+    .iREwRV {
+        display: none;
+    }
+} /*!sc*/
+data-styled.g10[id='timeoff__DesktopText-sc-1l1uqn8-6'] {
+    content: 'iREwRV,';
+} /*!sc*/
+.bHXUyS {
+    color: black;
+    font-size: 14px;
+    font-family: var(--font-family-heading);
+} /*!sc*/
+@media not all and (max-width: 64em) {
+    .bHXUyS {
+        display: none;
+    }
+} /*!sc*/
+.lmuaEA {
+    color: #b8b8b8;
+    font-size: 14px;
+    font-family: var(--font-family-heading);
+} /*!sc*/
+@media not all and (max-width: 64em) {
+    .lmuaEA {
+        display: none;
+    }
+} /*!sc*/
+data-styled.g11[id='timeoff__TabletText-sc-1l1uqn8-7'] {
+    content: 'bHXUyS,lmuaEA,';
+} /*!sc*/
+.jdSQUb {
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+} /*!sc*/
+.jdSQUb:hover .learn-more {
+    visibility: visible;
+    opacity: 1;
+} /*!sc*/
+data-styled.g14[id='style__Card-sc-8k6wct-0'] {
+    content: 'jdSQUb,';
+} /*!sc*/
+.jiNCtj {
+    line-height: 1.7;
+    font-size: 1rem;
+} /*!sc*/
+.jiNCtj a {
+    line-height: 1.7;
+    font-size: 1rem;
+} /*!sc*/
+data-styled.g17[id='style__Text-sc-8k6wct-3'] {
+    content: 'jiNCtj,';
+} /*!sc*/
+.cYJXJq {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px;
+} /*!sc*/
+@media (min-width: 50.75em) {
+    .cYJXJq {
+        margin: 0 0 20px 0;
+    }
+} /*!sc*/
+data-styled.g18[id='style__Icon-sc-8k6wct-4'] {
+    content: 'cYJXJq,';
+} /*!sc*/
+.icyxht {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -3369,18 +2984,14 @@ data-styled.g2[id='base__OldContainer-sc-18a07ey-1'] {
     font-family: var(--font-family-heading);
 } /*!sc*/
 @media (min-width: 50.75em) {
-    .gbVVkx {
+    .icyxht {
         -webkit-box-pack: start;
         -webkit-justify-content: flex-start;
         -ms-flex-pack: start;
         justify-content: flex-start;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
     }
 } /*!sc*/
-.gbVVkx li {
+.icyxht li {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -3392,8 +3003,8 @@ data-styled.g2[id='base__OldContainer-sc-18a07ey-1'] {
     gap: 12px;
     margin: 0px;
 } /*!sc*/
-.gbVVkx li,
-.gbVVkx a {
+.icyxht li,
+.icyxht a {
     font-weight: 600;
     color: #b8b8b8;
     font-size: 14px;
@@ -3403,22 +3014,22 @@ data-styled.g2[id='base__OldContainer-sc-18a07ey-1'] {
     letter-spacing: 0;
 } /*!sc*/
 @media (min-width: 50.75em) {
-    .gbVVkx li,
-    .gbVVkx a {
+    .icyxht li,
+    .icyxht a {
         font-size: 19px;
     }
 } /*!sc*/
-.gbVVkx li:last-child a {
+.icyxht li:last-child a {
     color: #2c4bff;
 } /*!sc*/
-.gbVVkx li:last-child svg {
+.icyxht li:last-child svg {
     display: none;
 } /*!sc*/
-.gbVVkx svg {
+.icyxht svg {
     stroke-width: 2px;
 } /*!sc*/
 data-styled.g20[id='style__BreadCrumbs-sc-10uqxis-0'] {
-    content: 'gbVVkx,';
+    content: 'icyxht,';
 } /*!sc*/
 .iFAOkf {
     display: -webkit-box;
@@ -3602,8 +3213,202 @@ data-styled.g20[id='style__BreadCrumbs-sc-10uqxis-0'] {
     height: 25px;
     margin-right: 7px;
 } /*!sc*/
+.jFgmun {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 2.6;
+    font-weight: 400;
+    border-radius: var(--border-radius-full);
+    border: 0;
+    -webkit-letter-spacing: 0.3px;
+    -moz-letter-spacing: 0.3px;
+    -ms-letter-spacing: 0.3px;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    position: relative;
+    -webkit-transition-property: background-color, border-color, color,
+        box-shadow;
+    transition-property: background-color, border-color, color, box-shadow;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    min-width: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    height: 48px;
+    font-family: var(--font-family-sans);
+    background-color: #2c4bff;
+    color: hsl(0 0% 100%);
+    padding: 0 24px;
+    box-shadow: none;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    margin: auto;
+    border: 1px solid #2c4bff;
+    background-color: transparent;
+    color: #2c4bff;
+} /*!sc*/
+@media (min-width: 50.75em) {
+    .jFgmun {
+        margin: unset;
+    }
+} /*!sc*/
+.jFgmun:hover {
+    -webkit-transition-property: background-color, border-color, color;
+    transition-property: background-color, border-color, color;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    background-color: #1f35b3;
+} /*!sc*/
+.jFgmun:active {
+    top: 1px;
+} /*!sc*/
+.jFgmun:focus {
+    box-shadow: 0 0 0 3px #abb7ff;
+    outline: 0;
+} /*!sc*/
+.jFgmun:hover {
+    background-color: #d6dbfc;
+} /*!sc*/
+.jFgmun svg {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 7px;
+} /*!sc*/
+.fdLwOw {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 2.6;
+    font-weight: 400;
+    border-radius: var(--border-radius-full);
+    border: 0;
+    -webkit-letter-spacing: 0.3px;
+    -moz-letter-spacing: 0.3px;
+    -ms-letter-spacing: 0.3px;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    position: relative;
+    -webkit-transition-property: background-color, border-color, color,
+        box-shadow;
+    transition-property: background-color, border-color, color, box-shadow;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    min-width: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    height: 48px;
+    font-family: var(--font-family-sans);
+    background-color: #2c4bff;
+    color: hsl(0 0% 100%);
+    padding: 0 24px;
+    box-shadow: none;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    margin: auto;
+    background-color: #e97284;
+    line-height: 4.1;
+    font-weight: 500;
+    padding: 0 36px;
+    height: 74px;
+    box-shadow: 0 18px 30px rgba(35, 31, 32, 0.2);
+    display: block;
+    margin: 0 auto;
+} /*!sc*/
+@media (min-width: 50.75em) {
+    .fdLwOw {
+        margin: unset;
+    }
+} /*!sc*/
+.fdLwOw:hover {
+    -webkit-transition-property: background-color, border-color, color;
+    transition-property: background-color, border-color, color;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    background-color: #1f35b3;
+} /*!sc*/
+.fdLwOw:active {
+    top: 1px;
+} /*!sc*/
+.fdLwOw:focus {
+    box-shadow: 0 0 0 3px #abb7ff;
+    outline: 0;
+} /*!sc*/
+.fdLwOw:hover {
+    background-color: #e5576c;
+} /*!sc*/
+@media (min-width: 50.75em) {
+    .fdLwOw {
+        margin: 0 auto;
+    }
+} /*!sc*/
+.fdLwOw svg {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 7px;
+} /*!sc*/
 data-styled.g21[id='style__ButtonBase-sc-1i7hn34-0'] {
-    content: 'iFAOkf,hmBLYD,';
+    content: 'iFAOkf,hmBLYD,jFgmun,fdLwOw,';
 } /*!sc*/
 .dGvkTS {
     display: -webkit-box;
@@ -3637,7 +3442,7 @@ data-styled.g21[id='style__ButtonBase-sc-1i7hn34-0'] {
         flex-flow: row;
     }
 } /*!sc*/
-.iudqUE {
+.iUqld {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -3655,12 +3460,12 @@ data-styled.g21[id='style__ButtonBase-sc-1i7hn34-0'] {
     justify-content: center;
     gap: 2em;
     margin: auto;
-    gap: 1;
+    gap: 0px;
 } /*!sc*/
 @media (max-width: 50.68em) {
 } /*!sc*/
 @media (min-width: 50.75em) {
-    .iudqUE {
+    .iUqld {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -3668,6 +3473,42 @@ data-styled.g21[id='style__ButtonBase-sc-1i7hn34-0'] {
         -webkit-flex-flow: row;
         -ms-flex-flow: row;
         flex-flow: row;
+    }
+} /*!sc*/
+.HeYin {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 2em;
+    margin: auto;
+} /*!sc*/
+@media (max-width: 50.68em) {
+} /*!sc*/
+@media (min-width: 50.75em) {
+    .HeYin {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+        flex-flow: row;
+        -webkit-align-items: flex-start;
+        -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+        align-items: flex-start;
     }
 } /*!sc*/
 .biHlmt {
@@ -3822,32 +3663,14 @@ data-styled.g21[id='style__ButtonBase-sc-1i7hn34-0'] {
     }
 } /*!sc*/
 data-styled.g22[id='style__Flex-sc-4ezsn2-0'] {
-    content: 'dGvkTS,iudqUE,biHlmt,cPkqhd,ggOqFI,jmEycM,';
+    content: 'dGvkTS,iUqld,HeYin,biHlmt,cPkqhd,ggOqFI,jmEycM,';
 } /*!sc*/
-.jwxgfI {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    gap: 2em;
-    margin: auto;
-    gap: 3em;
+.ljMGxk {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 } /*!sc*/
-@media (min-width: 50.75em) {
-} /*!sc*/
-data-styled.g23[id='style__FlexWrap-sc-4ezsn2-1'] {
-    content: 'jwxgfI,';
+@media (max-width: 50.68em) {
 } /*!sc*/
 .cnPmEz {
     -webkit-flex: 1;
@@ -3856,6 +3679,16 @@ data-styled.g23[id='style__FlexWrap-sc-4ezsn2-1'] {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
+} /*!sc*/
+@media (max-width: 50.68em) {
+} /*!sc*/
+.iuxvwk {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
 } /*!sc*/
 @media (max-width: 50.68em) {
 } /*!sc*/
@@ -3869,15 +3702,120 @@ data-styled.g23[id='style__FlexWrap-sc-4ezsn2-1'] {
 } /*!sc*/
 @media (max-width: 50.68em) {
 } /*!sc*/
-.ljMGxk {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-} /*!sc*/
-@media (max-width: 50.68em) {
-} /*!sc*/
 data-styled.g25[id='style__Col-sc-4ezsn2-3'] {
-    content: 'cnPmEz,gWClQS,ljMGxk,';
+    content: 'ljMGxk,cnPmEz,iuxvwk,gWClQS,';
+} /*!sc*/
+.dQzsqR {
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    color: hsl(0 0% 100%);
+} /*!sc*/
+data-styled.g26[id='style__Title-sc-1fa28nj-0'] {
+    content: 'dQzsqR,';
+} /*!sc*/
+.kTQrQY {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+} /*!sc*/
+data-styled.g28[id='style__ButtonWrapper-sc-1fa28nj-2'] {
+    content: 'kTQrQY,';
+} /*!sc*/
+.bcDpzL {
+    height: 100%;
+    width: 20%;
+    background-image: url(static/background/triangle-green.svg),
+        url(static/background/planet@2x.png),
+        url(static/background/circle-pink.svg);
+    background-repeat: no-repeat;
+    background-size: 40px, 180px, 60px;
+    background-position: 120px 75px, -55px 160px, 88px 105%;
+    position: absolute;
+    top: 0;
+} /*!sc*/
+@media (max-width: 75em) {
+    .bcDpzL {
+        display: none;
+    }
+} /*!sc*/
+data-styled.g34[id='style__CtaBackgroundLeft-sc-1fa28nj-8'] {
+    content: 'bcDpzL,';
+} /*!sc*/
+.dkPaJv {
+    height: 100%;
+    width: 20%;
+    background-image: url(static/background/circle-brush@2x.png),
+        url(static/background/lines-orange.svg),
+        url(static/background/triangle-yellow.svg);
+    background-repeat: no-repeat;
+    background-size: 40px, 180px, 26px;
+    background-position: 0 30px, 137px 110px, 165px 246px;
+    position: absolute;
+    top: 0;
+    right: 0;
+} /*!sc*/
+@media (max-width: 75em) {
+    .dkPaJv {
+        display: none;
+    }
+} /*!sc*/
+data-styled.g35[id='style__CtaBackgroundRight-sc-1fa28nj-9'] {
+    content: 'dkPaJv,';
+} /*!sc*/
+@media (min-width: 64em) {
+} /*!sc*/
+@media (min-width: 1440px) {
+    .dmSTGm {
+        width: 87%;
+    }
+} /*!sc*/
+data-styled.g42[id='style__Heading-sc-kgzhlz-5'] {
+    content: 'dmSTGm,';
+} /*!sc*/
+.ttJOD {
+    max-width: 100%;
+    margin: auto;
+    padding-top: 50px;
+} /*!sc*/
+@media (min-width: 48em) {
+    .ttJOD {
+        max-width: 70%;
+    }
+} /*!sc*/
+@media (min-width: 64em) {
+    .ttJOD {
+        max-width: 667px;
+        margin: 0;
+    }
+} /*!sc*/
+data-styled.g43[id='style__Image-sc-kgzhlz-6'] {
+    content: 'ttJOD,';
+} /*!sc*/
+.dNDEvm {
+    margin-bottom: 2.375rem;
+} /*!sc*/
+@media (min-width: 64em) {
+} /*!sc*/
+@media (min-width: 80em) {
+    .dNDEvm {
+        width: 80%;
+    }
+} /*!sc*/
+@media (min-width: 90.063em) {
+    .dNDEvm {
+        margin-bottom: 4.375rem;
+    }
+} /*!sc*/
+data-styled.g44[id='style__SubHeading-sc-kgzhlz-7'] {
+    content: 'dNDEvm,';
 } /*!sc*/
 .jzbUfL {
     padding-top: 90px;
@@ -4194,150 +4132,8 @@ data-styled.g55[id='style__ColumnTitle-sc-zncsiw-7'] {
 .gCxXYz td {
     text-align: center;
 } /*!sc*/
-.hYLRm {
-    display: list-item;
-    cursor: pointer;
-    padding: 15px 0px;
-    list-style: none;
-    position: relative;
-    min-width: 90px;
-} /*!sc*/
-.hYLRm section {
-    cursor: initial;
-    margin-top: 1em;
-} /*!sc*/
-.hYLRm > summary {
-    padding: 1em 0em;
-    border-bottom: 1px solid black;
-    padding: 24px 0px;
-} /*!sc*/
-.hYLRm > summary:focus {
-    outline: none;
-} /*!sc*/
-.hYLRm > summary::-webkit-details-marker {
-    display: none;
-    content: '';
-} /*!sc*/
-.hYLRm > summary::marker {
-    display: none;
-    content: '';
-} /*!sc*/
-.hYLRm .details-arrow {
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    -webkit-transition: -webkit-transform 125ms ease-out;
-    -webkit-transition: transform 125ms ease-out;
-    transition: transform 125ms ease-out;
-} /*!sc*/
-.hYLRm p {
-    font-size: 1em;
-    text-align: left;
-} /*!sc*/
-.hYLRm ul {
-    margin-left: 2em;
-    margin-bottom: 2em;
-} /*!sc*/
-.hYLRm ul li {
-    text-align: left;
-    font-size: 1em;
-    padding: 20px 0px;
-    line-height: 1.5em;
-} /*!sc*/
-.hYLRm ul li:first-child {
-    padding-top: 0px;
-} /*!sc*/
-.hYLRm ul li:last-child {
-    padding-bottom: 0px;
-} /*!sc*/
-.hYLRm::-webkit-details-marker {
-    display: none;
-    content: '';
-} /*!sc*/
-.hYLRm::marker {
-    display: none;
-    content: '';
-} /*!sc*/
-.hYLRm[open] summary {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
-    background-color: white;
-} /*!sc*/
-.hYLRm[open] summary .details-arrow {
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-} /*!sc*/
-.hYLRm a {
-    font-size: 1rem;
-} /*!sc*/
-.hYLRm h2 {
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: flex-start;
-    -webkit-box-align: flex-start;
-    -ms-flex-align: flex-start;
-    align-items: flex-start;
-    width: 100%;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-} /*!sc*/
-.hYLRm table {
-    border-collapse: collapse;
-    width: 100%;
-} /*!sc*/
-.hYLRm td,
-.hYLRm th {
-    border: 1px solid #ddd;
-    text-align: left;
-    padding: 8px;
-} /*!sc*/
-.hYLRm tr:first-child th {
-    font-weight: bold;
-    font-size: 18px;
-} /*!sc*/
-.hYLRm tr:first-child th {
-    text-align: center;
-} /*!sc*/
-.hYLRm tr:first-child th:first-child {
-    text-align: left;
-} /*!sc*/
-.hYLRm th {
-    font-weight: normal;
-} /*!sc*/
-.hYLRm tr:nth-child(even) {
-    background-color: #f9f9f9;
-} /*!sc*/
-.hYLRm td {
-    text-align: center;
-} /*!sc*/
 data-styled.g62[id='style__Details-sc-qzeu1d-0'] {
-    content: 'gCxXYz,hYLRm,';
-} /*!sc*/
-.htHPLy {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: flex-start;
-    -webkit-box-align: flex-start;
-    -ms-flex-align: flex-start;
-    align-items: flex-start;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-} /*!sc*/
-data-styled.g65[id='style__UnderlineContainer-sc-qzeu1d-3'] {
-    content: 'htHPLy,';
+    content: 'gCxXYz,';
 } /*!sc*/
 .bUcfCO {
     z-index: 1;
@@ -5438,321 +5234,5 @@ picture {
 } /*!sc*/
 data-styled.g103[id='sc-global-gjWrrR1'] {
     content: 'sc-global-gjWrrR1,';
-} /*!sc*/
-.klyDoF nav {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 24px;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    overflow-x: scroll;
-    padding: 60px 16px 40px 16px;
-} /*!sc*/
-@media (min-width: 64em) {
-    .klyDoF nav {
-        -webkit-box-pack: justify;
-        -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        max-width: 1000px;
-        margin: auto;
-    }
-} /*!sc*/
-.klyDoF button {
-    font-weight: bold;
-    color: black;
-} /*!sc*/
-.klyDoF button.is-active {
-    color: #2c4bff;
-} /*!sc*/
-data-styled.g104[id='transparent-pricing__Navigation-sc-1py45bv-0'] {
-    content: 'klyDoF,';
-} /*!sc*/
-.llrLPY {
-    max-width: 500px;
-    margin: auto;
-    height: 400px;
-} /*!sc*/
-@media (min-width: 50.75em) {
-    .llrLPY {
-        height: 500px;
-        margin-left: auto;
-        margin-right: 0px;
-    }
-} /*!sc*/
-data-styled.g105[id='transparent-pricing__PieChart-sc-1py45bv-1'] {
-    content: 'llrLPY,';
-} /*!sc*/
-.eRYbAo {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    gap: 10px;
-    max-width: 400px;
-    margin: auto;
-} /*!sc*/
-.eRYbAo li {
-    list-style: none;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-size: 14px;
-} /*!sc*/
-@media (min-width: 80em) {
-    .eRYbAo li {
-        font-size: 16px;
-    }
-} /*!sc*/
-data-styled.g106[id='transparent-pricing__PieChartLegend-sc-1py45bv-2'] {
-    content: 'eRYbAo,';
-} /*!sc*/
-.fJqTYl {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    gap: 20px;
-    max-width: 1000px;
-    margin: auto;
-    padding: 40px 0px 60px 0px;
-} /*!sc*/
-@media (min-width: 80em) {
-    .fJqTYl {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        -webkit-box-pack: start;
-        -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
-    }
-} /*!sc*/
-.fJqTYl li {
-    list-style: none;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    min-width: 172px;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-size: 14px;
-} /*!sc*/
-@media (min-width: 80em) {
-    .fJqTYl li {
-        font-size: 16px;
-    }
-} /*!sc*/
-data-styled.g107[id='transparent-pricing__LineChartLegend-sc-1py45bv-3'] {
-    content: 'fJqTYl,';
-} /*!sc*/
-.ijllox {
-    max-width: 1200px;
-    margin: auto;
-} /*!sc*/
-@media (min-width: 50.75em) {
-    .ijllox {
-        height: 650px;
-    }
-} /*!sc*/
-data-styled.g108[id='transparent-pricing__LineChart-sc-1py45bv-4'] {
-    content: 'ijllox,';
-} /*!sc*/
-.huIHf {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-    gap: 34px;
-} /*!sc*/
-.huIHf h2 {
-    font-size: 16px !important;
-    margin: 0px;
-    position: relative;
-    top: 5.5px;
-} /*!sc*/
-.huIHf summary {
-    padding: 0px 0px 8px 0px;
-    border-bottom: 1px solid #c7c7c7;
-} /*!sc*/
-data-styled.g109[id='transparent-pricing__UnderlineFAQ-sc-1py45bv-5'] {
-    content: 'huIHf,';
-} /*!sc*/
-.bKLWZF {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-    gap: 8px;
-} /*!sc*/
-.bKLWZF img {
-    display: block;
-    margin-bottom: 8px;
-} /*!sc*/
-.bKLWZF h4 {
-    font-size: 23px;
-    margin: 0px;
-    line-height: 1;
-    text-align: center;
-} /*!sc*/
-.bKLWZF p {
-    font-size: 14px;
-    margin: 0px;
-    line-height: 1;
-    text-align: center;
-} /*!sc*/
-data-styled.g110[id='transparent-pricing__IconCategory-sc-1py45bv-6'] {
-    content: 'bKLWZF,';
-} /*!sc*/
-.hnayun {
-    line-height: 14px;
-    color: #636363;
-    border: 1px solid black;
-    padding-block: 1.25rem;
-    padding-inline: 0.5rem;
-    background: transparent;
-    font-weight: 400;
-    cursor: pointer;
-    border: none;
-    white-space: nowrap;
-    border-bottom: 2px solid transparent;
-    background-color: transparent;
-    border-bottom: 2px solid transparent;
-    border-bottom: 2px solid #2c4bff;
-    color: black;
-    font-weight: bold;
-} /*!sc*/
-.hnayun:hover {
-    color: #000000;
-} /*!sc*/
-.jYSNrS {
-    line-height: 14px;
-    color: #636363;
-    border: 1px solid black;
-    padding-block: 1.25rem;
-    padding-inline: 0.5rem;
-    background: transparent;
-    font-weight: 400;
-    cursor: pointer;
-    border: none;
-    white-space: nowrap;
-    border-bottom: 2px solid transparent;
-    background-color: transparent;
-    border-bottom: 2px solid transparent;
-} /*!sc*/
-.jYSNrS:hover {
-    color: #000000;
-} /*!sc*/
-data-styled.g111[id='style__TabFilterButton-sc-1r59pw1-0'] {
-    content: 'hnayun,jYSNrS,';
-} /*!sc*/
-.bkvjp {
-    list-style-type: none;
-    cursor: pointer;
-    display: inline-block;
-    border: none;
-    background-color: initial;
-    border-radius: 0px;
-    margin-bottom: 0px;
-    padding: 8px 12px;
-    border-bottom: solid #2c4bff 2px;
-} /*!sc*/
-.bkvjp p,
-.bkvjp h2 {
-    text-align: center;
-    margin: 0px;
-} /*!sc*/
-.bkvjp:hover {
-    background-color: hsl(0 0% 100%);
-} /*!sc*/
-.bkvjp:hover p,
-.bkvjp:hover h2 {
-    color: black;
-} /*!sc*/
-.bkvjp:hover svg {
-    opacity: 1;
-} /*!sc*/
-.bxA-dPi {
-    list-style-type: none;
-    cursor: pointer;
-    display: inline-block;
-    border: none;
-    background-color: initial;
-    border-radius: 0px;
-    margin-bottom: 0px;
-    padding: 8px 12px;
-    border-bottom: transparent 2px;
-} /*!sc*/
-.bxA-dPi p,
-.bxA-dPi h2 {
-    text-align: center;
-    margin: 0px;
-} /*!sc*/
-.bxA-dPi:hover {
-    background-color: hsl(0 0% 100%);
-} /*!sc*/
-.bxA-dPi:hover p,
-.bxA-dPi:hover h2 {
-    color: black;
-} /*!sc*/
-.bxA-dPi:hover svg {
-    opacity: 1;
-} /*!sc*/
-data-styled.g114[id='transparent-metrics__StyledButton-sc-ozuwfe-2'] {
-    content: 'bkvjp,bxA-dPi,';
-} /*!sc*/
-.jYplkh {
-    font-size: 24px;
-    margin: 0 0 0.8rem 0;
-    color: #2c4bff;
-} /*!sc*/
-@media (max-width: 64em) {
-    .jYplkh {
-        font-size: 20px;
-    }
-} /*!sc*/
-.ljhxvo {
-    font-size: 24px;
-    margin: 0 0 0.8rem 0;
-    color: #b8b8b8;
-} /*!sc*/
-@media (max-width: 64em) {
-    .ljhxvo {
-        font-size: 20px;
-    }
-} /*!sc*/
-data-styled.g115[id='transparent-metrics__DataHeader-sc-ozuwfe-3'] {
-    content: 'jYplkh,ljhxvo,';
 } /*!sc*/
 </style>
