@@ -1277,11 +1277,11 @@
                                 <div>
                                     <h2
                                         class="OpenSection_heading__J1D7y"
-                                        id="headingMonthlyMetrics"
+                                        style="cursor: pointer"
+                                        @click="goPage('/metrics')"
                                     >
                                         <a
                                             class="OpenSection_headingLink__7i9wa"
-                                            @click="goPage('/metrics')"
                                         >
                                             <span> Monthly metrics </span>
                                             <span
@@ -1415,11 +1415,11 @@
                                     <div>
                                         <h2
                                             class="OpenSection_heading__J1D7y"
-                                            id="headingShareholderUpdates"
+                                            style="cursor: pointer"
+                                            @click="goPage('/shareholder')"
                                         >
                                             <a
                                                 class="OpenSection_headingLink__7i9wa"
-                                                @click="goPage('/shareholder')"
                                             >
                                                 <span>
                                                     Shareholder updates
@@ -1672,11 +1672,11 @@
                                     <div>
                                         <h2
                                             class="OpenSection_heading__J1D7y"
-                                            id="headingSalaries"
+                                            style="cursor: pointer"
+                                            @click="goPage('/salaries')"
                                         >
                                             <a
                                                 class="OpenSection_headingLink__7i9wa"
-                                                @click="goPage('/salaries')"
                                             >
                                                 <span>
                                                     Our transparent salaries
@@ -2038,11 +2038,11 @@
                                 <div>
                                     <h2
                                         class="OpenSection_heading__J1D7y"
-                                        id="headingTimeline"
+                                        style="cursor: pointer"
+                                        href="about.html"
                                     >
                                         <a
                                             class="OpenSection_headingLink__7i9wa"
-                                            href="about.html"
                                         >
                                             <span> A brief history </span>
                                             <span
@@ -3511,11 +3511,11 @@
                                 <div>
                                     <h2
                                         class="OpenSection_heading__J1D7y"
-                                        id="headingTimeOff"
+                                        style="cursor: pointer"
+                                        @click="goPage('/timeoff')"
                                     >
                                         <a
                                             class="OpenSection_headingLink__7i9wa"
-                                            href="timeoff.html"
                                         >
                                             <span> Time off </span>
                                             <span
@@ -3557,7 +3557,7 @@
                                     <div>
                                         <h2
                                             class="OpenSection_heading__J1D7y"
-                                            id="headingCustomerExperience"
+                                            style="cursor: pointer"
                                             @click="goPage('/metrics')"
                                         >
                                             <a
@@ -3649,11 +3649,11 @@
                                     <div>
                                         <h2
                                             class="OpenSection_heading__J1D7y"
-                                            id="headingSignUps"
+                                            style="cursor: pointer"
+                                            @click="goPage('/metrics')"
                                         >
                                             <a
                                                 class="OpenSection_headingLink__7i9wa"
-                                                href="metrics.html"
                                             >
                                                 <span> Signups </span>
                                                 <span
@@ -3698,11 +3698,11 @@
                                 <div>
                                     <h2
                                         class="OpenSection_heading__J1D7y"
-                                        id="headingBooks"
+                                        style="cursor: pointer"
+                                        @click="goPage('/books')"
                                     >
                                         <a
                                             class="OpenSection_headingLink__7i9wa"
-                                            href="books.html"
                                         >
                                             <span> What we’re reading </span>
                                             <span
@@ -4133,11 +4133,11 @@
                                 <div>
                                     <h2
                                         class="OpenSection_heading__J1D7y"
-                                        id="headingBlog"
+                                        style="cursor: pointer"
+                                        @click="goPage('/blogs')"
                                     >
                                         <a
                                             class="OpenSection_headingLink__7i9wa"
-                                            href="https://buffer.com/resources/open"
                                         >
                                             <span> Our open blog </span>
                                             <span
@@ -5229,6 +5229,12 @@ const goPage = (path: string) => {
         window.location.href = './salaries.html'
     } else if (path === '/about') {
         window.location.href = './about.html'
+    } else if (path === '/timeoff') {
+        window.location.href = './timeoff.html'
+    } else if (path === '/books') {
+        window.location.href = './books.html'
+    } else if (path === '/blogs') {
+        window.location.href = './resources/open/index.html'
     } else {
         router.push(path)
     }
