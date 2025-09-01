@@ -63,6 +63,49 @@ function menuInit() {
     })
 }
 
+function menuPhone() {
+    console.log('menuPhone')
+    const menuBox = document.querySelector('.Nav_contentTrailing__bPmdC')
+    menuBox &&
+        menuBox.addEventListener('click', () => {
+            const menuBox = document.querySelector(
+                '.Nav_menuContentPanel__R3KkS'
+            )
+            if (menuBox) {
+                menuBox.style.display = 'block'
+            }
+            console.log('menuPhone block')
+        })
+    const closeBtn = document.querySelector('.Nav_menuClose__YW9vB')
+    closeBtn &&
+        closeBtn.addEventListener('click', () => {
+            const menuBox = document.querySelector(
+                '.Nav_menuContentPanel__R3KkS'
+            )
+            if (menuBox) {
+                menuBox.style.display = 'none'
+            }
+            console.log('menuPhone none')
+        })
+    const close2 = document.querySelector('.Nav_menuClose__YW9vB')
+    close2 &&
+        close2.addEventListener('click', () => {
+            const menuBox = document.querySelector(
+                '.Nav_menuContentPanel__R3KkS'
+            )
+            if (menuBox) {
+                menuBox.style.display = 'none'
+            }
+            console.log('menuPhone none')
+        })
+    const menuContent = document.querySelector('.Nav_menuContentPanel__R3KkS')
+    if (menuContent) {
+        menuContent.style.zIndex = '1000'
+    }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOMContentLoaded')
     waitForElement('.NavigationMenu_menu__05DPv', menuInit)
+    waitForElement('.Nav_contentTrailing__bPmdC', menuPhone)
 })

@@ -11,10 +11,7 @@
                     </p>
                     <div class="Nav_content__6PY3c">
                         <div class="Nav_contentLeading__sZSG9">
-                            <a
-                                class="Nav_logoLink__xSVf_"
-                                href="/"
-                            >
+                            <a class="Nav_logoLink__xSVf_" href="/">
                                 <span class="visually-hidden"> Buffer </span>
                                 <svg
                                     class="BufferLogo_logo__ZlBPi Nav_logo__zClE7"
@@ -1157,7 +1154,10 @@
                                 Pricing
                             </a>
                         </div>
-                        <div class="Nav_contentTrailing__bPmdC">
+                        <div
+                            class="Nav_contentTrailing__bPmdC"
+                            @click="menuOpen('block')"
+                        >
                             <button
                                 class="ButtonLineIcon_button__3djaa Nav_menuTrigger__l9gmL"
                                 type="button"
@@ -1930,6 +1930,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
 import * as echarts from 'echarts'
+import { menuOpen } from '@/utils'
 
 const signupsChart = ref(null)
 const signupsDatas = ref({

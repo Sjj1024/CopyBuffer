@@ -3,6 +3,7 @@
         <div class="transparent-pricing">
             <header
                 class="style__Header-sc-zhh3zs-0 kLRBsI js-header-navigation"
+                style="z-index: 9"
             >
                 <div class="style__Content-sc-zhh3zs-1 dSTsfZ">
                     <div class="style__LogoWrapper-sc-zhh3zs-2 hXdxoK">
@@ -708,30 +709,11 @@
                         </div>
                     </nav>
                     <div class="style__LoginSignUp-sc-zhh3zs-3 iQJmrZ">
-                        <button
-                            aria-label="Search for blog articles"
-                            title="Search for blog articles"
-                            class="style__SearchBlogButton-sc-zhh3zs-5 DChOh"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="1.5"
-                                viewBox="0 0 24 24"
-                                height="20px"
-                            >
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607z"
-                                ></path>
-                            </svg>
-                        </button>
                         <div class="style__CtaGroup-sc-zhh3zs-4 fEQhKS"></div>
                         <button
                             aria-label="Open Menu"
-                            class="style__MobileMenuButton-sc-zhh3zs-7 sGbmi"
+                            class="style__MobileMenuButton-sc-zhh3zs-7 Nav_contentTrailing__bPmdC sGbmi"
+                            @click="menuOpen('block')"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -1394,7 +1376,7 @@
                         >
                             <div
                                 ref="supportChart"
-                                style="width: 600px; height: 500px"
+                                style="width: 100%; height: 500px"
                             ></div>
                         </section>
                     </div>
@@ -2476,6 +2458,7 @@
 <script setup lang="ts">
 import * as echarts from 'echarts'
 import { ref, onMounted } from 'vue'
+import { menuOpen } from '@/utils'
 
 const supportChart = ref(null)
 
