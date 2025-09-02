@@ -1,9 +1,9 @@
 <template>
     <div class="box">
         <RouterView v-slot="{ Component }">
-            <transition name="fade">
+            <Transition name="fade">
                 <component :is="Component" />
-            </transition>
+            </Transition>
         </RouterView>
     </div>
 </template>
